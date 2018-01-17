@@ -1,0 +1,23 @@
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  color: #000000;
+}
+
+hr {
+  margin: 1em;
+  width: 80%;
+}
+
+p {
+  font-size: 1em;
+}
+
+a, a:link, a:active {
+  text-decoration: none;
+  color: #555555;
+}
+
+a:hover, a:focus {
+  color: #aaaaaa;
+}
