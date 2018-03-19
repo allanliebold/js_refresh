@@ -9,7 +9,7 @@ var name = 'John';
 var age = 26;
 var married = false;
 
-if (married) {
+if (married == true) {
   console.log(name + ' is married'); 
 } else {
   console.log(name + ' is not married'); 
