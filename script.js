@@ -19,7 +19,9 @@ if (married == true) {
   console.log(name + ' is not married'); 
 }
 
-if (age >= 21) {
+if (age >= 50) {
+  
+} else if (age >= 21) {
   console.log(name + ' is 21 or older'); 
 } else if (age >= 18) {
   console.log(name + ' is an adult'); 
