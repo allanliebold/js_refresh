@@ -8,4 +8,6 @@ if (score1 > score2) {
   console.log(name1 + ' wins!'); 
 } else if (score2 > score1) {
   console.log(name2 + ' wins!'); 
+} else {
+  console.log('It\'s a tie!'); 
 }
