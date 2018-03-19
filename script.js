@@ -14,3 +14,9 @@ if (married == true) {
 } else {
   console.log(name + ' is not married'); 
 }
+
+if (age >= 21) {
+  console.log(name + ' is 21 or older'); 
+} else {
+  console.log(name + ' is under 21'); 
+}
