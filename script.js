@@ -1,2 +1,2 @@
 var name = 'Al';
-console.log(name);
+console.log('Hello ' + name);
