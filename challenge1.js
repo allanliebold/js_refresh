@@ -6,4 +6,6 @@ var name2 = 'Doc';
 
 if (score1 > score2) {
   console.log(name1 + ' wins!'); 
+} else {
+  console.log(name2 + ' wins!'); 
 }
