@@ -5,6 +5,8 @@ var age = 33;
 console.log(age);
 */
 
+// Example
+
 var name = 'John';
 var age = 26;
 var married = false;
