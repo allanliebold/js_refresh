@@ -7,9 +7,9 @@ console.log(age);
 
 // Example
 
-var name = 'John';
-var age = 26;
-var married = false;
+var name = 'John'; // string
+var age = 26; // int
+var married = false; // bool
 
 console.log('Name: ' + name);
 
