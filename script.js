@@ -21,4 +21,6 @@ if (age >= 21) {
   console.log(name + ' is 21 or older'); 
 } else if (age >= 18) {
   console.log(name + ' is an adult'); 
+} else {
+  console.log(name + ' is a minor'); 
 }
