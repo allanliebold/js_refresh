@@ -33,3 +33,6 @@ if (age >= 65) {
 
 // Functions
 
+function calculateAge(yearOfBirth) {
+   return 2018 - yearOfBirth;
+}
