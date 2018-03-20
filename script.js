@@ -39,3 +39,15 @@ function calculateAge(yearOfBirth) {
 
 var myAge = calculateAge(1984);
 console.log(myAge);
+
+function yearsUntilRetirement(name, yearOfBirth) {
+  var age = calculateAge(yearOfBirth);
+  var retirement = 65 - age;
+  
+  if (age > 0) {
+    console.log(name + " will retire in " + retirement + " years"); 
+  } else {
+    console.log(name + " is already retired"); 
+  }
+}
+}
