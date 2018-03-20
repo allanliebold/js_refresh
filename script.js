@@ -36,3 +36,5 @@ if (age >= 65) {
 function calculateAge(yearOfBirth) {
    return 2018 - yearOfBirth;
 }
+
+var myAge = calculateAge(1984);
