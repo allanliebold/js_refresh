@@ -13,3 +13,4 @@ if (score1 > score2) {
 }
 
 var name3 = 'Bif';
+var score 3 = 90;
