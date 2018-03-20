@@ -30,3 +30,6 @@ if (age >= 65) {
 } else {
   console.log(name + ' is a minor'); 
 }
+
+// Functions
+
