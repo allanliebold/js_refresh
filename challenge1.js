@@ -11,3 +11,5 @@ if (score1 > score2) {
 } else {
   console.log('It\'s a tie!'); 
 }
+
+var name3 = 'Bif';
