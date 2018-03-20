@@ -5,13 +5,15 @@ var age = 33;
 console.log(age);
 */
 
-// Example
+// Example variables
 
 var name = 'John'; // string
 var age = 26; // int
 var married = false; // bool
 
 console.log('Name: ' + name);
+
+// if statements
 
 if (married == true) {
   console.log(name + ' is married'); 
