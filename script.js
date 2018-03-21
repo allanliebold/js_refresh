@@ -51,3 +51,9 @@ function yearsUntilRetirement(name, yearOfBirth) {
   }
 }
 }
+
+// Function expression
+
+var someFun = function(parameter) {
+  
+}
