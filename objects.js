@@ -17,3 +17,4 @@ var xyz = 'job';
 console.log(bob[xyz]); // returns 'teacher'
 
 bob.name = 'Robert';
+bob[xyz] = 'developer';
