@@ -55,11 +55,11 @@ function yearsUntilRetirement(name, yearOfBirth) {
 // Function statement
 
 function someFun(parameter) {
-  
+  // Performs an action
 }
 
 // Function expression
 
 var someFun = function(parameter) {
-  
+  // Produces a value
 }
