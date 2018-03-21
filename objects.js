@@ -10,3 +10,5 @@ var bob =  {
   married: false
 };
 
+console.log(bob.lastName);
+console.log(bob['lastName']); // bracket notation uses string for key name
