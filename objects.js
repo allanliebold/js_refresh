@@ -8,4 +8,5 @@ var bob =  {
   age: 25,
   job: 'teacher',
   married: false
-}
+};
+
