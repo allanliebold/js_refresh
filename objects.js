@@ -27,3 +27,17 @@ jane.lastName = 'Jones';
 jane['age'] = 30;
 jane['job'] = 'scientist';
 jane['married'] = true;
+
+var currentYear = 2018;
+
+var jack = {
+  name: 'Jack',
+  yearOfBirth: 1980,
+  calculateAge: function() {
+    return currentYear - this.yearOfBirth; 
+  }
+}
+
+var jackAge = jack.calculateAge();
+jack.age = jackAge; 
+
