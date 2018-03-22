@@ -5,11 +5,11 @@ function calculateAge(year) {
   return 2018 - year;  
 }
 
-for (i = 0; i < years.length; i++) {
+for (var i = 0; i < years.length; i++) {
   ages[i] = calculateAge(years[i]);  
 }
 
-for (i = 0; i < ages.length; i++) {
+for (var i = 0; i < ages.length; i++) {
   if (ages[i] > 18) {
     console.log('Person ' + (i+1) + ' is an adult.'); 
   } else {
