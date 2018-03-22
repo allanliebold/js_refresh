@@ -1,5 +1,6 @@
 var years = [1977, 1980, 1991, 1958];
 var ages = [];
+var ofAge = [];
 
 function calculateAge(year) {
   return 2018 - year;  
