@@ -6,7 +6,7 @@ function calculateAge(year) {
 }
 
 for (i = 0; i < years.length; i++) {
-  ages.push(calculateAge(years[i]));  
+  ages[i] = calculateAge(years[i]);  
 }
 
 for (i = 0; i < ages.length; i++) {
