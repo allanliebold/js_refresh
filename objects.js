@@ -45,6 +45,7 @@ function Person(name, lastName, yearOfBirth = 1900, job, married = false) {
     this.name = name;
     this.lastName = lastName;
     this.yearOfBirth = yearOfBirth;
+    this.age = currentYear - this.yearOfBirth;
     this.job = job;
     this.married = married;
 };
