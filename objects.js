@@ -40,7 +40,7 @@ var jack = {
 var jackAge = jack.calculateAge();
 jack.age = jackAge; 
 
-// Constructor
+// Object constructor
 function Person(name, lastName, yearOfBirth = 1900, job, married = false) {
     this.name = name;
     this.lastName = lastName;
