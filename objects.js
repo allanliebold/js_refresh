@@ -51,5 +51,6 @@ function Person(name, lastName, yearOfBirth = 1900, job, married = false) {
 };
 
 var bill = new Person("Bill", "Jones", 1965, "Farmer", true);
+var steve = new Person("Steve", "Stevens", 1980, "Writer", false);
 
 console.log(bill.name + " " + bill.lastName + " was born in " + bill.yearOfBirth);
