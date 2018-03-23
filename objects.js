@@ -44,9 +44,10 @@ jack.age = jackAge;
 function Person(name, lastName, yearOfBirth = 1900, job, married = false) {
     this.name = name;
     this.lastName = lastName;
-    this.age = age;
+    this.yearOfBirth = yearOfBirth;
     this.job = job;
     this.married = married;
 };
 
 var bill = new Person("Bill", "Jones", 1965, "Farmer", true);
+
