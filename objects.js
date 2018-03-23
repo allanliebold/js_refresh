@@ -46,4 +46,5 @@ function person(name, lastName, age, job, married) {
     this.lastName = lastName;
     this.age = age;
     this.job = job;
+    this.married = married;
 };
