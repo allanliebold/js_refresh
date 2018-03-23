@@ -1,7 +1,6 @@
 // Objects
 
 // Object literal
-
 var bob =  {
   name: 'Bob',
   lastName: 'Smith',
@@ -10,7 +9,7 @@ var bob =  {
   married: false
 };
 
-// accessing data in object
+// Accessing data in object
 console.log(bob.lastName);
 console.log(bob['lastName']); // bracket notation uses string for key name
 
