@@ -13,7 +13,7 @@ var married = false; // bool
 
 console.log('Name: ' + name);
 
-// if statements
+// if/else statements
 
 if (married == true) {
   console.log(name + ' is married'); 
