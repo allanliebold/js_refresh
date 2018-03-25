@@ -8,6 +8,8 @@ function calculateAge(year) {
 
 // Function expression
 
+retirement(1965); // function called before function expression below. This won't run
+
 var retirement = function(year) {
   console.log(65 - (2018 - year)); 
 }
