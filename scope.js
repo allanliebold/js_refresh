@@ -20,5 +20,9 @@ var a = "Hello";
 first();
 
 function first() {
+  var b = "Hi";
   
+  function second() {
+    
+  }
 }
