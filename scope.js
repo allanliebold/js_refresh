@@ -19,3 +19,6 @@ var retirement = function(year) {
 var a = "Hello";
 first();
 
+function first() {
+  
+}
