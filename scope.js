@@ -28,3 +28,8 @@ function first() {
     console.log(a + b + c);
   }
 }
+
+function third() {
+  var d = "Hay";
+  console.log(a + b + c + d); // b and c cannot be accessed by the third function
+}
