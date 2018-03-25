@@ -21,6 +21,7 @@ first();
 
 function first() {
   var b = "Hi";
+  second();
   
   function second() {
     
