@@ -54,3 +54,7 @@ var exampleObject = {
 }
 
 exampleObject.objectFunction(); // will log the exampleObject object
+
+var bob = {
+  name: "Bob";
+}
