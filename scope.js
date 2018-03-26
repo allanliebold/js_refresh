@@ -59,6 +59,7 @@ var john = {
  name: "John",
  yearOfBirth: 1966,
  calculateAge = function(yearOfBirth) {
+  console.log(this); // logs the john object
   return 2018 - yearOfBirth; 
  }
 }
