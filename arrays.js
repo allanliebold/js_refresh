@@ -16,3 +16,8 @@ if (types.indexOf('nothing') === -1) {
   console.log('nothing is not in array');
 }
 
+// Loops
+
+for (var i = 0; i < names.length; i++) {
+  console.log(names[i]); 
+}
