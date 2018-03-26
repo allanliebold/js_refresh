@@ -47,7 +47,7 @@ var exampleObject = {
   objectFuction = function() {
     console.log(this);
     function innerFunction() {
-  
+      console.log(this);
     }
   }
 }
