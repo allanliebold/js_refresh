@@ -59,3 +59,5 @@ var bob = {
   name: "Bob",
   yearOfBirth: 1983;
 }
+
+bob.calculateAge = john.calculateAge; // method borrowing
