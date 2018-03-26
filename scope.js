@@ -56,5 +56,6 @@ var exampleObject = {
 exampleObject.objectFunction(); // will log the exampleObject object
 
 var bob = {
-  name: "Bob";
+  name: "Bob",
+  yearOfBirth: 1983;
 }
