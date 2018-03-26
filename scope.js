@@ -70,4 +70,4 @@ var bob = {
 }
 
 bob.calculateAge = john.calculateAge; // method borrowing
-bob.calculateAge(); 
+bob.calculateAge(); // this will log the bob object, not john
