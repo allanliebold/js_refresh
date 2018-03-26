@@ -49,6 +49,7 @@ var exampleObject = {
     function innerFunction() {
       console.log(this);
     }
+    innerFunction(); 
   }
 }
 
