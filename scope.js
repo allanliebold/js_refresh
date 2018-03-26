@@ -43,5 +43,10 @@ function exampleFunction() {
 
 exampleFunction(); // will still log the Window object
 
+var exampleObject = {
+  objectFuction = function() {
+    console.log(this);
+  }
+}
 
-
+exampleObject.objectFunction(); // will log the exampleObject object
