@@ -55,9 +55,18 @@ var exampleObject = {
 
 exampleObject.objectFunction(); // will log the exampleObject object
 
+var john = {
+ name: "John",
+ yearOfBirth: 1966,
+ calculateAge = function(yearOfBirth) {
+  return 2018 - yearOfBirth; 
+ }
+}
+
 var bob = {
   name: "Bob",
   yearOfBirth: 1983;
 }
 
 bob.calculateAge = john.calculateAge; // method borrowing
+bob.calculateAge(); 
