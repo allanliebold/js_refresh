@@ -49,7 +49,7 @@ var exampleObject = {
     function innerFunction() {
       console.log(this);
     }
-    innerFunction(); 
+    innerFunction(); // this innerFunction will log the Window object, even though it is inside the exampleObject object
   }
 }
 
