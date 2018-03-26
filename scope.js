@@ -46,6 +46,9 @@ exampleFunction(); // will still log the Window object
 var exampleObject = {
   objectFuction = function() {
     console.log(this);
+    function innerFunction() {
+  
+    }
   }
 }
 
