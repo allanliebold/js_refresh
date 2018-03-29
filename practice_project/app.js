@@ -7,5 +7,5 @@ activePlayer = 0;
 dice = Math.floor(Math.random() * 6) + 1;
 console.log(dice);
 
-var x = document.querySelector('#current-0');
+var x = document.querySelector('#current-' + activePlayer).innerHTML;
 console.log(x);
