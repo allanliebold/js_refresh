@@ -10,3 +10,5 @@ console.log(dice);
 document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 
 document.querySelector('.dice').style.display = 'none';
+
+clickHandler();
