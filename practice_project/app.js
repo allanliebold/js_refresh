@@ -11,4 +11,8 @@ document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '
 
 document.querySelector('.dice').style.display = 'none';
 
-document.querySelector('.btn-roll').addEventListener('click', );
+function btn() {
+  
+}
+
+document.querySelector('.btn-roll').addEventListener('click', btn); // btn is a callback function
