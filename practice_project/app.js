@@ -11,4 +11,4 @@ document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '
 
 document.querySelector('.dice').style.display = 'none';
 
-clickHandler();
+document.querySelector('.btn-roll').addEventListener('click', );
