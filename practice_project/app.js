@@ -9,4 +9,4 @@ console.log(dice);
 
 document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 
-document.querySelector('.dice');
+document.querySelector('.dice').style.display = 'none';
