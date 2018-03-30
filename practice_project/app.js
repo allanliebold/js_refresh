@@ -16,7 +16,7 @@ function btn() {
 }
 
 document.querySelector('.btn-roll').addEventListener('click', btn); // btn is a callback function
-// if you were to just write a function in the event listener without a name, it's called an anonymous function
+// anonymous function
 /*
 document.querySelector('.element').addEvenListener('click', function() {
   console.log('This is an anonymous function.');
