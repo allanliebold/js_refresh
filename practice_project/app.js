@@ -18,6 +18,6 @@ document.querySelector('.btn-roll').addEventListener('click', btn);
 // anonymous function
 
 document.querySelector('.element').addEvenListener('click', function() {
-  dice = Math.floor(Math.random() * 6) + 1;
+  var dice = Math.floor(Math.random() * 6) + 1;
 });
 
