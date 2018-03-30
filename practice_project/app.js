@@ -4,8 +4,6 @@ scores = [0, 0];
 roundScore = 0;
 activePlayer = 0;
 
-dice = Math.floor(Math.random() * 6) + 1;
-
 document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
 
 document.querySelector('.dice').style.display = 'none';
@@ -19,6 +17,6 @@ function btn() {
 // anonymous function
 
 document.querySelector('.element').addEvenListener('click', function() {
-  console.log('This is an anonymous function.');
+  dice = Math.floor(Math.random() * 6) + 1;
 });
 
