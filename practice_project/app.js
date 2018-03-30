@@ -4,7 +4,6 @@ scores = [0, 0];
 roundScore = 0;
 activePlayer = 0;
 
-document.querySelector('#current-' + activePlayer).innerHTML = dice;
 document.querySelector('.dice').style.display = 'none';
 
 /*
