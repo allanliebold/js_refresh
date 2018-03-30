@@ -15,10 +15,11 @@ function btn() {
   
 }
 
-document.querySelector('.btn-roll').addEventListener('click', btn); // btn is a callback function
+// document.querySelector('.btn-roll').addEventListener('click', btn); // btn is a callback function
+
 // anonymous function
-/*
+
 document.querySelector('.element').addEvenListener('click', function() {
   console.log('This is an anonymous function.');
 });
-*/
+
