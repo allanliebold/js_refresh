@@ -22,6 +22,5 @@ document.querySelector('.element').addEvenListener('click', function() {
   
   diceDOM.style.display = 'block';
   diceDOM.src = 'dice-' + dice + '.png';
-  
 });
 
