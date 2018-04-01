@@ -19,7 +19,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   diceDOM.src = 'dice-' + dice + '.png';
   
   if (dice !== 1) {
-   // add score 
+    roundScore += dice;
   } else {
    // Next player 
   }
