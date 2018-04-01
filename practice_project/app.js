@@ -10,7 +10,7 @@ document.getElementById('score-1').textContent = '0';
 document.getElementById('current-0').textContent = '0';
 document.getElementById('current-1').textContent = '0';
 
-document.querySelector('.element').addEvenListener('click', function() {
+document.querySelector('.btn-roll').addEvenListener('click', function() {
   var dice = Math.floor(Math.random() * 6) + 1;
   var diceDOM = document.querySelector('.dice');
   
