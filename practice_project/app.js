@@ -23,6 +23,8 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   } else {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // ternary statement
     roundScore = 0;
+    
+    document.getElementById('current-0').textContent = '0';
   }
   
 });
