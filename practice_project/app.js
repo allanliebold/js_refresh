@@ -21,6 +21,16 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   if (dice !== 1) {
     roundScore += dice;
   } else {
+
+  }
+});
+
+document.querySelector('.btn-hold').addEventListener('click', function() {
+  scores[activePlayer] += roundScore;
+  document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
+});
+
+function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // ternary statement
     roundScore = 0;
     
@@ -31,14 +41,4 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     document.querySelector('.player-1-panel').classList.toggle('active');
     
     document.querySelector('.dice').style.display = 'none';
-  }
-});
-
-document.querySelector('.btn-hold').addEventListener('click', function() {
-  scores[activePlayer] += roundScore;
-  document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
-});
-
-function nextPlayer() {
-
 }
