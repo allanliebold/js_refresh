@@ -25,6 +25,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     roundScore = 0;
     
     document.getElementById('current-0').textContent = '0';
+    document.getElementById('current-1').textContent = '0';
   }
   
 });
