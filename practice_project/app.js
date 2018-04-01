@@ -14,7 +14,7 @@ function btn() {
 document.querySelector('.btn-roll').addEventListener('click', btn); 
 */
 
-document.querySelector('.score-0')
+document.querySelector('.score-0').textContent = '0';
 
 // anonymous function
 
