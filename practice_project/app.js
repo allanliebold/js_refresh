@@ -1,4 +1,5 @@
 var scores, roundScore, activePlayer;
+init();
 
 document.querySelector('.dice').style.display = 'none';
 document.getElementById('score-0').textContent = '0';
