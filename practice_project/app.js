@@ -28,6 +28,9 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
 document.querySelector('.btn-hold').addEventListener('click', function() {
   scores[activePlayer] += roundScore;
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
+  
+  scores[0] > scores[1] ? console.log('Player 1 wins!') : console.log('Player 2 wins!');
+  
   nextPlayer();
 });
 
