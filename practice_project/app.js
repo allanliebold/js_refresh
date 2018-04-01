@@ -14,6 +14,8 @@ function btn() {
 document.querySelector('.btn-roll').addEventListener('click', btn); 
 */
 
+document.querySelector('.score-0')
+
 // anonymous function
 
 document.querySelector('.element').addEvenListener('click', function() {
