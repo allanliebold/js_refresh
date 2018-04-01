@@ -48,3 +48,7 @@ function nextPlayer() {
     
     document.querySelector('.dice').style.display = 'none';
 }
+
+function endGame() {
+  
+}
