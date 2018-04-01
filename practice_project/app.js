@@ -36,6 +36,5 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
 
 document.querySelector('.btn-hold').addEventListener('click', function() {
   scores[activePlayer] += roundScore;
-  
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
 });
