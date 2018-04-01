@@ -15,6 +15,7 @@ document.querySelector('.btn-roll').addEventListener('click', btn);
 */
 
 document.getElementById('.score-0').textContent = '0';
+document.getElementById('.score-1')
 
 // anonymous function
 
