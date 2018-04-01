@@ -18,7 +18,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   diceDOM.style.display = 'block';
   diceDOM.src = 'dice-' + dice + '.png';
   
-  if (dice > 1) {
+  if (dice !== 1) {
    // add score 
   } else {
    // Next player 
