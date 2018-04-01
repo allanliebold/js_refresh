@@ -22,6 +22,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     roundScore += dice;
   } else {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // ternary statement
+    roundScore = 0;
   }
   
 });
