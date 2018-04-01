@@ -51,3 +51,7 @@ function nextPlayer() {
     
     document.querySelector('.dice').style.display = 'none';
 }
+
+document.querySelector('.btn-new').addEventListener('click', function() {
+      
+});
