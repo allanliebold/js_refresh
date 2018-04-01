@@ -1,12 +1,6 @@
 var scores, roundScore, activePlayer;
 init();
 
-document.querySelector('.dice').style.display = 'none';
-document.getElementById('score-0').textContent = '0';
-document.getElementById('score-1').textContent = '0';
-document.getElementById('current-0').textContent = '0';
-document.getElementById('current-1').textContent = '0';
-
 document.querySelector('.btn-roll').addEvenListener('click', function() {
   var dice = Math.floor(Math.random() * 6) + 1;
   var diceDOM = document.querySelector('.dice');
@@ -54,4 +48,10 @@ function init() {
    scores = [0, 0];
    activePlayer = 0;
    roundScore = 0; 
+  
+   document.querySelector('.dice').style.display = 'none';
+   document.getElementById('score-0').textContent = '0';
+   document.getElementById('score-1').textContent = '0';
+   document.getElementById('current-0').textContent = '0';
+   document.getElementById('current-1').textContent = '0';
 }
