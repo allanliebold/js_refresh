@@ -32,6 +32,5 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     
     document.querySelector('.dice').style.display = 'none';
   }
-  
 });
 
