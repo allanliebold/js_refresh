@@ -11,7 +11,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   if (dice !== 1) {
     roundScore += dice;
   } else {
-    nextPlayer();
+    nextPlayer(); // Round ends if current player rolls a 1
   }
 });
 
