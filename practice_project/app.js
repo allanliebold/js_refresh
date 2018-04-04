@@ -48,6 +48,7 @@ function init() {
    scores = [0, 0];
    activePlayer = 0;
    roundScore = 0; 
+   var gamePlaying = true;
   
    document.querySelector('.dice').style.display = 'none';
    document.getElementById('score-0').textContent = '0';
