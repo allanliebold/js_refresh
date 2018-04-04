@@ -2,7 +2,7 @@ var scores, roundScore, activePlayer, gamePlaying;
 init();
 
 document.querySelector('.btn-roll').addEvenListener('click', function() {
-  if(gamePlayer) {
+  if(gamePlaying) {
   var dice = Math.floor(Math.random() * 6) + 1;
   var diceDOM = document.querySelector('.dice');
   
