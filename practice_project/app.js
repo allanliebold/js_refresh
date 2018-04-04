@@ -65,6 +65,7 @@ function init() {
    document.querySelector('.player-0-panel').classList.remove('winner');
    document.querySelector('.player-1-panel').classList.remove('winner');
    document.querySelector('.player-0-panel').classList.remove('active');
-   document.querySelector('.player-1-panel').classList.remove('active');
-   document.querySelector('.player-0-panel').classList.add('active');
+   document.querySelector('.player-1-panel').classList.remove('active'); 
+   document.querySelector('.player-0-panel').classList.add('active'); 
+  // active class must be removed before being activated in case it is already active
 }
