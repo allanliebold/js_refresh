@@ -1,5 +1,5 @@
 var scores, roundScore, activePlayer, gamePlaying;
-init();
+init(); // start the game on page load
 
 document.querySelector('.btn-roll').addEvenListener('click', function() {
   if(gamePlaying) {
