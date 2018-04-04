@@ -3,16 +3,17 @@ init();
 
 document.querySelector('.btn-roll').addEvenListener('click', function() {
   if(gamePlaying) {
-  var dice = Math.floor(Math.random() * 6) + 1;
-  var diceDOM = document.querySelector('.dice');
+    var dice = Math.floor(Math.random() * 6) + 1;
+    var diceDOM = document.querySelector('.dice');
   
-  diceDOM.style.display = 'block';
-  diceDOM.src = 'dice-' + dice + '.png';
+    diceDOM.style.display = 'block';
+    diceDOM.src = 'dice-' + dice + '.png';
   
-  if (dice !== 1) {
-    roundScore += dice;
-  } else {
-    nextPlayer(); // Round ends if current player rolls a 1
+    if (dice !== 1) {
+      roundScore += dice;
+    } else {
+      nextPlayer(); // Round ends if current player rolls a 1
+    }
   }
 });
 
