@@ -48,6 +48,7 @@ function nextPlayer() {
 document.querySelector('.btn-new').addEventListener('click', init());
 
 function init() {
+   gamePlaying = true; // begin game
    scores = [0, 0];
    activePlayer = 0;
    roundScore = 0; 
