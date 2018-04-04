@@ -18,6 +18,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   }
 });
 
+// Hold Button event listener
 document.querySelector('.btn-hold').addEventListener('click', function() {
   scores[activePlayer] += roundScore;
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
