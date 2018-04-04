@@ -1,6 +1,7 @@
 var scores, roundScore, activePlayer, gamePlaying;
 init(); // start the game on page load
 
+// Roll Button event listener
 document.querySelector('.btn-roll').addEvenListener('click', function() {
   if(gamePlaying) {
     var dice = Math.floor(Math.random() * 6) + 1;
