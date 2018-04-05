@@ -7,8 +7,10 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     var dice = Math.floor(Math.random() * 6) + 1;
     var diceDOM = document.querySelector('.dice');
     
-    if(dice === 6 && lastRoll == 6) {
+    if(dice == 6 && lastRoll == 6) {
       scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.  
+      roundScore = 0;
+      nextPlayer(); 
     }
     
     lastRoll = dice;
