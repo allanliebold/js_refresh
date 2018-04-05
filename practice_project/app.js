@@ -6,6 +6,11 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
   if(gamePlaying) {
     var dice = Math.floor(Math.random() * 6) + 1;
     var diceDOM = document.querySelector('.dice');
+    
+    if(dice === 6 && lastRoll == 6) {
+      scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.  
+    }
+    
     lastRoll = dice;
     
     diceDOM.style.display = 'block';
@@ -38,6 +43,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // ternary statement
     roundScore = 0;
+    lastRoll = 0; // lastRoll is reset to 0
     
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
