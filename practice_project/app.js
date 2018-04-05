@@ -7,13 +7,13 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     var dice = Math.floor(Math.random() * 6) + 1;
     var diceDOM = document.querySelector('.dice');
     
-    if(dice == 6 && lastRoll == 6) {
+    if(dice === 6 && lastRoll === 6) {
       scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.  
       roundScore = 0;
       nextPlayer(); 
     }
     
-    lastRoll = dice;
+    lastRoll = dice; // update lastRoll variable to the new roll, after checking if player has rolled two 6s. 
     
     diceDOM.style.display = 'block';
     diceDOM.src = 'dice-' + dice + '.png';
@@ -83,7 +83,7 @@ function init() {
 }
 
 /* Coding Challenges
-  Player loses entire score if two 6s are rolled in a row. Keep the last roll for the current player in a variable. 
-  Allow players to set custom winning score. 
-  Add a second die. Player round ends if a 1 is rolled on either. 
+  [x] Player loses entire score if two 6s are rolled in a row. Keep the last roll for the current player in a variable. 
+  [ ] Allow players to set custom winning score. 
+  [ ] Add a second die. Player round ends if a 1 is rolled on either. 
 */
