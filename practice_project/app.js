@@ -75,4 +75,5 @@ function init() {
 /* Coding Challenges
   Player loses if two 6s are rolled in a row. 
   Allow players to set custom winning score. 
+  Add a second die. Player round ends if a 1 is rolled on either. 
 */
