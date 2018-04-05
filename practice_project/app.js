@@ -71,3 +71,7 @@ function init() {
   
    document.querySelector('.player-0-panel').classList.add('active'); 
 }
+
+/* Coding Challenges
+  Player loses if two 6s are rolled in a row. 
+*/
