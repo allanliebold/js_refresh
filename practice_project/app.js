@@ -11,7 +11,8 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     diceDOM.src = 'dice-' + dice + '.png';
 
     if(dice === 6 && lastRoll === 6) {
-      scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.  
+      scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.
+      document.querySelector('#score-' + activePlayer.textContent = '0';
       nextPlayer(); // turn ends 
     }
     
