@@ -39,7 +39,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     winningScore = 100; 
   }
   
-  if(scores[activePlayer] >= input) {
+  if(scores[activePlayer] >= winningScore) {
     document.querySelector('#name-' + activePlayer).textContent = 'Winner!';
     document.querySelector('.dice').style.display = 'none';
     document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
