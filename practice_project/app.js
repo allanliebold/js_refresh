@@ -7,6 +7,9 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     var dice = Math.floor(Math.random() * 6) + 1;
     var diceDOM = document.querySelector('.dice');
     
+    diceDOM.style.display = 'block';
+    diceDOM.src = 'dice-' + dice + '.png';
+
     if(dice === 6 && lastRoll === 6) {
       scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.  
       nextPlayer(); // turn ends 
@@ -14,9 +17,6 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     
     lastRoll = dice; // update lastRoll variable to the new roll, after checking if player has rolled two 6s. 
     
-    diceDOM.style.display = 'block';
-    diceDOM.src = 'dice-' + dice + '.png';
-  
     if (dice !== 1) {
       roundScore += dice;
     } else {
