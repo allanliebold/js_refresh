@@ -10,7 +10,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     if(dice === 6 && lastRoll === 6) {
       scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.  
       roundScore = 0;
-      nextPlayer(); 
+      nextPlayer(); // turn ends 
     }
     
     lastRoll = dice; // update lastRoll variable to the new roll, after checking if player has rolled two 6s. 
