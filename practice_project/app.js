@@ -34,7 +34,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
   
   var input = document.querySelector('.final-score').value; // sets the final/winning score
   if(input) {
-    var winningScore = input; 
+    winningScore = input; 
   } else {
     winningScore = 100; 
   }
