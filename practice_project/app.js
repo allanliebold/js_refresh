@@ -92,6 +92,6 @@ function init() {
 
 /* Coding Challenges
   [x] Player loses entire score if two 6s are rolled in a row. Keep the last roll for the current player in a variable. 
-  [ ] Allow players to set custom winning score. 
+  [x] Allow players to set custom winning score. 
   [ ] Add a second die. Player round ends if a 1 is rolled on either. 
 */
