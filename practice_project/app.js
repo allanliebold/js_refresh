@@ -32,9 +32,9 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
   document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
   
   var input = document.querySelector('.final-score').value; // sets the final/winning score
-  if(input) {
+  if(input) { // if a custom winning score is entered, take that input and set it as the winningScore
     winningScore = input; 
-  } else {
+  } else { // if no custom winning score is entered, set winningScore to the default 100
     winningScore = 100; 
   }
   
