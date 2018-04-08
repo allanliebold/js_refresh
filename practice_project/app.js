@@ -12,7 +12,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
     document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
     
-    /*
+    /* This only works for one die. 
     if(dice === 6 && lastRoll === 6) {
       scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.
       document.querySelector('#score-' + activePlayer.textContent = '0';
@@ -20,7 +20,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     }
     */
       
-    if (dice1 !== 1 && dice2 !== 1) {
+    if (dice1 !== 1 && dice2 !== 1) { 
       roundScore += dice;
       document.querySelector('#current-' + activePlayer).textContent = roundScore;
     } else {
