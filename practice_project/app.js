@@ -21,7 +21,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     */
       
     if (dice1 !== 1 && dice2 !== 1) { 
-      roundScore += dice1;
+      roundScore += dice1 + dice2;
       document.querySelector('#current-' + activePlayer).textContent = roundScore;
     } else {
       nextPlayer(); // Round ends if current player rolls a 1 on either die
