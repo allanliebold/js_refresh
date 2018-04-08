@@ -12,19 +12,19 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
     document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
     
+    /*
     if(dice === 6 && lastRoll === 6) {
       scores[activePlayer] = 0; // if player rolls two 6s in a row, that player's score is reset to 0.
       document.querySelector('#score-' + activePlayer.textContent = '0';
       nextPlayer(); // turn ends 
     }
-    
-    lastRoll = dice; // update lastRoll variable to the new roll, after checking if player has rolled two 6s. 
-    
-    if (dice !== 1) {
+    */
+      
+    if (dice-1 !== 1 && dice-2 !== 1) {
       roundScore += dice;
       document.querySelector('#current-' + activePlayer).textContent = roundScore;
     } else {
-      nextPlayer(); // Round ends if current player rolls a 1
+      nextPlayer(); // Round ends if current player rolls a 1 on either die
     }
   }
 });
