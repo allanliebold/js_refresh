@@ -5,7 +5,6 @@ init(); // start the game on page load
 document.querySelector('.btn-roll').addEvenListener('click', function() {
   if(gamePlaying) {
     var dice = Math.floor(Math.random() * 6) + 1;
-    
     var diceDOM = document.querySelector('.dice');
     diceDOM.style.display = 'block';
     diceDOM.src = 'dice-' + dice + '.png';
