@@ -55,3 +55,6 @@ var steve = new Person("Steve", "Stevens", 1980, "Writer", false);
 
 console.log(bill.name + " " + bill.lastName + " was born in " + bill.yearOfBirth);
 console.log(steve.name + " " + steve.lastName + " is a " + steve.age + "-year-old " + steve.job);
+
+// Numbers, strings, booleans, Undefined, and Null are Primitives.
+// Everything else is an Object. Arrays, Functions, Objects, Dates, Wrappers
