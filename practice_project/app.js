@@ -1,4 +1,6 @@
-var scores, roundScore, winningScore, activePlayer, lastRoll, gamePlaying; // Declare universal variables used by different functions
+var scores, roundScore, winningScore, activePlayer, gamePlaying; // Declare universal variables used by different functions
+var lastRoll; // Only works with one die
+
 init(); // start the game on page load
 
 // Roll Button event listener
