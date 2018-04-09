@@ -69,3 +69,7 @@ var garth = {
   yearOfBirth: 1980,
   job: 'musician'
 };
+
+var Person = function(name, yearOfBirth, job) { // function constructor variable name is capitalized
+ 
+}
