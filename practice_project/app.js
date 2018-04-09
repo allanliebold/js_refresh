@@ -58,7 +58,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 function nextPlayer() {
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0; // ternary statement
     roundScore = 0;
-    lastRoll = 0; // lastRoll is reset to 0. Need a last roll 1 and 2. 
+    // lastRoll = 0; // lastRoll is reset to 0. Need a last roll 1 and 2. 
     
     document.getElementById('current-0').textContent = '0';
     document.getElementById('current-1').textContent = '0';
