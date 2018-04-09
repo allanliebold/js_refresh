@@ -71,5 +71,7 @@ var garth = {
 };
 
 var Person = function(name, yearOfBirth, job) { // function constructor variable name is capitalized
- 
+  this.name = name; 
+  this.yearOfBirth = yearOfBirth;
+  this.job = job;
 }
