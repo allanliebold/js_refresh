@@ -60,3 +60,4 @@ console.log(steve.name + " " + steve.lastName + " is a " + steve.age + "-year-ol
 // Everything else is an Object. Arrays, Functions, Objects, Dates, Wrappers
 
 // Inheritance
+// An Athlete is also a Person, and so would inherit the properties of the Person constructor
