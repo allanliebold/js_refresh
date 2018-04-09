@@ -58,3 +58,5 @@ console.log(steve.name + " " + steve.lastName + " is a " + steve.age + "-year-ol
 
 // Numbers, strings, booleans, Undefined, and Null are Primitives.
 // Everything else is an Object. Arrays, Functions, Objects, Dates, Wrappers
+
+// Inheritance
