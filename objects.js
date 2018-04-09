@@ -61,3 +61,4 @@ console.log(steve.name + " " + steve.lastName + " is a " + steve.age + "-year-ol
 
 // Inheritance
 // An Athlete is also a Person, and so would inherit the properties of the Person constructor
+// Prototype property
