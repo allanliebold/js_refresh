@@ -70,4 +70,4 @@ var Person = function(name, yearOfBirth, job) { // function constructor variable
   this.job = job;
 }
 
-var garth = new Person('Garth', 1980, 'musician'); 
+var garth = new Person('Garth', 1980, 'musician'); // Instantiation of new Person using constructor function.
