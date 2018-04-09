@@ -64,14 +64,10 @@ console.log(steve.name + " " + steve.lastName + " is a " + steve.age + "-year-ol
 // Prototype property
 // Everything inherits from the Object object
 
-var garth = {
-  name: 'Garth',
-  yearOfBirth: 1980,
-  job: 'musician'
-};
-
 var Person = function(name, yearOfBirth, job) { // function constructor variable name is capitalized
   this.name = name; 
   this.yearOfBirth = yearOfBirth;
   this.job = job;
 }
+
+var garth = new Person('Garth', 1980, 'musician'); 
