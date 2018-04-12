@@ -70,9 +70,12 @@ var Person = function(name, yearOfBirth, job) { // function constructor variable
   this.job = job;
 }
 
-Person.prototype.calculateAge = function() {
+Person.prototype.calculateAge = function() { // attaches method to Person constructor's prototype property
   console.log(2018 - this.yearOfBirth); 
 };
 
 var garth = new Person('Garth', 1980, 'musician'); // Instantiation of new Person using constructor function.
 var wayne = new Person('Wayne', 1979, 'tv host');
+
+garth.calculateAge(); 
+wayne.calculateAge(); 
