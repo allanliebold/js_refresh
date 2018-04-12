@@ -81,3 +81,4 @@ var wayne = new Person('Wayne', 1979, 'tv host');
 
 garth.calculateAge(); 
 wayne.calculateAge(); 
+console.log(garth.lastName); // will log 'Smith'
