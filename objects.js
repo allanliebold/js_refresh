@@ -74,6 +74,8 @@ Person.prototype.calculateAge = function() { // attaches method to Person constr
   console.log(2018 - this.yearOfBirth); 
 };
 
+Person.prototype.lastName = 'Smith';
+
 var garth = new Person('Garth', 1980, 'musician'); // Instantiation of new Person using constructor function.
 var wayne = new Person('Wayne', 1979, 'tv host');
 
