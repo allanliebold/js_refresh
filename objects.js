@@ -91,3 +91,6 @@ var personProto = {
 }
 
 var jack = Object.create(personProto);
+jack.name = 'Jack';
+jack.yearOfBirth = 1977;
+jack.job = 'mercenary';
