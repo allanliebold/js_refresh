@@ -85,5 +85,7 @@ console.log(garth.lastName); // will log 'Smith'
 
 // Object.create
 var personProto = {
-  
+  calculateAge: function() {
+    console.log(2018 - this.yearOfBirth); 
+  }
 }
