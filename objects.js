@@ -89,3 +89,5 @@ var personProto = {
     console.log(2018 - this.yearOfBirth); 
   }
 }
+
+var jack = Object.create(personProto);
