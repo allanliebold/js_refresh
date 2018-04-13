@@ -84,3 +84,6 @@ wayne.calculateAge();
 console.log(garth.lastName); // will log 'Smith'
 
 // Object.create
+var personProto = {
+  
+}
