@@ -61,5 +61,8 @@ function maxHeartRate(el) {
 
 var ages = arrayCalc(years, calculateAge); // calculate age is passed in as the callback function
 var fullAges = arrayCalc(ages, fullAge); // full age is passed in as the callback function
+var rates = arrayCalc(ages, maxHeartRate);
+
 console.log(ages);
 console.log(fullAges);
+console.log(rates); 
