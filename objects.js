@@ -109,3 +109,13 @@ var b = a;
 a = 46;
 console.log(a); // shows 46
 console.log(b); // shows 23
+
+var obj1 = {
+  name: 'Jonas',
+  city: 'Lisbon'
+};
+
+function change(a, b) {
+  a = 30;
+  b.city = 'San Francisco';
+}
