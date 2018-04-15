@@ -51,7 +51,7 @@ function fullAge(el) {
    return el >= 18;    
 }
 
-var ages = arrayCalc(years, calculateAge); 
-var fullAges = arrayCalc(ages, fullAge); 
+var ages = arrayCalc(years, calculateAge); // calculate age is passed in as the callback function
+var fullAges = arrayCalc(ages, fullAge); // full age is passed in as the callback function
 console.log(ages);
 console.log(fullAges);
