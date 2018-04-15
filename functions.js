@@ -47,3 +47,4 @@ function calculateAge(el) {
    return 2018 - el;
 }
 
+arrayCalc(years, calculateAge); 
