@@ -32,3 +32,12 @@ var someFun = function(parameter) {
 }
 
 // Passing functions as objects
+
+var years = [1988, 1945, 2015, 1885, 1966];
+
+function arrayCalc(arr, fn) {
+   var arrResult = [];
+   for (var i = 0; i < arr.length; i++) {
+      arrResult.push(fn(arr[i]));  
+   }
+}
