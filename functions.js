@@ -42,3 +42,8 @@ function arrayCalc(arr, fn) { // fn is a callback function
    }
    return arrResult;
 }
+
+function calculateAge(el) {
+   return 2018 - el;
+}
+
