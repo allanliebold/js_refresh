@@ -128,5 +128,9 @@ console.log(obj.city);
 var years = [1990, 1964, 1942, 2000, 1991];
 
 function arrayCalc(arr, fn) {
-  
+  var arrRes = [];
+  for (var i = 0; i < arr.length; i++) {
+    arrRes.push(fn(arr[i])); 
+  }
+  return arrRes;
 };
