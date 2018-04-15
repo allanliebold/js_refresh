@@ -124,3 +124,5 @@ change(age, obj);
 
 console.log(age);
 console.log(obj.city);
+
+var years = [1990, 1964, 1942, 2000, 1991];
