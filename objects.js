@@ -126,3 +126,7 @@ console.log(age);
 console.log(obj.city);
 
 var years = [1990, 1964, 1942, 2000, 1991];
+
+function arrayCalc(arr, fn) {
+  
+};
