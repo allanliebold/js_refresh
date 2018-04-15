@@ -107,5 +107,5 @@ var jane = Object.create(personProto,
 var a = 23;
 var b = a;
 a = 46;
-console.log(a);
-console.log(b);
+console.log(a); // shows 46
+console.log(b); // shows 23
