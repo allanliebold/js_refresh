@@ -52,4 +52,6 @@ function fullAge(el) {
 }
 
 var ages = arrayCalc(years, calculateAge); 
+var fullAges = arrayCalc(ages, fullAge); 
 console.log(ages);
+console.log(fullAges);
