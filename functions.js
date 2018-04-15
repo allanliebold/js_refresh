@@ -30,4 +30,5 @@ function someFun(parameter) {
 var someFun = function(parameter) {
   // Produces a value
 }
-© 2018 GitHub, Inc.
+
+// Passing functions as objects
