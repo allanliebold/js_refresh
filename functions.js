@@ -35,7 +35,7 @@ var someFun = function(parameter) {
 
 var years = [1988, 1945, 2015, 1885, 1966];
 
-function arrayCalc(arr, fn) {
+function arrayCalc(arr, fn) { // fn is a callback function
    var arrResult = [];
    for (var i = 0; i < arr.length; i++) {
       arrResult.push(fn(arr[i]));  
