@@ -119,3 +119,8 @@ function change(a, b) {
   a = 30;
   b.city = 'San Francisco';
 }
+
+change(age, obj);
+
+console.log(age);
+console.log(obj.city);
