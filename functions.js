@@ -40,4 +40,5 @@ function arrayCalc(arr, fn) {
    for (var i = 0; i < arr.length; i++) {
       arrResult.push(fn(arr[i]));  
    }
+   return arrResult;
 }
