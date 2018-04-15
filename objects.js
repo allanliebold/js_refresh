@@ -101,3 +101,5 @@ var jane = Object.create(personProto,
   yearOfBirth: { value: 1982 } ,
   job:  { value: 'entrepeneur' }
 });
+
+// Primitives as objects
