@@ -47,4 +47,5 @@ function calculateAge(el) {
    return 2018 - el;
 }
 
-arrayCalc(years, calculateAge); 
+var ages = arrayCalc(years, calculateAge); 
+console.log(ages);
