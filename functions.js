@@ -76,7 +76,7 @@ function interviewQuestions(job) {
       }
    } else if (job === 'teacher') {
       return function(name) {
-         console.log(name + ', can you talk about...');  
+         console.log(name + ', what subject do you teach?');  
       }
    } else {
       return function(name) {
