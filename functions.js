@@ -83,5 +83,7 @@ function interviewQuestions(job) {
          console.log(name + ', can you explain what you do?');  
       }
    }
-   
 }
+
+var teacherQuestion = interviewQuestion('teacher');
+teacherQuestion('Bob');
