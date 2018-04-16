@@ -72,7 +72,7 @@ console.log(rates);
 function interviewQuestions(job) {
    if (job === 'designer') {
       return function(name) {
-         
+         console.log(name + ', can you please explain...');
       }
    }
 }
