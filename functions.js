@@ -93,3 +93,6 @@ designerQuestion('Bill');
 
 interviewQuestion('teacher')('Mark'); // without storing as a variable
 interviewQuestion('anthropologist')('Gordon'); 
+
+// IIFE - Immediately Invoked Function Expression
+
