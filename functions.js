@@ -74,5 +74,14 @@ function interviewQuestions(job) {
       return function(name) {
          console.log(name + ', can you please explain...');
       }
+   } else if (job === 'teacher') {
+      return function(name) {
+         console.log(name + ', can you talk about...');  
+      }
+   } else {
+      return function(name) {
+         console.log(name + ', can you explain what you do?');  
+      }
    }
+   
 }
