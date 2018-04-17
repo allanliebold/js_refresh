@@ -153,3 +153,15 @@ var retirementIceland(67);
 retirementGermany(1990);
 retirementUS(1990);
 retirementIceland(1990);
+
+function interviewQuestion(job) {
+     return function(name) {
+          if (job === 'designer') {
+               console.log(name + ', please explain an aspect of design.');
+          } else if (job === 'teacher') {
+               console.log(name + ', what subject do you teach?');
+          } else {
+               console.log(name + ', please talk about what you do.');
+          }
+     }
+}
