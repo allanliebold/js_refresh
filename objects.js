@@ -189,3 +189,5 @@ var mindy = {
       age: 34,
       job: 'coder'
 };
+
+john.presentation('formal', 'morning');
