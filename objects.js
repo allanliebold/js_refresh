@@ -1,4 +1,5 @@
 // Objects
+
 // Object literal
 var bob =  {
   name: 'Bob',
@@ -15,7 +16,7 @@ console.log(bob['lastName']); // bracket notation uses string for key name
 var xyz = 'job';
 console.log(bob[xyz]); // returns 'teacher'
 
-// Mutating data in object
+// Mutating data in an object
 bob.name = 'Robert';
 bob[xyz] = 'developer';
 
@@ -168,9 +169,7 @@ function interviewQuestion(job) {
 
 interviewQuestion('other')('Jon');
 
-
 // Bind, Call, Apply
-
 var john = {
      name: 'John',
      age: 26,
