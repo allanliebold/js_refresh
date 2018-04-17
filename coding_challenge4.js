@@ -6,3 +6,6 @@ function Question(question, answer, correct) {
 
 var q1 = new Question('Are we having fun yet?', ['Yes', 'No'], 0); // index 0 is the correct answer
 var q2 = new Question('', [], 1);
+var q3 = new Question('', [], 3); 
+
+var questions = [q1, q2, q3];
