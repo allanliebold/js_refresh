@@ -196,3 +196,5 @@ john.presentation.call(mindy'friendly', 'afternoon'); // method borrowing
 // john.presentation.apply(mindy, ['friendly', 'afternoon']);
 
 var johnFriendly = john.presentation.bind(john, 'friendly');
+johnFriendly('evening'); 
+johnFriendly('afternoon'); // currying
