@@ -183,3 +183,9 @@ var john = {
           }
      }
 } 
+
+var mindy = {
+      name: 'Mindy',
+      age: 34,
+      job: 'coder'
+};
