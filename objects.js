@@ -165,3 +165,5 @@ function interviewQuestion(job) {
           }
      }
 }
+
+interviewQuestion('other')('Jon');
