@@ -149,3 +149,7 @@ retirementUS(1984);
 
 var retirmementGermany = retirement(65);
 var retirementIceland(67);
+
+retirementGermany(1990);
+retirementUS(1990);
+retirementIceland(1990);
