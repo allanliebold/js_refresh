@@ -191,3 +191,4 @@ var mindy = {
 };
 
 john.presentation('formal', 'morning');
+john.presentation.call(mindy'friendly', 'afternoon'); // method borrowing
