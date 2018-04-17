@@ -167,3 +167,19 @@ function interviewQuestion(job) {
 }
 
 interviewQuestion('other')('Jon');
+
+
+// Bind, Call, Apply
+
+var john = {
+     name: 'John',
+     age: 26,
+     job: 'teacher',
+     presentation: function(style, timeOfDay) {
+          if (style === 'formal') {
+               console.log('Good ' + timeOfDay + ', ladies and gentlemen! My name is ' + this.name + ' and I am a(n) ' + this.job + '.');
+          } else if (style === 'friendly') {
+               console.log('Hey! What\'s up? I hope you're having a good ' + timeOfDay + '. I\'m ' + this.name + ' and I\'m a(n) ' + this.job + '.'); 
+          }
+     }
+} 
