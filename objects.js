@@ -191,7 +191,7 @@ var mindy = {
 
 john.presentation('formal', 'morning');
 john.presentation.call(mindy'friendly', 'afternoon'); // method borrowing
-john.presentation.apply(mindy, ['friendly', 'afternoon']);
+john.presentation.apply(mindy, ['friendly', 'afternoon']); // apply is similar to call but takes an array
 
 var johnFriendly = john.presentation.bind(john, 'friendly');
 johnFriendly('evening'); 
