@@ -192,3 +192,7 @@ var mindy = {
 
 john.presentation('formal', 'morning');
 john.presentation.call(mindy'friendly', 'afternoon'); // method borrowing
+
+// john.presentation.apply(mindy, ['friendly', 'afternoon']);
+
+var johnFriendly = john.presentation.bind(john, 'friendly');
