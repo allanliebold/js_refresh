@@ -144,3 +144,5 @@ function retirement(retirementAge) {
      }
 }
 
+var retirementUS = retirement(66);
+retirementUS(1984);
