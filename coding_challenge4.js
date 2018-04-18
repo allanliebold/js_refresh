@@ -4,7 +4,7 @@ function Question(question, answers, correct) {
   this.correct = correct;
 }
 
-Question.prototype.displayQuestion() {
+Question.prototype.displayQuestion = function() {
   console.log(this.question);
   
   for (var i = 0; i < this.answers.length; i++) {
