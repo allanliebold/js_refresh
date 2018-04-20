@@ -52,7 +52,8 @@ console.log(a);
 a = 1; 
 // variable is hoisted to the top of its available scope
 
-foo();
+foo(); // function hoisting
+
 function foo() {
   console.log('This function was called before it was declared because of hoisting.'); 
 }
