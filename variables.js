@@ -45,3 +45,7 @@ function foo() {
 }
 
 // Hoisting
+var a;
+console.log(a);
+a = 1; 
+// variable is hoisted to the top of its available scope
