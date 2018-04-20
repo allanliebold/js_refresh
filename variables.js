@@ -31,3 +31,5 @@ if (age >= 65) {
   console.log(name + ' is a minor'); 
 }
 
+// Scope
+
