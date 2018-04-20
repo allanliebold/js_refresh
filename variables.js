@@ -36,3 +36,6 @@ if (age >= 65) {
 // Global scope
 var thingy = 1;
 window.moo = 1; 
+
+// Function or Local scope
+
