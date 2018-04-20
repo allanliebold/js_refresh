@@ -44,6 +44,8 @@ function foo() {
   var thingy = 2;   
 }
 
+// Block scope
+
 // Hoisting
 var a;
 console.log(a);
