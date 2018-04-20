@@ -43,3 +43,5 @@ window.moo = 1;
 function foo() {
   var thingy = 2;   
 }
+
+// Hoisting
