@@ -57,3 +57,5 @@ foo(); // function hoisting
 function foo() {
   console.log('This function was called before it was declared because of hoisting.'); 
 }
+
+// const and let in ES6 are not hoisted. They are block scope. 
