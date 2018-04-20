@@ -38,4 +38,6 @@ var thingy = 1;
 window.moo = 1; 
 
 // Function or Local scope
-
+function foo() {
+  var thingy = 2;   
+}
