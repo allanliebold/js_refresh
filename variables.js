@@ -40,7 +40,7 @@ var thingy = 1;
 window.moo = 1; 
 
 // Function or Local scope
-function foo() {
+function myFunc() {
   var thingy = 2;   
 }
 
@@ -51,3 +51,8 @@ var a;
 console.log(a);
 a = 1; 
 // variable is hoisted to the top of its available scope
+
+foo();
+function foo() {
+  console.log('This function was called before it was declared because of hoisting.'); 
+}
