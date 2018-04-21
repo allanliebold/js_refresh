@@ -73,3 +73,12 @@ bob.calculateAge(); // this will log the bob object, not john
 
 // Scope chain
 
+function foo() {
+  console.log(myvar); 
+}
+
+function goo() {
+  var myvar = 1;
+  foo();
+}
+// calling goo will throw an error 
