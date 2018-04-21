@@ -81,4 +81,4 @@ function goo() {
   var myvar = 1;
   foo();
 }
-// calling goo will throw an error 
+// calling goo will throw an error. The scope chain is defined lexically. 
