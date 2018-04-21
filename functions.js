@@ -114,7 +114,7 @@ game();
 function sayHello(name) {
    var text = 'Hello, ' + name;
    return function() {
-      console.log(text);  
+      console.log(text);  // function called within a function keeps a reference to variables with the enclosing function
    }
 };
 
