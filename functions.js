@@ -108,3 +108,14 @@ game();
    var score = Math.random() * 10;
    console.log(score >= 5);
 })();
+
+// Closures
+
+function sayHello(name) {
+   var text = 'Hello, ' + name;
+   return function() {
+      console.log(text);  
+   }
+};
+
+sayHello('Allan');
