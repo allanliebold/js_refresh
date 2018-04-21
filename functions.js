@@ -109,3 +109,4 @@ game();
    console.log(score >= 5);
 })();
 
+// Second example
