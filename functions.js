@@ -119,3 +119,23 @@ function sayHello(name) {
 };
 
 sayHello('Allan');
+
+var foo = [];
+for (var i = 0; i < 10; i++) {
+   foo[i] = function() { return i };  
+}
+
+console.log(foo[0]()); // logs 10
+console.log(foo[1]()); // logs 10
+console.log(foo[2]()); // logs 10. All of the elements in the foo array point to the same i reference, which is 10 at the end of the loop
+
+// IIFE version
+
+for (var i = 0; i < 10; i++) {
+   (function() {
+      var y = i;
+      foo[i] = function() { return y };
+   })();
+}
+
+console.log(foo[0]()); // now this logs 0
