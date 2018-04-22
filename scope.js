@@ -82,3 +82,5 @@ function goo() {
   foo();
 }
 // calling goo will throw an error. The scope chain is defined lexically. 
+
+// The 'this' keyword
