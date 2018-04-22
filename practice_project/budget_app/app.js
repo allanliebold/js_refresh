@@ -13,3 +13,7 @@ var budgetController = (function() {
   
 })();
   
+budgetController.x // undefined
+budgetController.add(5) // not a function
+
+budgetController.publicTest(5) // returns 28
