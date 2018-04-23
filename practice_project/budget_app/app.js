@@ -228,8 +228,8 @@ var controller = (function(budgetCtrl, UICtrl) {
     }
   };
   
-  var ctrlDeleteItem = function() {
-    
+  var ctrlDeleteItem = function(event) {
+      
   };
   
   return {
