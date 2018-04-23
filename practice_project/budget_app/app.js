@@ -102,7 +102,8 @@ var UIController = (function() {
     budgetLabel: '.budget__value',
     incomeLabel: '.budget__income--value',
     expensesLabel: '.budget__expenses--value',
-    percentageLabel: '.budget__expenses--percentage'
+    percentageLabel: '.budget__expenses--percentage',
+    container: '.container'
   }
   
   return {
@@ -189,6 +190,9 @@ var controller = (function(budgetCtrl, UICtrl) {
         ctrlAddItem();  
       }
     });
+    
+    document.querySelector(DOM.container).addEventListener('click', ctrlDeleteItem);
+    
   };
   
   var updateBudget = function() {
@@ -222,6 +226,10 @@ var controller = (function(budgetCtrl, UICtrl) {
      // 5. Calculate and update budget
       updateBudget(); 
     }
+  };
+  
+  var ctrlDeleteItem = function() {
+    
   };
   
   return {
