@@ -229,7 +229,9 @@ var controller = (function(budgetCtrl, UICtrl) {
   };
   
   var ctrlDeleteItem = function(event) {
-      console.log(event.target.parentNode.parentNode.parentNode.parentNode.id);
+    var itemID;
+    
+    itemID = event.target.parentNode.parentNode.parentNode.parentNode.id;
   };
   
   return {
