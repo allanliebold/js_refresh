@@ -156,6 +156,12 @@ var UIController = (function() {
       document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
     },
     
+    deleteListItem: function(selectorID) {
+      var el = document.getElementById(selectorID);
+      
+      el.parentNode.removeChild() 
+    },
+    
     clearFields: function() {
       var fields, fieldsArr;
       
