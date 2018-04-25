@@ -90,6 +90,11 @@ var budgetController = (function() {
       
     },
     
+    calculatePercentages: function() {
+      
+      
+    },
+    
     getBudget: function() {
       return {
         budget: data.budget,
