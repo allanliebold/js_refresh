@@ -228,6 +228,11 @@ var controller = (function(budgetCtrl, UICtrl) {
   };
   
   var updatePercentages = function() {
+    // 1. Calculate percentages
+    
+    // 2. Read percentages from budget controller
+    
+    // 3. Update the UI 
     
   };
   
