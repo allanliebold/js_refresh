@@ -227,6 +227,10 @@ var controller = (function(budgetCtrl, UICtrl) {
     UICtrl.displayBudget(budget);    
   };
   
+  var updatePercentages = function() {
+    
+  };
+  
   var ctrlAddItem = function() {
     var input, newItem;
     
