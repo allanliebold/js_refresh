@@ -5,11 +5,12 @@ var budgetController = (function() {
     this.id = id;
     this.description = description;
     this.value = value;
+    this.percentage = -1;
   };
   
   Expense.prototype.calcPercentage = function(totalIncome) {
     
-    
+    this.percentage = Math.round((this.value / totalIncome) * 100);
   };
   
   // Income object constructor
