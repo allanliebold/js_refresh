@@ -217,6 +217,10 @@ var UIController = (function() {
       }
     },
     
+    displayPercentages: function(percentages) {
+      
+    },
+    
     getDomStrings: function() {
       return DOMstrings;
     }
