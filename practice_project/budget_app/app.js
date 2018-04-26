@@ -7,6 +7,11 @@ var budgetController = (function() {
     this.value = value;
   };
   
+  Expense.prototype.calcPercentage = function(totalIncome) {
+    
+    
+  };
+  
   // Income object constructor
   var Income = function(id, description, value) {
     this.id = id;
