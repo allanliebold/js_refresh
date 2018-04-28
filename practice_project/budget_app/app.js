@@ -237,6 +237,10 @@ var UIController = (function() {
       
     },
     
+    formatNumber: function(num, type) {
+        
+    },
+    
     getDomStrings: function() {
       return DOMstrings;
     }
