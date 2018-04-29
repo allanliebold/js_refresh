@@ -252,7 +252,7 @@ var UIController = (function() {
       
     },
     
-    displayMonth: function() {
+    displayDate: function() {
       var now, year;
       now - new Date();
       year = now.getFullYear; 
