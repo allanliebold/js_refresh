@@ -146,7 +146,8 @@ var UIController = (function() {
     expensesLabel: '.budget__expenses--value',
     percentageLabel: '.budget__expenses--percentage',
     container: '.container',
-    expensesPercentageLabel: '.item__percentage'
+    expensesPercentageLabel: '.item__percentage',
+    dateLabel: '.budget__title--month'
   };
 
   var formatNumber = function(num, type) {
