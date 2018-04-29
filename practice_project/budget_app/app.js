@@ -178,7 +178,7 @@ var UIController = (function() {
       // Replace placeholder text with actual data
       newHtml = html.replace('%id%', obj.id);
       newHtml = html.replace('%description%', obj.description);
-      newHtml = html.replace('%value%', obj.value);
+      newHtml = html.replace('%value%', this.formatNumber, obj.value);
       
       // Insert HTML into the DOM  
       document.querySelector(element).insertAdjacentHTML('beforeend', newHtml);
