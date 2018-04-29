@@ -238,7 +238,7 @@ var UIController = (function() {
     },
     
     formatNumber: function(num, type) {
-        
+      num = Math.abs(num);      
     },
     
     getDomStrings: function() {
