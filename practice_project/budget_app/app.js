@@ -149,7 +149,7 @@ var UIController = (function() {
     expensesPercentageLabel: '.item__percentage'
   }
 
-  formatNumber: function(num, type) {
+  var formatNumber = function(num, type) {
       var numSplit, int, dec, type;
       num = Math.abs(num).toFixed(2);
       
@@ -161,7 +161,7 @@ var UIController = (function() {
       
       dec = numSplit[1];
       return (type === 'exp' ? '-' : '+') + ' ' + int + dec;
-    },
+  };
   
   return {
     getInput: function() {
