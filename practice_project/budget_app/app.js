@@ -238,10 +238,12 @@ var UIController = (function() {
     },
     
     formatNumber: function(num, type) {
-      var numSplit;
+      var numSplit, int, dec;
       num = Math.abs(num).toFixed(2);
       
       numSplit = num.split('.');
+      int = numSplit[0];
+      dec = numSplit[1];
     },
     
     getDomStrings: function() {
