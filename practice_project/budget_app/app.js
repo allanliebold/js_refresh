@@ -244,6 +244,10 @@ var UIController = (function() {
       numSplit = num.split('.');
       int = numSplit[0];
       dec = numSplit[1];
+      
+      if(int.length > 3) {
+          
+      }
     },
     
     getDomStrings: function() {
