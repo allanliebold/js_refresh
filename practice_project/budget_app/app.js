@@ -250,6 +250,7 @@ var UIController = (function() {
       }
       
       type === 'exp' ? sign = '-' : sign = '+';
+      return type + ' ' + int + dec;
     },
     
     getDomStrings: function() {
