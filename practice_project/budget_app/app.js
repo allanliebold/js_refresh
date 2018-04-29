@@ -246,7 +246,7 @@ var UIController = (function() {
       dec = numSplit[1];
       
       if(int.length > 3) {
-          
+        int.substr(0, 1);    
       }
     },
     
