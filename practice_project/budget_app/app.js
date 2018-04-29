@@ -257,6 +257,7 @@ var UIController = (function() {
       now - new Date();
       year = now.getFullYear; 
       
+      document.querySelector(DOMstrings.dateLabel).textContent = year;
     },
     
     getDomStrings: function() {
