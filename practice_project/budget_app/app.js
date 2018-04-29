@@ -238,7 +238,7 @@ var UIController = (function() {
     },
     
     formatNumber: function(num, type) {
-      var numSplit, int, dec;
+      var numSplit, int, dec, type;
       num = Math.abs(num).toFixed(2);
       
       numSplit = num.split('.');
