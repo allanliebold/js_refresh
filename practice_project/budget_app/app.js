@@ -247,7 +247,7 @@ var UIController = (function() {
         int = int.substr(0, int.length - 3) + ',' + int.substr(int.length - 3, 3);    
       }
       
-      dec = numSplit[1]
+      dec = numSplit[1];
       type === 'exp' ? sign = '-' : sign = '+';
       return type + ' ' + int + dec;
     },
