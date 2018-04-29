@@ -359,7 +359,7 @@ var controller = (function(budgetCtrl, UICtrl) {
   return {
     init: function() {
       // call displayBudget method with a budget object and default values
-      UICtrl.displayMonth();
+      UICtrl.displayDate();
       UICtrl.displayBudget({
         budget: 0, 
         totalInc: 0,
