@@ -248,8 +248,7 @@ var UIController = (function() {
       }
       
       dec = numSplit[1];
-      type === 'exp' ? sign = '-' : sign = '+';
-      return type + ' ' + int + dec;
+      return (type === 'exp' ? sign = '-' : sign = '+') + ' ' + int + dec;
     },
     
     getDomStrings: function() {
