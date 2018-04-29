@@ -238,8 +238,7 @@ var UIController = (function() {
     },
     
     formatNumber: function(num, type) {
-      num = Math.abs(num)
-      num = num.toFixed(2);
+      num = Math.abs(num).toFixed(2);
     },
     
     getDomStrings: function() {
