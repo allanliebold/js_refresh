@@ -147,7 +147,7 @@ var UIController = (function() {
     percentageLabel: '.budget__expenses--percentage',
     container: '.container',
     expensesPercentageLabel: '.item__percentage'
-  }
+  };
 
   var formatNumber = function(num, type) {
       var numSplit, int, dec, type;
