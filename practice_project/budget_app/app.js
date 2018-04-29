@@ -252,6 +252,7 @@ var UIController = (function() {
     },
     
     displayMonth: function() {
+      var now, year;
       
     },
     
