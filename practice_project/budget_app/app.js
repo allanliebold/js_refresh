@@ -266,7 +266,7 @@ var UIController = (function() {
     
     changedType: function() {
       
-    }
+    },
     
     getDomStrings: function() {
       return DOMstrings;
