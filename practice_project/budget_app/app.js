@@ -265,12 +265,12 @@ var UIController = (function() {
     },
     
     changedType: function() {
-           
+      var fields;
       fields = document.querySelectorAll(
         DOMstrings.inputType + ',' +
         DOMstrings.inputDescription + ',' +
         DOMstrings.inputValue);
-      )
+      );
     },
     
     getDomStrings: function() {
