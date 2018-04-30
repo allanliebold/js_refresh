@@ -265,12 +265,16 @@ var UIController = (function() {
     },
     
     changedType: function() {
-      var fields;
-      fields = document.querySelectorAll(
+      var fields = document.querySelectorAll(
         DOMstrings.inputType + ',' +
         DOMstrings.inputDescription + ',' +
         DOMstrings.inputValue);
       );
+      
+      nodeListForEach(fields, function(curr) {
+        curr.classList.add('red-focus');
+      });
+      
     },
     
     getDomStrings: function() {
