@@ -272,7 +272,7 @@ var UIController = (function() {
       );
       
       nodeListForEach(fields, function(curr) {
-        curr.classList.add('red-focus');
+        curr.classList.toggle('red-focus');
       });
       
     },
