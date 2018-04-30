@@ -265,7 +265,12 @@ var UIController = (function() {
     },
     
     changedType: function() {
-      
+           
+      fields = document.querySelectorAll(
+        DOMstrings.inputType + ',' +
+        DOMstrings.inputDescription + ',' +
+        DOMstrings.inputValue);
+      )
     },
     
     getDomStrings: function() {
