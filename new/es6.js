@@ -19,7 +19,6 @@ function driverseLicense6(passedTest) {
     let firstName = 'Jon';
     const yearOfBirth = 1980;
   }
- 
  console.log(firstName + ' was born in ' + yearOfBirth); // won't work because of scoping.
 }
 
