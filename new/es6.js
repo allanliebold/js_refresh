@@ -13,3 +13,10 @@ name6 = 'Jane Miller'; // error: Assignment to constant variable. const is immut
 console.log(name6);
 
 // var is function-scoped. let and const are block-scoped
+
+function driverseLicense6(passedTest) {
+  if (passedTest) {
+    let firstName = 'Jon';
+    const yearOfBirth = 1980;
+  }
+}
