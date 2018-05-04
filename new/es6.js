@@ -25,3 +25,12 @@ function driverseLicense6(passedTest) {
 
 driversLicense6(true);
 
+/*
+let firstName;
+
+if(passedTest) {
+  firstName = 'Jon';
+}
+
+This works because of where firstName was declared. Can't do the same for const since it's immutable.
+*/
