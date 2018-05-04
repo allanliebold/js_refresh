@@ -44,3 +44,7 @@ console.log(i); // 23
 
 // IIFEs
 // ES5
+(function() {
+  console.log('IIFE');
+})();
+
