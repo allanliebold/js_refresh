@@ -45,6 +45,14 @@ console.log(i); // 23
 // IIFEs
 // ES5
 (function() {
-  console.log('IIFE');
+  var c = 3;
 })();
 
+// ES6
+{
+  const a = 1;
+  let b = 2;
+  var c = 3;
+}
+
+console.log(c);
