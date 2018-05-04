@@ -37,5 +37,7 @@ This works because of where firstName was declared. Can't do the same for const 
 let i = 23;
 
 for (let i = 0; i < 5; i++) {
-   
+  console.log(i); 0, 1, 2, 3, 4
 }
+
+console.log(i); // 23
