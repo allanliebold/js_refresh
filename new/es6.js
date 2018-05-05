@@ -70,5 +70,5 @@ console.log('This is ' + firstName + ' ' + lastName + ' and he was born in ' + y
 
 // ES6. Template literals. Use back ticks `
 
-console.log(`This is ${firstName} ${lastName} and he was born in ${yearOfBirth}.`);
+console.log(`This is ${firstName} ${lastName} and he was born in ${yearOfBirth}. He is ${calcAge(yearOfBirth)} years old.`);
 
