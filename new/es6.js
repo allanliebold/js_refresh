@@ -73,4 +73,7 @@ console.log('This is ' + firstName + ' ' + lastName + ' and he was born in ' + y
 console.log(`This is ${firstName} ${lastName} and he was born in ${yearOfBirth}. He is ${calcAge(yearOfBirth)} years old.`);
 
 const n = `${firstName} ${lastName}`;
-console.n.startsWith('J');
+console.log(n.startsWith('J'));
+console.log(n.endsWith('th'));
+console.log(n.includes('on'));
+
