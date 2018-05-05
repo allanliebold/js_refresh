@@ -56,3 +56,6 @@ console.log(i); // 23
 }
 
 console.log(c);
+
+// Strings in ES6
+
