@@ -76,4 +76,5 @@ const n = `${firstName} ${lastName}`;
 console.log(n.startsWith('J'));
 console.log(n.endsWith('th'));
 console.log(n.includes('on'));
+console.log('The King in the North'.repeat(5));
 
