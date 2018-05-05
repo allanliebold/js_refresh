@@ -64,3 +64,7 @@ const yearOfBirth = 1980;
 function calcAge(year) {
   return 2018 - year; 
 }
+
+// ES5
+console.log('This is ' + firstName + ' ' + lastName + ' and he was born in ' + yearOfBirth + '. He is ' + calcAge(yearOfBirth) + ' years old.');
+
