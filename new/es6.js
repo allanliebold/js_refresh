@@ -58,4 +58,9 @@ console.log(i); // 23
 console.log(c);
 
 // Strings in ES6
-
+let firstName = 'Jon';
+let lastName = 'Snow';
+const yearOfBirth = 1980;
+function calcAge(year) {
+  return 2018 - year; 
+}
