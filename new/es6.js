@@ -68,3 +68,7 @@ function calcAge(year) {
 // ES5
 console.log('This is ' + firstName + ' ' + lastName + ' and he was born in ' + yearOfBirth + '. He is ' + calcAge(yearOfBirth) + ' years old.');
 
+// ES6. Template literals. Use back ticks `
+
+console.log(`This is ${firstName} ${lastName} and he was born in ${yearOfBirth}.`);
+
