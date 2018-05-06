@@ -78,3 +78,11 @@ console.log(n.endsWith('th'));
 console.log(n.includes('on'));
 console.log('The King in the North'.repeat(5));
 
+// Lexical Arrow Functions
+
+const years = [1990, 1967, 1977, 1982];
+
+// ES5
+var ages5 = years.map(function() {
+  
+});
