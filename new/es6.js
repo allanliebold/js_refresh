@@ -106,7 +106,7 @@ console.log(ages6);
 
 // 'this' keyword with arrow functions
 
-//ES5
+//ES5 - 'this' doesn't work the way it's used here
 var box5 = {
   color: 'green',
   position: 1,
@@ -117,6 +117,7 @@ var box5 = {
     });
   }
 }
-
 box5.clickMe();
+
+//ES6
 
