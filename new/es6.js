@@ -86,3 +86,6 @@ const years = [1990, 1967, 1977, 1982];
 var ages5 = years.map(function(el) {
   return 2018 - el;  
 });
+
+// ES6
+const ages6 = years.map(el => 2016 - el); 
