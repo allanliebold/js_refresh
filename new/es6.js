@@ -83,6 +83,6 @@ console.log('The King in the North'.repeat(5));
 const years = [1990, 1967, 1977, 1982];
 
 // ES5
-var ages5 = years.map(function() {
-  
+var ages5 = years.map(function(el) {
+  return 2018 - el;  
 });
