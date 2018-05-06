@@ -89,3 +89,5 @@ var ages5 = years.map(function(el) {
 
 // ES6
 const ages6 = years.map(el => 2016 - el); 
+
+// In ES6 lexical arrow functions, return is implicit. 
