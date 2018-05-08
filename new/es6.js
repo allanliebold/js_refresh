@@ -140,7 +140,7 @@ function Person(name) {
 Person.prototype.friends5 = function(friends) {
   var arr = friends.map(function(el) {
     return this.name + ' is friends with ' + el;
-  });
-}
+  }.bind(this);
+});
 var friends = ['Emily', 'Fam', 'Lorenzo'];
 new Person('Bino').friends5(friends);
