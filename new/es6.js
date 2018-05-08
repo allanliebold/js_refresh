@@ -119,7 +119,7 @@ var box5 = {
 }
 box5.clickMe();
 
-//ES6
+//ES6 - context works differently with an arrow function, so 'this' is trying to access the global object here.
 const box6 = {
   color: 'blue',
   position: 1,
