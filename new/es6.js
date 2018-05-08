@@ -137,3 +137,8 @@ function Person(name) {
 }
 
 // ES5
+Person.prototype.friends5 = function(friends) {
+  var arr = friends.map(function(el) {
+    return this.name + ' is friends with ' + el;
+  });
+}
