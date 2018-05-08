@@ -120,4 +120,11 @@ var box5 = {
 box5.clickMe();
 
 //ES6
-
+const box6 = {
+  color: 'blue',
+  position: 1,
+  clickMe: () => {
+    
+  }
+}
+box6.clickMe();
