@@ -131,3 +131,9 @@ const box6 = {
   }
 }
 box6.clickMe();
+
+function Person(name) {
+  this.name = name; 
+}
+
+// ES5
