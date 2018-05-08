@@ -124,7 +124,10 @@ const box6 = {
   color: 'blue',
   position: 1,
   clickMe: () => {
-    
+      document.querySelector('.blue').addEventListener('click', function() {
+      var str = 'This is box number ' + this.position + ' and it is ' + this.color;
+      alert(str);
+    });
   }
 }
 box6.clickMe();
