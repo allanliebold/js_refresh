@@ -142,3 +142,5 @@ Person.prototype.friends5 = function(friends) {
     return this.name + ' is friends with ' + el;
   });
 }
+var friends = ['Emily', 'Fam', 'Lorenzo'];
+new Person('Bino').friends5(friends);
