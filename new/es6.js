@@ -160,3 +160,7 @@ new Person('Don').friends6(friends);
 var john = ['John', 26];
 var name = john[0];
 var age = john[1];
+
+// ES6
+
+const [name, age] = ['Bob', 33];
