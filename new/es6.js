@@ -154,3 +154,9 @@ Person.prototype.friends6 = function(friends) {
 
 new Person('Don').friends6(friends);
 
+// Destructuring
+
+// ES5
+var john = ['John', 26];
+var name = john[0];
+var age = john[1];
