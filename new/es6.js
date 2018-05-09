@@ -175,3 +175,10 @@ const obj = {
 const {firstName, lastName} = obj;
 
 const {firstName: a, lastName: b} = obj;
+
+function calcAgeRetirement(year) {
+  const age = new Date().getFullYear() - year;
+  return [age, 65 - age];
+}
+
+const [age, retirement] = calcAgeRetirement(1988);
