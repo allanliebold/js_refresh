@@ -164,3 +164,7 @@ var age = john[1];
 // ES6
 
 const [name, age] = ['Bob', 33];
+console.log(name);
+console.log(age);
+
+
