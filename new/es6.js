@@ -173,7 +173,6 @@ const obj = {
 };
 
 const {firstName, lastName} = obj;
-
 const {firstName: a, lastName: b} = obj;
 
 function calcAgeRetirement(year) {
