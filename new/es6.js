@@ -172,3 +172,5 @@ const obj = {
   lastName: 'Williams'
 };
 
+const {firstName, lastName} = obj;
+
