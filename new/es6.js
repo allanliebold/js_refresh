@@ -167,4 +167,8 @@ const [name, age] = ['Bob', 33];
 console.log(name);
 console.log(age);
 
+const obj = {
+  firstName: 'Bill',
+  lastName: 'Williams'
+};
 
