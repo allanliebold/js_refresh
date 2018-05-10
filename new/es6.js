@@ -194,3 +194,4 @@ boxesArr5.forEach(function(curr) {
 
 // ES6
 const boxesArr6 = Array.from(boxes);
+boxesArr6.forEach(curr => curr.style.backgroundColor = 'dodgerblue');
