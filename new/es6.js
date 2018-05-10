@@ -184,3 +184,6 @@ const [age, retirement] = calcAgeRetirement(1988);
 
 // Arrays
 
+const boxes = document.querySelectorAll('.box');
+
+
