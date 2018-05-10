@@ -212,3 +212,7 @@ for (const curr of boxesArr6) {
   curr.textContent = 'Changed to blue';
 }
 
+// ES5
+var ages = [12, 16, 8, 21, 14, 11];
+
+
