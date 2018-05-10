@@ -201,5 +201,7 @@ for(var i = 0; i < boxesArr5.length; i++) {
   if(boxesArr5[i].className === 'box blue') {
     continue;
   }
+  boxesArr5[i].textContent = 'Changed to blue';
 }
+
 
