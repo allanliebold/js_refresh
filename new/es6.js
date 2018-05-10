@@ -204,4 +204,8 @@ for(var i = 0; i < boxesArr5.length; i++) {
   boxesArr5[i].textContent = 'Changed to blue';
 }
 
+// ES6
+for (const curr of boxesArr6) {
+  
+}
 
