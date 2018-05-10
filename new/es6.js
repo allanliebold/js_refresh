@@ -206,6 +206,9 @@ for(var i = 0; i < boxesArr5.length; i++) {
 
 // ES6
 for (const curr of boxesArr6) {
-  
+  if (curr.className === 'box blue') {
+    continue;
+  }
+  curr.textContent = 'Changed to blue';
 }
 
