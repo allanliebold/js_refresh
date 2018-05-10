@@ -188,6 +188,8 @@ const boxes = document.querySelectorAll('.box');
 
 // ES5
 var boxesArr5 = Array.prototype.slice.call(boxes);
-
+boxesArr5.forEach(function(curr) {
+  curr.style.backgroundColor = 'dodgerblue';
+});
 
 
