@@ -181,3 +181,6 @@ function calcAgeRetirement(year) {
 }
 
 const [age, retirement] = calcAgeRetirement(1988);
+
+// Arrays
+
