@@ -221,4 +221,6 @@ console.log(full);
 
 console.log(full.indexOf(true)); // logs 3, the first index that returned true
 
+// ES6
+console.log(ages.findIndex(curr => curr >= 18));
 
