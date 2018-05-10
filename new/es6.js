@@ -213,6 +213,8 @@ for (const curr of boxesArr6) {
 }
 
 // ES5
-var ages = [12, 16, 8, 21, 14, 11];
-
-
+var ages = [12, 16, 8, 21, 14, 31];
+var full = ages.map(function(curr) {
+  return curr >= 18;
+});
+console.log(full);
