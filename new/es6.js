@@ -243,3 +243,7 @@ console.log(sum2);
 const sum3 = addFourAges(...ages);
 console.log(sum3); 
 
+const familySmith = ['Bob', 'Bill', 'Betty'];
+const familyMiller = ['Mary', 'Marty', 'Moe'];
+const bigFamily = [...familySmith, ...familyMiller];
+console.log(bigFamily); // ['Bob', 'Bill', 'Betty', 'Mary', 'Marty', 'Moe']
