@@ -230,3 +230,7 @@ console.log(ages.find(curr => curr >= 18)); // 21
 function addFourAges (a, b, c, d) {
   return a + b + c + d;
 }
+
+var sum1 = addFourAges(18, 30, 12, 21);
+console.log(sum1);
+
