@@ -246,4 +246,11 @@ console.log(sum3);
 const familySmith = ['Bob', 'Bill', 'Betty'];
 const familyMiller = ['Mary', 'Marty', 'Moe'];
 const bigFamily = [...familySmith, ...familyMiller];
-console.log(bigFamily); // ['Bob', 'Bill', 'Betty', 'Mary', 'Marty', 'Moe']
+console.log(bigFamily); // ['Bob', 'Bill', 'Betty', 'Mary', 'Marty', 'Moe'];
+
+const h = document.querySelector('h1');
+const boxes = document.querySelectorAll('.box');
+const all = [h, ...boxes];
+
+Array.from(all).forEach(curr => curr.style.color = 'purple');
+
