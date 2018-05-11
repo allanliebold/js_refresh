@@ -227,3 +227,6 @@ console.log(ages.find(curr => curr >= 18)); // 21
 
 // Spread Operator
 
+function addFourAges (a, b, c, d) {
+  return a + b + c + d;
+}
