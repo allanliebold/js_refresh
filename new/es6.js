@@ -276,4 +276,7 @@ function isFullAge6(...years) { // this turns the arguments into an array automa
 
 isFullAge6(1985, 1955, 2015);
 
+// spread operator is used in function call while rest operator is used in function declaration, 
+// to accept an arbitrary number of arguments
+
 
