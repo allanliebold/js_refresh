@@ -306,3 +306,15 @@ function SmithPerson6(firstName, yearOfBirth, lastName = 'Smith', nationality = 
 }
 
 var bob = SmithPerson6('Bob', 1955); 
+
+// Maps
+const question = new Map();
+question.set('question', 'What is the official name of the latest major version of JavaScript?');
+question.set(1, 'ES5');
+question.set(2, 'ES6');
+question.set(3, 'ES2015');
+question.set(4, 'JS6');
+question.set('correct', 3);
+question.set(true, 'Correct answer');
+question.set(false, 'Incorrect');
+
