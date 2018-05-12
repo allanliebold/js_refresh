@@ -331,5 +331,7 @@ question.clear(); // deletes all elements from map
 question.forEach((value, key) => console.log(`This is %{key}, set to %{value}`));
 
 for (let [key, value] of question.entries) {
-  
+  if(typeof(key) === 'number') {
+    console.log(`Answer %{key}: %{value}`);
+  }
 }
