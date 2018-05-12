@@ -335,3 +335,5 @@ for (let [key, value] of question.entries) {
     console.log(`Answer %{key}: %{value}`);
   }
 }
+
+const ans = parseInt(prompt('Enter the correct answer'));
