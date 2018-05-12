@@ -257,17 +257,18 @@ Array.from(all).forEach(curr => curr.style.color = 'purple');
 // Rest Parameters
 
 // ES5
-function isFullAge5() {
+function isFullAge5(limit) {
   console.log(arguments); // arguments is an array-like structure.
 
-  var argsArr = Array.prototype.slice.call(arguments); // this turns arguments into an actual array
+  var argsArr = Array.prototype.slice.call(arguments, 1); // this turns arguments into an actual array
+  // slice starts at position 1 of arguments, skipping the age limit argument
 
   argsArr.forEach(function(curr) {
-    console.log((2018 - curr) >= 18);
+    console.log((2018 - curr) >= limit);
   })
 }
 
-isFullAge5(1985, 1955, 2015); // true, true, false
+isFullAge5(21, 1985, 1955, 2015); // true, true, false
 
 // ES6
 function isFullAge6(...years) { // this turns the arguments into an array automatically
