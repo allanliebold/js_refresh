@@ -318,3 +318,5 @@ question.set('correct', 3);
 question.set(true, 'Correct answer');
 question.set(false, 'Incorrect');
 
+question.delete(4);
+
