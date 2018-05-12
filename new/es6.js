@@ -337,3 +337,5 @@ for (let [key, value] of question.entries) {
 }
 
 const ans = parseInt(prompt('Enter the correct answer'));
+
+console.log(question.get(ans === question.get('correct'))); 
