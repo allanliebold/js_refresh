@@ -290,3 +290,5 @@ function SmithPerson(firstName, lastName, yearOfBirth, nationality) {
   this.nationality = nationality;
 }
 
+var john = new SmithPerson('John', 'Smith'); 
+
