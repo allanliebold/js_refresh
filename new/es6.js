@@ -272,11 +272,11 @@ isFullAge5(21, 1985, 1955, 2015); // true, true, false
 isFullAge5(18, 1990, 2003, 2000); // true, false, true
 
 // ES6
-function isFullAge6(...years) { // this turns the arguments into an array automatically
-  years.forEach(curr => console.log((2018 - curr) >= 18));
+function isFullAge6(limit, ...years) { // this turns the arguments into an array automatically
+  years.forEach(curr => console.log((2018 - curr) >= limit));
 }
 
-isFullAge6(1985, 1955, 2015);
+isFullAge6(21, 1985, 1955, 2015);
 
 // spread operator is used in function call while rest operator is used in function declaration, 
 // to accept an arbitrary number of arguments
