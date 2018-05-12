@@ -284,6 +284,9 @@ isFullAge6(21, 1985, 1955, 2015);
 // Default Parameters
 
 function SmithPerson(firstName, lastName, yearOfBirth, nationality) {
+  lastName === undefined ? lastName = 'Smith' : lastName = lastName;
+  nationality === undefined ? nationality = 'American' : nationality = nationality; 
+
   this.firstName = firstName;
   this.lastName = lastName;
   this.yearOfBirth = yearOfBirth;
