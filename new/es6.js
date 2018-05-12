@@ -325,3 +325,7 @@ if(question.has(4)) {
 
 question.clear(); // deletes all elements from map
 */
+
+// Maps are iterable. They can be looped through, unlike objects or dictionaries.
+
+
