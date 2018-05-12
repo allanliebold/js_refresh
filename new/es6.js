@@ -269,6 +269,7 @@ function isFullAge5(limit) {
 }
 
 isFullAge5(21, 1985, 1955, 2015); // true, true, false
+isFullAge5(18, 1990, 2003, 2000); // true, false, true
 
 // ES6
 function isFullAge6(...years) { // this turns the arguments into an array automatically
