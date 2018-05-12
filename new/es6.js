@@ -281,4 +281,12 @@ isFullAge6(21, 1985, 1955, 2015);
 // spread operator is used in function call while rest operator is used in function declaration, 
 // to accept an arbitrary number of arguments
 
+// Default Parameters
+
+function SmithPerson(firstName, lastName, yearOfBirth, nationality) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.yearOfBirth = yearOfBirth;
+  this.nationality = nationality;
+}
 
