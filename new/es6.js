@@ -338,3 +338,17 @@ for (let [key, value] of question.entries) {
 
 const ans = parseInt(prompt('Enter the correct answer'));
 console.log(question.get(ans === question.get('correct'))); 
+
+// Classes
+
+// ES5
+var Person5 = function(name, yearOfBirth, job) {
+  this.name = name;
+  this.yearOfBirth = yearOfBirth;
+  this.job = job;
+}
+
+Person5.prototype.calcAge = function() {
+  var age = new Date().getFullYear - this.yearOfBirth;
+  console.log(age);
+}
