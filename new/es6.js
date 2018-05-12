@@ -318,5 +318,8 @@ question.set('correct', 3);
 question.set(true, 'Correct answer');
 question.set(false, 'Incorrect');
 
-question.delete(4);
+if(question.has(4)) {
+  question.delete(4); 
+}
 
+question.clear(); // deletes all elements from map
