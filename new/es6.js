@@ -269,5 +269,11 @@ function isFullAge5() {
 
 isFullAge5(1985, 1955, 2015); // true, true, false
 
+// ES6
+function isFullAge6(...years) { // this turns the arguments into an array automatically
+  years.forEach(curr => console.log((2018 - curr) >= 18));
+}
+
+isFullAge6(1985, 1955, 2015);
 
 
