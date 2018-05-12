@@ -329,3 +329,7 @@ question.clear(); // deletes all elements from map
 // Maps are iterable. They can be looped through, unlike objects.
 
 question.forEach((value, key) => console.log(`This is %{key}, set to %{value}`));
+
+for (let [key, value] of question.entries) {
+  
+}
