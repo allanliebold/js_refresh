@@ -254,3 +254,21 @@ const all = [h, ...boxes];
 
 Array.from(all).forEach(curr => curr.style.color = 'purple');
 
+// Rest Parameters
+
+// ES5
+function isFullAge5() {
+  console.log(arguments);
+}
+
+isFullAge5(1985, 1955, 2015); 
+/*
+logs an array-like structure
+
+[1985, 1955, 2015]
+
+It can be turned into an array like this in the function:
+var argsArr = Array.prototype.slice.call(arguments);
+*/
+
+
