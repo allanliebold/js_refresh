@@ -258,17 +258,16 @@ Array.from(all).forEach(curr => curr.style.color = 'purple');
 
 // ES5
 function isFullAge5() {
-  console.log(arguments);
+  console.log(arguments); // arguments is an array-like structure.
+
+  var argsArr = Array.prototype.slice.call(arguments); // this turns arguments into an actual array
+
+  argsArr.forEach(function(curr) {
+    console.log((2018 - curr) >= 18);
+  })
 }
 
-isFullAge5(1985, 1955, 2015); 
-/*
-logs an array-like structure
+isFullAge5(1985, 1955, 2015); // true, true, false
 
-[1985, 1955, 2015]
-
-It can be turned into an array like this in the function:
-var argsArr = Array.prototype.slice.call(arguments);
-*/
 
 
