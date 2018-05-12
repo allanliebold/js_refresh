@@ -298,10 +298,11 @@ function SmithPerson(firstName, lastName, yearOfBirth, nationality) {
 var john = new SmithPerson('John', 'Smith'); 
 
 // ES6
-function SmithPerson6(firstName, lastName = 'Smith', yearOfBirth, nationality = 'American') {
+function SmithPerson6(firstName, yearOfBirth, lastName = 'Smith', nationality = 'American') {
   this.firstName = firstName;
   this.lastName = lastName;
   this.yearOfBirth = yearOfBirth;
   this.nationality = nationality;
 }
 
+var bob = SmithPerson6('Bob', 1955); 
