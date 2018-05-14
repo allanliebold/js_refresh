@@ -362,5 +362,11 @@ class Person6 {
     this.yearOfBirth = yearOfBirth;
     this.job = job;
   }
+
+  calculateAge() {
+    var age = new Date().getFullYear - this.yearOfBirth;
+    console.log(age);
+  }
 }
 
+const bob6 = new Person6('Bob', 1980, 'businessman');
