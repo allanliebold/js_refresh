@@ -367,6 +367,9 @@ class Person6 {
     var age = new Date().getFullYear - this.yearOfBirth;
     console.log(age);
   }
+// Static class
+  
 }
 
 const bob6 = new Person6('Bob', 1980, 'businessman');
+
