@@ -354,3 +354,5 @@ Person5.prototype.calcAge = function() {
 }
 
 var john5 = new Person('John', 1990, 'teacher');
+
+// ES6
