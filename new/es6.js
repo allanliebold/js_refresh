@@ -383,3 +383,7 @@ var Athlete5 = function(name, yearOfBirth, job, competitions, medals) {
   this.competitions = competitions;
   this.medals = medals;
 }
+
+var billAthlete5 = new Athlete5('Bill', 1991, 'swimmer', 3, 10);
+
+
