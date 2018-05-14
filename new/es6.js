@@ -380,4 +380,6 @@ Person6.greeting(); // 'Hello!'
 
 var Athlete5 = function(name, yearOfBirth, job, competitions, medals) {
   Person5.call(this, name, yearOfBirth, job);
+  this.competitions = competitions;
+  this.medals = medals;
 }
