@@ -1,7 +1,7 @@
 
-class Person6 {
-  constructor (name, yearOfBirth, job) {
+class Park {
+  constructor (name, year) {
     this.name = name;
-    this.yearOfBirth = yearOfBirth;
-    this.job = job;
+    this.year = year;
   }
+}
