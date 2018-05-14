@@ -378,3 +378,6 @@ Person6.greeting(); // 'Hello!'
 
 // Subclasses
 
+var Athlete5 = function(name, yearOfBirth, job) {
+
+}
