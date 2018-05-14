@@ -398,4 +398,10 @@ class Athlete5 extends Person6 {
     this.competitions = competitions;
     this.medals = medals;
   }
+  wonMedal() {
+    this.medals++;
+    console.log(this.medals);
+  }
 }
+
+const burtAthlete6 = new Athlete6('Burt', 1970, 'runner', 5, 5);
