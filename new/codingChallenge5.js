@@ -1,7 +1,7 @@
 
 class Element {
-  constructor (name, year) {
+  constructor (name, buildYear) {
     this.name = name;
-    this.year = year;
+    this.buildYear = buildYear;
   }
 }
