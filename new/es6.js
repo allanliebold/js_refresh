@@ -375,3 +375,6 @@ class Person6 {
 
 const bob6 = new Person6('Bob', 1980, 'businessman');
 Person6.greeting(); // 'Hello!'
+
+// Subclasses
+
