@@ -379,5 +379,5 @@ Person6.greeting(); // 'Hello!'
 // Subclasses
 
 var Athlete5 = function(name, yearOfBirth, job, competitions, medals) {
-  
+  Person5.call(this, name, yearOfBirth, job);
 }
