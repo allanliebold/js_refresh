@@ -393,5 +393,9 @@ billAthlete5.medalsWon();
 
 // ES6
 class Athlete5 extends Person6 {
-
+  constructor(name, yearOfBirth, job, competitions, medals) {
+    super(name, yearOfBirth, job);
+    this.competitions = competitions;
+    this.medals = medals;
+  }
 }
