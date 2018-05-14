@@ -11,4 +11,10 @@ class Park extends Element {
     super(name, buildYear);
     this.area = area;
     this.numTrees = numTrees;
+  }
+  
+  treeDensity() {
+    const density = this.numTrees / this.area;
+    console.log(`${this.name} has a tree density of ${density} trees per square km.`);
+  }
 }
