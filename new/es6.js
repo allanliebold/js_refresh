@@ -356,3 +356,11 @@ Person5.prototype.calcAge = function() {
 var john5 = new Person('John', 1990, 'teacher');
 
 // ES6
+class Person6 {
+  constructor (name, yearOfBirth, job) {
+    this.name = name;
+    this.yearOfBirth = yearOfBirth;
+    this.job = job;
+  }
+}
+
