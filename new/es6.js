@@ -384,6 +384,9 @@ var Athlete5 = function(name, yearOfBirth, job, competitions, medals) {
   this.medals = medals;
 }
 
+Athlete5.prototype = Object.create(Person5.prototype);
+
 var billAthlete5 = new Athlete5('Bill', 1991, 'swimmer', 3, 10);
 
-
+billAthlete5.calculateAge();
+billAthlete5.medalsWon();
