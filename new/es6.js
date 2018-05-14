@@ -355,7 +355,7 @@ Person5.prototype.calcAge = function() {
 
 var john5 = new Person('John', 1990, 'teacher');
 
-// ES6
+// ES6 - Class definitions are not hoisted
 class Person6 {
   constructor (name, yearOfBirth, job) {
     this.name = name;
