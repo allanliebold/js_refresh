@@ -368,7 +368,9 @@ class Person6 {
     console.log(age);
   }
 // Static class
-  
+  static greeting() {
+    console.log('Hello!');
+  }
 }
 
 const bob6 = new Person6('Bob', 1980, 'businessman');
