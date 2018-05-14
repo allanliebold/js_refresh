@@ -390,3 +390,6 @@ var billAthlete5 = new Athlete5('Bill', 1991, 'swimmer', 3, 10);
 
 billAthlete5.calculateAge();
 billAthlete5.medalsWon();
+
+// ES6
+
