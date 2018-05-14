@@ -18,3 +18,9 @@ class Park extends Element {
     console.log(`${this.name} has a tree density of ${density} trees per square km.`);
   }
 }
+
+class Street extends Element {
+  constructor(name, buildYear, length, size) {
+    
+  }
+}
