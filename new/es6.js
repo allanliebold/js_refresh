@@ -367,11 +367,11 @@ class Person6 {
     var age = new Date().getFullYear - this.yearOfBirth;
     console.log(age);
   }
-// Static class
+// Static class. Not inherited
   static greeting() {
     console.log('Hello!');
   }
 }
 
 const bob6 = new Person6('Bob', 1980, 'businessman');
-
+Person6.greeting(); // 'Hello!'
