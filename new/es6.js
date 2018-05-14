@@ -392,4 +392,6 @@ billAthlete5.calculateAge();
 billAthlete5.medalsWon();
 
 // ES6
+class Athlete5 extends Person6 {
 
+}
