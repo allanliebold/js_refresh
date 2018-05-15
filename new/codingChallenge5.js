@@ -28,5 +28,10 @@ class Street extends Element {
   
   classifyStreet() {
     const classification = new Map();
+    classification.set(1, 'tiny');
+    classification.set(2, 'small');
+    classification.set(3, 'normal');
+    classification.set(4, 'big');
+    classification.set(5, 'huge');
   }
 }
