@@ -20,7 +20,7 @@ class Park extends Element {
 }
 
 class Street extends Element {
-  constructor(name, buildYear, length, size) {
+  constructor(name, buildYear, length, size = 3) {
     super(name, buildYear);    
     this.length = length;
     this.size = size;
