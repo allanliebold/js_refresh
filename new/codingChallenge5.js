@@ -21,6 +21,6 @@ class Park extends Element {
 
 class Street extends Element {
   constructor(name, buildYear, length, size) {
-    
+    super(name, buildYear);    
   }
 }
