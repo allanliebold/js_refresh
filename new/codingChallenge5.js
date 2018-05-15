@@ -47,3 +47,27 @@ const allStreets = [new Street('Ocean Avenue', 1999, 1.1, 4),
                     new Street('4th Street', 1972),
                     new Street('Sunset Boulevard', 1982, 2.5, 5)];
 
+function calc(arr) {
+  var sum = arr.reduce((prev, curr, idx) => prev + curr, 0);
+  return [sum, sum / arr.length];
+}
+
+function reportParks(p) {
+  console.log('-----Parks Report-----');
+  // Density
+  p.forEach(el => el.treeDensity());
+  
+  // Average Age
+  const ages = p.map(el => new Date.getFullYear() - el.buildYear);
+  const [totalAge, avgAge] = calc(ages);
+  
+  // More than 1000 trees
+  
+}
+
+function reportStreets(s) {
+  console.log('-----Streets Report-----');
+}
+
+reportParks(allParks);
+reportStreets(allStreets);
