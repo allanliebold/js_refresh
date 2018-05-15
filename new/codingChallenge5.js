@@ -33,5 +33,7 @@ class Street extends Element {
     classification.set(3, 'normal');
     classification.set(4, 'big');
     classification.set(5, 'huge');
+    
+    console.log(`${this.name}, built in ${this.buildYear}, is a ${classification.get(this.size)} street.`);
   }
 }
