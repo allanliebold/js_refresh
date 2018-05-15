@@ -25,4 +25,8 @@ class Street extends Element {
     this.length = length;
     this.size = size;
   }
+  
+  classifyStreet() {
+    const classification = new Map();
+  }
 }
