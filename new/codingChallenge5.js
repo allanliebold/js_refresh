@@ -37,3 +37,7 @@ class Street extends Element {
     console.log(`${this.name}, built in ${this.buildYear}, is a ${classification.get(this.size)} street.`);
   }
 }
+
+const allParks = [new Park('Green Park', 1987, 0.2, 215), 
+                  new Park('National Park', 1894, 2.9, 3541),
+                  new Park('Oak Park', 1953, 0.4, 949)];
