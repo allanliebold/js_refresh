@@ -41,3 +41,9 @@ class Street extends Element {
 const allParks = [new Park('Green Park', 1987, 0.2, 215), 
                   new Park('National Park', 1894, 2.9, 3541),
                   new Park('Oak Park', 1953, 0.4, 949)];
+
+const allStreets = [new Street('Ocean Avenue', 1999, 1.1, 4),
+                    new Street('Evergreen Terrace', 2008, 2.7, 2),
+                    new Street('4th Street', 1972),
+                    new Street('Sunset Boulevard', 1982, 2.5, 5)];
+
