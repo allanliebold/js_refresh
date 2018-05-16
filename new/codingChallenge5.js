@@ -74,6 +74,7 @@ function reportStreets(s) {
   console.log(`Our ${s.length} streets have a total length of ${totalLength} km, with an average of ${avgLength} km.`);
   
   // Classify Sizes
+  s.forEach(el => el.classifyStreet());
 }
 
 reportParks(allParks);
