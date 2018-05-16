@@ -63,6 +63,7 @@ function reportParks(p) {
   console.log(`Our ${p.length} parks have an average age of ${avgAge} years.`);
   
   // More than 1000 trees
+  const i = p.map(el => el.numTrees);
   
 }
 
