@@ -70,6 +70,7 @@ function reportParks(p) {
 function reportStreets(s) {
   console.log('-----Streets Report-----');
   // Total and average lengths
+  const [totalLength, avgLength] = calc(s.map(el => el.length));
   
   // Classify Sizes
 }
