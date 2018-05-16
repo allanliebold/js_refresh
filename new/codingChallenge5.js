@@ -69,6 +69,9 @@ function reportParks(p) {
 
 function reportStreets(s) {
   console.log('-----Streets Report-----');
+  // Total and average lengths'
+  
+  // Classify Sizes
 }
 
 reportParks(allParks);
