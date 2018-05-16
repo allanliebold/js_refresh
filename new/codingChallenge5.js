@@ -60,6 +60,7 @@ function reportParks(p) {
   // Average Age
   const ages = p.map(el => new Date.getFullYear() - el.buildYear);
   const [totalAge, avgAge] = calc(ages);
+  console.log(`Our ${p.length} parks have an average age of ${avgAge} years.`);
   
   // More than 1000 trees
   
