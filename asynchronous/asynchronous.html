@@ -9,6 +9,12 @@
 <body>
   <h1>Asynchronous JavaScript</h1>
   <script>
+    const second = () => {
+      setTimeout(() => {
+        console.log('Second');   
+      }, 2000); 
+    }
+    
     const first = () => {
       console.log('Hello!');
     }
