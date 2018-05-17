@@ -11,12 +11,14 @@
   <script>
     const second = () => {
       setTimeout(() => {
-        console.log('Second');   
+        console.log('This is async.');   
       }, 2000); 
     }
     
     const first = () => {
       console.log('Hello!');
+      second();
+      console.log('Goodbye.');
     }
     
     first();
