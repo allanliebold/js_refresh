@@ -27,10 +27,14 @@
   function getRecipe() {
     setTimeout(() => {
       const recipeID = [523, 524, 525, 526];
-      setTimeout((id) => {
+      setTimeout(id => {
         const recipe = {title: 'Fettucini Alfredo', publisher: 'CookCo'};
         console.log(`Recipe #${id}: ${recipe.title}`);
-      }, 1000, recipeID[2]);
+        setTimeout(publisher => {
+          const recipe2 = {title: 'White Sauce Pizza', publisher: 'CookCo'};
+          console.log(recipe);
+        }, 1500, recipe.publisher);        
+      }, 1500, recipeID[2]);
     }, 1500);
   }
   
