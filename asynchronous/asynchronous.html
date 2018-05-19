@@ -23,7 +23,8 @@
     }
     first();
   */
-    
+  
+  /*  
   function getRecipe() {
     setTimeout(() => {
       const recipeID = [523, 524, 525, 526];
@@ -39,7 +40,16 @@
   }
   
   getRecipe();
+  */
+  
+  // Promises
     
+  const getIDs = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve([523, 524, 525, 526]);  
+    }, 1500);
+  });
+  
   </script>
 </body>
 </html>
