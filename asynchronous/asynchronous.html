@@ -27,9 +27,10 @@
   function getRecipe() {
     setTimeout(() => {
       const recipeID = [523, 524, 525, 526];
-      setTimeout(() = > {
-        
-      }, 1000);
+      setTimeout((id) => {
+        const recipe = {title: 'Fettucini Alfredo', publisher: 'CookCo'};
+        console.log(`Recipe #${id}: ${recipe.title}`);
+      }, 1000, recipeID[2]);
     }, 1500);
   }
   
