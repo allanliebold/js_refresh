@@ -50,8 +50,12 @@
     }, 1500);
   });
     
-  getIDs.then(IDs => {
+  getIDs
+  .then(IDs => {
     console.log(IDs);
+  })
+  .catch(error => {
+    console.log(error);
   });
   
   </script>
