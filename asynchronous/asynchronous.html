@@ -95,8 +95,12 @@
     
     return recipe;
   }
+/*  
   const rec = getRecipesAW();
   console.log(rec); // Just logs Promise {<pending>}
+*/
+  getRecipesAW().then(result => console.log(`Promise result: ${result}`));
+    
     
   </script>
 </body>
