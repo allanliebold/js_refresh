@@ -103,7 +103,7 @@
   
   // Using fetch to make calls to an API
   function getWeather(woeid) {
-    fetch(`https://www.metaweather.com/api/location/${woeid}/`) // using template string to pass in id
+    fetch(`https://crossorigin.me/https://www.metaweather.com/api/location/${woeid}/`) // using template string to pass in id
     .then(result => {
       console.log(result);
       return result.json();
@@ -117,8 +117,8 @@
     });
   }
   
-  getWeather(2487956); 
-    
+  getWeather(2487956); // calling getWeather with id for San Francisco
+  getWeather(44418); // id for London
   </script>
 </body>
 </html>
