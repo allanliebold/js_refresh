@@ -102,19 +102,22 @@
   // This actually logs the result of the async function
   
   // Using fetch to make calls to an API
-    
-  fetch('https://www.metaweather.com/api/location/2487956/')
-  .then(result => {
-    console.log(result);
-    return result.json();
-  })
-  .then(data => {
-    const today = data.consolidate_weather[0];
-    console.log(`Temperatures in ${data.title} will be between ${today.min_temp} and ${today.max_temp} degrees celsius.`);
-  })
-  .catch(error => {
-    console.log(error); 
-  });
+  function getWeather(woeid) {
+    fetch(`https://www.metaweather.com/api/location/${woeid}/`) // using template string to pass in id
+    .then(result => {
+      console.log(result);
+      return result.json();
+    })
+    .then(data => {
+      const today = data.consolidate_weather[0];
+      console.log(`Temperatures in ${data.title} will be between ${today.min_temp} and ${today.max_temp} degrees celsius.`);
+    })
+    .catch(error => {
+      console.log(error); 
+    });
+  }
+  
+  getWeather(2487956); 
     
   </script>
 </body>
