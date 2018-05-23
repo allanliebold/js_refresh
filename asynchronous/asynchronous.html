@@ -106,6 +106,7 @@
   fetch('https://www.metaweather.com/api/location/2487956/')
   .then(result => {
     console.log(result);
+    return result.json();
   })
   .catch(error => {
     console.log(error); 
