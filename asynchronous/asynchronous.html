@@ -109,7 +109,8 @@
     return result.json();
   })
   .then(data => {
-    console.log(data);
+    const today = data.consolidate_weather[0];
+    console.log(`Temperatures in ${data.title} will be between ${today.min_temp} and ${today.max_temp} degrees celsius.`);
   })
   .catch(error => {
     console.log(error); 
