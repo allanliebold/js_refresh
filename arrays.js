@@ -17,7 +17,6 @@ if (types.indexOf('nothing') === -1) {
 }
 
 // Loops
-
 // for loop
 for (var i = 0; i < names.length; i++) {
   console.log(names[i]); 
