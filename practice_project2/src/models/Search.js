@@ -3,3 +3,5 @@ export default class Search {
     this.query = query; 
   }
 }
+
+import axios from 'axios';
