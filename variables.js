@@ -34,7 +34,6 @@ if (age >= 65) {
 }
 
 // Scope
-
 // Global scope
 var thingy = 1;
 window.moo = 1; 
