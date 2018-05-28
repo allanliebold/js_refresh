@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 export default class Search {
   constructor(query) {
     this.query = query; 
@@ -15,4 +17,3 @@ export default class Search {
   }
 }
 
-import axios from 'axios';
