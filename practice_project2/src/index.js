@@ -12,6 +12,7 @@ const state = {};
 const controlSearch = async () => {
   if (query) {
     state.search = new Search(query);
+    await state.search.getResults();
   }
 }
 
