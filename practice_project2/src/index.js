@@ -9,6 +9,10 @@ import Search from './models/Search';
 
 const state = {};
 
+const controlSearch = async () => {
+  
+}
+
 document.querySelector('.search').addEventListener('submit', e => {
   e.preventDefault();
 });
