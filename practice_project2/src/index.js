@@ -10,6 +10,9 @@ import Search from './models/Search';
 const state = {};
 
 const controlSearch = async () => {
+  // 1 - Get query from view
+  const query = 'pizza';
+  
   if (query) {
     state.search = new Search(query);
     await state.search.getResults();
