@@ -11,7 +11,7 @@ const state = {};
 
 const controlSearch = async () => {
   if (query) {
-    
+    state.search = new Search(query);
   }
 }
 
