@@ -5,13 +5,13 @@ export const getInput = () => elements.searchInput.value;
 const renderRecipe = recipe => {
   const markup = `
   <li>
-    <a class="results__link results__link--active" href="#23456">
+    <a class="results__link results__link--active" href="${recipe.recipe_id}">
       <figure class="results__fig">
-        <img src="img/test-1.jpg" alt="Test">
+        <img src="${recipe.image_url}" alt="Test">
       </figure>
     <div class="results__data">
-      <h4 class="results__name">Pasta with Tomato ...</h4>
-      <p class="results__author">The Pioneer Woman</p>
+      <h4 class="results__name">${recipe.title}</h4>
+      <p class="results__author">${recipe.publisher}</p>
     </div>
     </a>
   </li>
