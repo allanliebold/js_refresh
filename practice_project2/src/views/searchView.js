@@ -17,7 +17,7 @@ const renderRecipe = recipe => {
   </li>
   `;
   
-  elements.searchResList.insertAdjacentHTML
+  elements.searchResList.insertAdjacentHTML('beforeend', markup);
 }
 
 export const renderResults = recipes => {
