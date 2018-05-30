@@ -7,5 +7,5 @@ const renderRecipe = recipe => {
 }
 
 export const renderResults = recipes => {
-  recipes.foreach(renderRecipe(el)) 
+  recipes.foreach(renderRecipe);
 }
