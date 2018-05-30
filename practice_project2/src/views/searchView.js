@@ -15,7 +15,7 @@ const renderRecipe = recipe => {
     </div>
     </a>
   </li>
-  `  
+  `;
 }
 
 export const renderResults = recipes => {
