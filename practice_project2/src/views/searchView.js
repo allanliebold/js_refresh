@@ -16,6 +16,8 @@ const renderRecipe = recipe => {
     </a>
   </li>
   `;
+  
+  elements.searchResList.insertAdjacentHTML
 }
 
 export const renderResults = recipes => {
