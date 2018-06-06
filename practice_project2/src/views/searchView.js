@@ -11,7 +11,7 @@ export const clearResults = () => {
 }
 
 const limitRecipeTitle = (title, limit = 17) => {
-  
+  const newTitle = [];
 }
 
 const renderRecipe = recipe => {
