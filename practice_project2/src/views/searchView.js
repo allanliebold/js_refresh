@@ -12,6 +12,12 @@ export const clearResults = () => {
 
 const limitRecipeTitle = (title, limit = 17) => {
   const newTitle = [];
+  if (title.length > limit) {
+    title.split(' ').reduce((acc, curr) => {
+      
+    }, 0);
+  }
+  return title;
 }
 
 const renderRecipe = recipe => {
