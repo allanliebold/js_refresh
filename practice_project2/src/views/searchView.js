@@ -17,6 +17,7 @@ const limitRecipeTitle = (title, limit = 17) => {
       if (acc + curr.length <= limit) {
         newTitle.push(curr);
       }
+      return acc + curr.length;
     }, 0);
   }
   return title;
