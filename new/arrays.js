@@ -60,6 +60,7 @@ console.log(sum3);
 const familySmith = ['Bob', 'Bill', 'Betty'];
 const familyMiller = ['Mary', 'Marty', 'Moe'];
 const bigFamily = [...familySmith, ...familyMiller];
+
 console.log(bigFamily); // ['Bob', 'Bill', 'Betty', 'Mary', 'Marty', 'Moe'];
 
 const h = document.querySelector('h1');
