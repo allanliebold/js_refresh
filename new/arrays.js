@@ -40,7 +40,6 @@ console.log(ages.findIndex(curr => curr >= 18)); // 3
 console.log(ages.find(curr => curr >= 18)); // 21
 
 // Spread Operator
-
 function addFourAges (a, b, c, d) {
   return a + b + c + d;
 }
