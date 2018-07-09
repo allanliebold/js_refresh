@@ -1,5 +1,4 @@
 // Arrays
-
 const boxes = document.querySelectorAll('.box');
 
 // ES5
