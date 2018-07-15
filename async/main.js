@@ -10,4 +10,6 @@ function doAsyncTask(cb) {
     console.log('Async Task Calling Callback');
     cb();
   });
+  
+  doAsyncTask(() => console.log(message));
 }
