@@ -7,6 +7,7 @@ function doAsyncTask(cb) {
   });
   
   process.nextTick(() => {
-    
+    console.log('Async Task Calling Callback');
+    cb();
   });
 }
