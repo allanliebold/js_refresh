@@ -200,3 +200,4 @@ johnFriendly('afternoon'); // currying
 var mindyFormal = john.presentation.bind(mindy, 'formal');
 mindyFormal('morning');
 
+// More practice with objects
