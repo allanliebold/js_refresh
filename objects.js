@@ -202,6 +202,9 @@ mindyFormal('morning');
 
 // More practice with objects
 const robot = {
-	model: '1E7V82',
-	energyLevel: 100
+	model: '1E78V2',
+	energyLevel: 100,
+	provideInfo() {
+		return `I am ${this.model} and my energy level is ${this.energyLevel}.`;	
+	}
 }
