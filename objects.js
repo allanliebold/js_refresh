@@ -205,6 +205,7 @@ const robot = {
 	model: '1E78V2',
 	energyLevel: 100,
 	provideInfo() {
+		// The 'this' keyword is required to access the object's properties, even with an attached method. 
 		return `I am ${this.model} and my current energy level is ${this.energyLevel}.`;	
 	}
 }
