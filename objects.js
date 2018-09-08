@@ -202,5 +202,6 @@ mindyFormal('morning');
 
 // More practice with objects
 const robot = {
-	
+	model: '1E7V82',
+	energyLevel: 100
 }
