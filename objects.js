@@ -215,3 +215,11 @@ const robot = {
 }
 
 console.log(robot.provideInfo());
+
+// Getters and Setters
+const droid = {
+	_name: 'Droidy',
+	get droidName() {
+
+	}
+}
