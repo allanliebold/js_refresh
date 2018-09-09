@@ -22,3 +22,10 @@ class HospitalEmployee {
     return Math.floor(Math.random() * 10000);
   }
 }  
+
+class Nurse extends HospitalEmployee {
+  constructor(name, certifications) {
+    super(name);
+    this._certifications = certifications;
+  } 
+}
