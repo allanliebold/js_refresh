@@ -18,6 +18,7 @@ class HospitalEmployee {
     this._remainingVacationDays -= daysOff;
   }
   
+  // static methods can be called on the class itself, not on instances of the class
   static generatePassword() {
     return Math.floor(Math.random() * 10000);
   }
