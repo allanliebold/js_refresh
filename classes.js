@@ -28,4 +28,12 @@ class Nurse extends HospitalEmployee {
     super(name);
     this._certifications = certifications;
   } 
+  
+  get certifications() {
+    return this._certifications;
+  }
+  
+  addCertification(newCertification) {
+    this.certifications.push(newCertification);
+  }
 }
