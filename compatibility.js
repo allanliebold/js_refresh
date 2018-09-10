@@ -8,7 +8,7 @@ let esFivePercentageSupport = 95.88; // 95.88% of browsers support ES5, accordin
 let esSixTemplateLiterals = 88.05 // 88.05% of browsers support ES6 template literals
 
 // Babel transpiles ES6 into ES5
-// > npm install babel-cli
 // > npm install babel-preset-env
 // > npm run build
 // > npm init 
+// > npm install babel-cli -D
