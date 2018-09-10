@@ -9,3 +9,4 @@ let esSixTemplateLiterals = 88.05 // 88.05% of browsers support ES6 template lit
 
 // Babel transpiles ES6 into ES5
 // > npm install babel-cli
+// > npm install babel-preset-env
