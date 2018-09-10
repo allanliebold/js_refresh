@@ -5,3 +5,4 @@ let sauce = 'Eggs and cheese'; //ES6
 const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
 
 let esFivePercentageSupport = 95.88; // 95.88% of browsers support ES5, according to caniuse.com
+let esSixTemplateLiterals = 88.05 
