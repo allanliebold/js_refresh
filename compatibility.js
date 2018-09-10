@@ -11,3 +11,4 @@ let esSixTemplateLiterals = 88.05 // 88.05% of browsers support ES6 template lit
 // > npm install babel-cli
 // > npm install babel-preset-env
 // > npm run build
+// > npm init 
