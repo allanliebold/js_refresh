@@ -25,6 +25,6 @@ $(document).ready(() => {
    	.animate({
      	fontSize: '24px'
    	}, 200)
-  })
+  });
   
 });
