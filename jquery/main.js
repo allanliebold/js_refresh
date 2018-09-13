@@ -12,4 +12,8 @@ $(document).ready(() => {
     $('.fade-image').slideToggle();
     $('.first-image').slideToggle();
   });
+  
+  $('.menu-button').on('mouseenter', () => {
+    $('.nav-menu').show()
+  })
 });
