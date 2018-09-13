@@ -27,4 +27,13 @@ $(document).ready(() => {
    	}, 200)
   });
   
+  $('.nav-menu').on('mouseleave', () => {
+    $('.nav-menu').hide();
+    $('.menu-button').css({
+      color: '#EFEFEF',
+      backgroundColor: '#303030'
+    }).animate({
+      fontSize: '18px'
+    }, 200);
+  })
 });
