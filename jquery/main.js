@@ -13,10 +13,6 @@ $(document).ready(() => {
     $('.first-image').slideToggle();
   });
   
-  $('.menu-button').on('mouseenter', () => {
-    $('.nav-menu').show()
-  });
-  
   $('.product-photo').on('mouseenter', event => {
     $(event.currentTarget).addClass('photo-active')
   }).on('mouseleave', event => {
