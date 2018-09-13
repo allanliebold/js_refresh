@@ -21,5 +21,6 @@ $(document).ready(() => {
     $(event.currentTarget).addClass('photo-active')
   }).on('mouseleave', event => {
     $(event.currentTarget).removeClass('photo-active')
-  })
+  });
+  
 });
