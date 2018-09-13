@@ -16,4 +16,10 @@ $(document).ready(() => {
   $('.menu-button').on('mouseenter', () => {
     $('.nav-menu').show()
   });
+  
+  $('.product-photo').on('mouseenter', event => {
+    $(event.currentTarget).addClass('photo-active')
+  }).on('mouseleave', event => {
+    $(event.currentTarget).removeClass('photo-active')
+  })
 });
