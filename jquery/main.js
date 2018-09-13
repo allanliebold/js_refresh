@@ -7,5 +7,9 @@ $(document).ready(() => {
     $('.fade-image').fadeToggle();
   });
   
-  
+  $('.slide-toggle-button').on('click', () => {
+    $('.slide-image').slideToggle();
+    $('.fade-image').slideToggle();
+    $('.first-image').slideToggle();
+  });
 });
