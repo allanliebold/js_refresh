@@ -19,4 +19,12 @@ $(document).ready(() => {
     $(event.currentTarget).removeClass('photo-active')
   });
   
+    $('.menu-button').on('mouseenter', () => {
+    $('.nav-menu').removeClass('hide');
+    $('.menu-button').addClass('button-active')
+    	.animate({
+      	fontSize: '24px'
+    	}, 200)
+  })
+  
 });
