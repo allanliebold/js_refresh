@@ -15,5 +15,5 @@ $(document).ready(() => {
   
   $('.menu-button').on('mouseenter', () => {
     $('.nav-menu').show()
-  })
+  });
 });
