@@ -3,7 +3,9 @@ $(document).ready(() => {
     $('.main-image').toggle();
   });
   
-
+  $('.fade-toggle-button').on('click', () => {
+    $('.fade-image').fadeToggle();
+  });
   
   
 });
