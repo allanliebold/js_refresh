@@ -7,3 +7,11 @@ const exampleJSXList = {
   second: <li>Second</li>,
   third: <li>Third</li>
 };
+
+ const theExample = (
+   <a href="https://www.example.com">
+     <h1>
+       Click me!
+     </h1>
+   </a>
+ );
