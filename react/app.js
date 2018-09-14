@@ -8,10 +8,10 @@ const exampleJSXList = {
   third: <li>Third</li>
 };
 
- const theExample = (
-   <a href="https://www.example.com">
-     <h1>
-       Click me!
-     </h1>
-   </a>
- );
+const theExample = (
+  <a href="https://www.example.com">
+    <h1>
+      Click me!
+    </h1>
+  </a>
+);
