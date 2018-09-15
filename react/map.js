@@ -9,4 +9,5 @@ const peopleList = people.map(person =>
 
 ReactDOM.render(
   <ul>{peopleList}</ul>,
+  document.getElementById('app')
 );
