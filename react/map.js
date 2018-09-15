@@ -7,4 +7,6 @@ const peopleList = people.map(person =>
   <li>{person}</li>
 );
 
-ReactDOM.render();
+ReactDOM.render(
+  <ul>{peopleList}</ul>,
+);
