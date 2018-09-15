@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const people = ['Bill', 'Bob', 'Dave'];
 
-const peopleList = people.map(person =>
+const peopleList = people.map((person, i) =>
   <li>{person}</li>
 );
 
