@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 const title = <h1 id="title">Introduction to React.js: Part I</h1>;
 
 const myArticle = <article></article>;
@@ -22,14 +25,3 @@ const listItems = strings.map(string => <li>{string}</li>);
 
 <ul>{listItems}</ul>
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-const people = ['Rowe', 'Prevost', 'Gare'];
-
-const peopleLis = people.map(person =>
-  // expression goes here:
-
-);
-
-// ReactDOM.render goes here:
