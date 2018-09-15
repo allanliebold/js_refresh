@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 const people = ['Bill', 'Bob', 'Dave'];
 
 const peopleList = people.map((person, i) =>
-  <li>{person}</li>
+  <li key={'person_' + i}>{person}</li>
 );
 
 ReactDOM.render(
