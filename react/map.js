@@ -6,3 +6,5 @@ const people = ['Bill', 'Bob', 'Dave'];
 const peopleList = people.map(person =>
   <li>{person}</li>
 );
+
+ReactDOM.render();
