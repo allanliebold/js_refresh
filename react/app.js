@@ -25,3 +25,4 @@ const listItems = strings.map(string => <li>{string}</li>);
 
 <ul>{listItems}</ul>
 
+ReactDOM.render();
