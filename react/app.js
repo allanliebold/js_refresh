@@ -31,4 +31,4 @@ const exampleEl = React.createElement(
   "Example Element"
 );
 
-ReactDOM.render();
+ReactDOM.render(exampleEl, document.getElementById('app'));
