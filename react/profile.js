@@ -6,6 +6,7 @@ class Profile extends React.Component {
     return (
       <div>
         <h1>Profile</h1>
+        <p>Lorem ipsum etcetera and so forth...</p>
       </div>
     );
   }
