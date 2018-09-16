@@ -5,6 +5,7 @@ class Profile extends React.Component {
   render() {
     return (
       <div>
+        <NavBar />
         <h1>Profile</h1>
         <p>Lorem ipsum etcetera and so forth...</p>
       </div>
