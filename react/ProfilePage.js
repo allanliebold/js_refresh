@@ -14,4 +14,6 @@ class Profile extends React.Component {
   }
 };
 
-ReactDOM.render();
+ReactDOM.render(
+  <Profile />
+);
