@@ -15,5 +15,6 @@ class ProfilePage extends React.Component {
 };
 
 ReactDOM.render(
-  <ProfilePage />
+  <ProfilePage />,
+  document.getElementById('app')
 );
