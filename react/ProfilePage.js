@@ -13,3 +13,5 @@ class Profile extends React.Component {
     );
   }
 };
+
+ReactDOM.render();
