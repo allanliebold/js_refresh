@@ -15,5 +15,5 @@ class ProfilePage extends React.Component {
 };
 
 ReactDOM.render(
-  <Profile />
+  <ProfilePage />
 );
