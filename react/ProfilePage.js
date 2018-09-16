@@ -9,6 +9,9 @@ class ProfilePage extends React.Component {
         <NavBar />
         <h1>Profile</h1>
         <p>Lorem ipsum etcetera and so forth...</p>
+        <ul>Stuff
+      
+        </ul>
       </div>
     );
   }
