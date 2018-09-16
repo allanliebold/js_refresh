@@ -9,5 +9,7 @@ class NavBar extends React.Component {
         {page}
         </a>
       )};
+                               
+    return <nav>{navLinks}</nav>;
   }
 }
