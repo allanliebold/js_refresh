@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { NavBar } from './NavBar';
 
 class Profile extends React.Component {
   render() {
