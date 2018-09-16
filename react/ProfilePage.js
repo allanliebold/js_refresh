@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { NavBar } from './NavBar';
 
-class Profile extends React.Component {
+class ProfilePage extends React.Component {
   render() {
     return (
       <div>
