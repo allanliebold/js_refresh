@@ -6,7 +6,9 @@ class PropsDisplayer extends React.Component {
     const stringProps = JSON.stringify(this.props);
     
     return (
-      
+      <div>
+      <h2>{stringProps}</h2>
+      </div>
     );
   }
 }
