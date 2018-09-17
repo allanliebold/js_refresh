@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 
 class PropsDisplayer extends React.Component {
   render() {
-   
+    
   }
 }
