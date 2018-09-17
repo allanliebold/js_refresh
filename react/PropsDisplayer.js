@@ -14,6 +14,6 @@ class PropsDisplayer extends React.Component {
 }
 
 ReactDOM.render(
-  <PropsDisplayer />,
+  <PropsDisplayer myInfo="Hello" />,
   document.getElementById('app')
 );
