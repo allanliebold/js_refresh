@@ -3,5 +3,7 @@ import ReactDOM from 'react-dom';
 
 
 class Parent extends React.Component {
-  
+  render() {
+    
+  }
 }
