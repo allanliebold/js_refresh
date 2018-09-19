@@ -10,7 +10,7 @@ class Parent extends React.Component {
   
   render() {
     return (
-      <Child />
+      <Child name={this.state.name} />
     );
   }
 };
