@@ -9,7 +9,10 @@ class Input extends React.Component {
   
   render() {
     return (
-      
+      <div>
+        <input type="text" value={this.state.userInput} onChange={this.handleUserInput} />
+        <h1>Your input is: {this.state.userInput}</h1>
+      </div>
     );
   }
 };
