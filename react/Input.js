@@ -5,7 +5,13 @@ class Input extends React.Component {
   constructor(props) {
     super(props);
     this.state = { userInput: '' };
-  };
+  }
+  
+  handleUserInput(e) {
+    this.setState({
+      userInput: e.target.value
+    }); 
+  }
   
   render() {
     return (
