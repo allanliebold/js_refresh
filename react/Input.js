@@ -24,3 +24,8 @@ export class Input extends React.Component {
     );
   }
 };
+
+ReactDOM.render(
+  <Input />,
+  document.getElementById('app')
+);
