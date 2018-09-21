@@ -21,3 +21,6 @@ export class LifeCycle extends React.Component {
   );
 }
 
+ReactDOM.render(
+  
+);
