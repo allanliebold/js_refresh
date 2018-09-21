@@ -26,3 +26,5 @@ ReactDOM.render(
   <Flashy color='red' />,
   document.getElementById('app');
 );
+
+// The second render should not display the alerts for componentWillMount and componentDidMount.
