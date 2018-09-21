@@ -29,5 +29,7 @@ ReactDOM.render(
 
 // The second render should not display the alerts for componentWillMount and componentDidMount.
 setTimeout(() => {
-  
+  ReactDOM.render(
+    
+  );
 }, 2000);
