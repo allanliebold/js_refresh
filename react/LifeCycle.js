@@ -8,6 +8,9 @@ export class LifeCycle extends React.Component {
   }  
   
   return (
-    <h1>LifeCycle</h1>
+    <h1 style={{ color: this.props.color }}>
+     LifeCycle
+    </h1>
   );
 }
+
