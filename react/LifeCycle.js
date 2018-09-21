@@ -6,4 +6,8 @@ export class LifeCycle extends React.Component {
   render() {
     alert('Rendering.');
   }  
+  
+  return (
+    <h1>LifeCycle</h1>
+  );
 }
