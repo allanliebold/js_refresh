@@ -22,5 +22,6 @@ export class LifeCycle extends React.Component {
 }
 
 ReactDOM.render(
-  
+  <Flashy color='red' />,
+  document.getElementById('app');
 );
