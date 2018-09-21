@@ -7,7 +7,7 @@ export class LifeCycle extends React.Component {
   }
   
   componentDidMount() {
-    
+    alert('Component did mount.');
   }
   
   render() {
