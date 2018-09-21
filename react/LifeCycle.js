@@ -6,6 +6,10 @@ export class LifeCycle extends React.Component {
     alert('Component will mount.');
   }
   
+  componentDidMount() {
+    
+  }
+  
   render() {
     alert('Rendering.');
   }  
