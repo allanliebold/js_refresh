@@ -21,6 +21,7 @@ export class LifeCycle extends React.Component {
   );
 }
 
+// The first render should display the alerts for componentWillMount, render, then componentDidMount.
 ReactDOM.render(
   <Flashy color='red' />,
   document.getElementById('app');
