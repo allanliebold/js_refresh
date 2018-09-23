@@ -3,3 +3,8 @@ class AppComponent extends React.Component {
     
   }
 }
+
+ReactDOM.render(
+    <AppComponent />,
+    document.getElementById('app')
+);
