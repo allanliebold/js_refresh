@@ -25,7 +25,20 @@ class AppComponent extends React.Component {
     }    
     
   render() {
-    
+        const {filter, todos} = this.state;
+        const filteredTodos = filter.showCompleted 
+            ? todos
+            : todos.filter(todo => !todo.isCompleted);
+
+        return (
+            <div>
+                <h2>To Do</h2>
+                <label>
+                    <input type="checkbox" checked={filter.showCompleted} onChange={this._onShowCompletedChanged} />
+                </label>
+                <ToDoList todos={filteredTodos} />
+            </div>
+        );
   }
 }
 
