@@ -38,6 +38,7 @@ class AppComponent extends React.Component {
                     <input type="checkbox" checked={filter.showCompleted} onChange={this._onShowCompletedChanged} />
                 </label>
                 <ToDoList todos={filteredTodos} />
+                    <li></li>
             </div>
         );
   }
