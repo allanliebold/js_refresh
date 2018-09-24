@@ -1,9 +1,4 @@
-function ToDoList({todos}) {
-    const items = [];
-    for (let todo of todos) {
-        items.push(<li>{todo.text}</li>);
-    }
-    
+function ToDoList({todos}) {    
     return (
         <ul>
             {todos.map(todo =>
