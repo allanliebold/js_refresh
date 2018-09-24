@@ -1,7 +1,7 @@
 function ToDoList({todos}) {
     return (
         <ul>
-            <li>List</li>
+            <li>To Do List</li>
         </ul>
     );
 }
