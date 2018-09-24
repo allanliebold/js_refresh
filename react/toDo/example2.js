@@ -25,7 +25,6 @@ class AppComponent extends React.Component {
                 { id: this._nextToDoId++, text: "Done", isCompleted: true }
             ]
         };
-
         this._onShowCompletedChanged = this._onShowCompletedChanged.bind(this);
     }    
     
