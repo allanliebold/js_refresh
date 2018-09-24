@@ -1,5 +1,9 @@
 function ToDoList({todos}) {
     const items = [];
+    for (let todo of todos) {
+        
+    }
+    
     return (
         <ul>
         </ul>
