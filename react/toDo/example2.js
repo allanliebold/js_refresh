@@ -1,5 +1,5 @@
 function ToDoList({todos}) {
-
+    const items = [];
     return (
         <ul>
         </ul>
