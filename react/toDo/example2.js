@@ -1,4 +1,5 @@
 function ToDoList({todos}) {
+    console.log(todos);
     return (
         <ul>
             <li>To Do List</li>
