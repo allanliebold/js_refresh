@@ -1,4 +1,4 @@
-function ToDoList(props) {
+function ToDoList({todos}) {
     return (
         <ul>
             <li>List</li>
