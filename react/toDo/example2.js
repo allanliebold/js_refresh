@@ -6,6 +6,7 @@ function ToDoList({todos}) {
     
     return (
         <ul>
+                   {items}
         </ul>
     );
 }
