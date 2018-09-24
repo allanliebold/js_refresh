@@ -1,7 +1,7 @@
 function ToDoList({todos}) {
     const items = [];
     for (let todo of todos) {
-        
+        items.push(<li>{todo.text}</li>);
     }
     
     return (
