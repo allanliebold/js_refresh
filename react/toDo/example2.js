@@ -46,9 +46,9 @@ class AppComponent extends React.Component {
         );
   }
     
-   _setTodoStatus(todo, isComplete) {
-        console.log(todo);
-   }
+  _setTodoStatus(todo, isComplete) {
+       console.log(todo);
+  }
 }
 
 ReactDOM.render(
