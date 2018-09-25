@@ -44,6 +44,10 @@ class AppComponent extends React.Component {
             </div>
         );
   }
+    
+    _setTodoStatus() {
+        
+    }
 }
 
 ReactDOM.render(
