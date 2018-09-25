@@ -5,7 +5,7 @@ function ToDoList({todos}) {
                 <li key={todo.id}>
                     {todo.isCompleted
                         ? <del>{todo.text}</del>
-                        : {todo.text}
+                        : todo.text}
                 </li>)}
         </ul>
     );
