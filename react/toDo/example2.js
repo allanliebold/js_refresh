@@ -26,6 +26,7 @@ class AppComponent extends React.Component {
             ]
         };
         this._onShowCompletedChanged = this._onShowCompletedChanged.bind(this);
+        this._setTodoStatus = this._setTodoStatus.bind(this);
     }    
     
   render() {
