@@ -3,7 +3,9 @@ function ToDoList({todos}) {
         <ul>
             {todos.map(todo =>
                 <li key={todo.id}>
-                    {todo.text}
+                    {todo.isCompleted
+                        ? <del>{todo.text}</del>
+                        : {todo.text}
                 </li>)}
         </ul>
     );
