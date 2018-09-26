@@ -4,6 +4,7 @@ function ToDoList({todos}) {
             {todos.map(todo =>
                 <li key={todo.id}>
                     <label>
+                        <input />
                         {todo.isCompleted
                             ? <del>{todo.text}</del>
                             : todo.text}
