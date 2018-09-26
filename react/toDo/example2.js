@@ -4,7 +4,7 @@ function ToDoList({todos}) {
             {todos.map(todo =>
                 <li key={todo.id}>
                     <label>
-                        <input type="checkbox" />
+                        <input type="checkbox" onChange={e => onSetTodoStatus()} />
                         {todo.isCompleted
                             ? <del>{todo.text}</del>
                             : todo.text}
