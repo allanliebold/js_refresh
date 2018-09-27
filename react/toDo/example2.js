@@ -51,6 +51,7 @@ class AppComponent extends React.Component {
     
   _setTodoStatus(todo, isComplete) {
     const {todos} = this.state;
+    this.setState();
   }
 }
 
