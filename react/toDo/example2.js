@@ -52,10 +52,11 @@ class AppComponent extends React.Component {
   _setTodoStatus(todo, isComplete) {
     const {todos} = this.state;
     const newTodos = todos.map(oldTodo => {
-            if(oldTodo.id !== todo.id) 
-                return oldTodo;   
-            return Object.assign({}, oldTodo, {isCompleted}); 
-        });    
+        if(oldTodo.id !== todo.id) 
+            return oldTodo;   
+        return Object.assign({}, oldTodo, {isCompleted}); 
+    });    
+    
     this.setState({ todos: newTodos });
   }
     
