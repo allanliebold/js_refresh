@@ -57,7 +57,9 @@ class AppComponent extends React.Component {
   }
     
   _onShowCompletedChanged(e) {
-      
+    this.setState({
+        
+    });
   }
 }
 
