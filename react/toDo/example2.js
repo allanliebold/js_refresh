@@ -56,7 +56,7 @@ class AppComponent extends React.Component {
             if(oldTodo.id !== todo.id) {
                 return oldTodo;   
             } else {
-                
+                return Object.assign({}, oldTodo, {isCompleted}); 
             }
         });    
     });
