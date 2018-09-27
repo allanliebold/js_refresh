@@ -53,7 +53,9 @@ class AppComponent extends React.Component {
     const {todos} = this.state;
     this.setState({
         todos: todos.map(oldTodo => {
-            if(oldTodo.id !== todo.id)    
+            if(oldTodo.id !== todo.id) {
+                return oldTodo;   
+            }
         });    
     });
   }
