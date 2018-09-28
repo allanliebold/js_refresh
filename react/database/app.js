@@ -14,7 +14,9 @@ const people = [
 class Directory extends React.Component {
 
   render() {
-    
+    <ul>
+      {peopleList}  
+    </ul>
   }
 }
 
