@@ -17,3 +17,9 @@ class Directory extends React.Component {
     
   }
 }
+
+
+ReactDOM.render(
+  <Directory />,
+  document.getElementById('app');
+);
