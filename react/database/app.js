@@ -11,6 +11,12 @@ const people = [
   }
 ];
 
+const peopleList = people.map(person => <li>
+                                <div>Name:{person.name}</div>
+                             
+                              </li>
+);
+
 class Directory extends React.Component {
 
   render() {
