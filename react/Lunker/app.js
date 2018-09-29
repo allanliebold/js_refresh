@@ -5,5 +5,6 @@ class Game extends React.Component {
 };
 
 ReactDOM.render(
-  
+  <Game />,
+  document.getElementsById('app')
 );
