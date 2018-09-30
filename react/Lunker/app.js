@@ -1,4 +1,14 @@
 class Game extends React.Component {
+      constructor(props) {
+        super(props);
+
+        this.state = {
+            currScene: scenesArr[0]
+        };
+
+        this._changeScene = this._changeScene.bind(this);
+    }
+  
   const {currScene} = this.state;
   let northButton, southButton, eastButton, westButton;  
 
