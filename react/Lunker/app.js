@@ -6,9 +6,9 @@ class Game extends React.Component {
     ? northButton = <button onClick={() => this._changeScene(currScene.go[0]) }>N</button>
     : northButton = <button>X</button>;
 
-        currScene.go[1]
-            ? southButton = <button onClick={() => this._changeScene(currScene.go[1]) }>S</button>
-            : southButton = <button>X</button>;
+  currScene.go[1]
+    ? southButton = <button onClick={() => this._changeScene(currScene.go[1]) }>S</button>
+    : southButton = <button>X</button>;
 
   render() {
     return(
