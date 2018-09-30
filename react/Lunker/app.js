@@ -1,6 +1,7 @@
 class Game extends React.Component {
   const {currScene} = this.state;
-  
+  let northButton, southButton, eastButton, westButton;  
+
   render() {
     return(
       <div>
