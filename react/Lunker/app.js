@@ -3,10 +3,10 @@ class Game extends React.Component {
       super(props);
 
       this.state = {
-            currScene: scenesArr[0]
+         currScene: scenesArr[0]
       };
 
-  this._changeScene = this._changeScene.bind(this);
+      this._changeScene = this._changeScene.bind(this);
   }
   
   render() {
