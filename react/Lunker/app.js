@@ -14,6 +14,10 @@ class Game extends React.Component {
     ? eastButton = <button onClick={() => this._changeScene(currScene.go[2]) }>E</button>
     : eastButton = <button>X</button>;
 
+        currScene.go[3]
+            ? westButton = <button onClick={() => this._changeScene(currScene.go[3]) }>W</button>
+            : westButton = <button>X</button>;
+
   render() {
     return(
       <div>
