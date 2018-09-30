@@ -2,6 +2,10 @@ class Game extends React.Component {
   const {currScene} = this.state;
   let northButton, southButton, eastButton, westButton;  
 
+  currScene.go[0]
+    ? northButton = <button onClick={() => this._changeScene(currScene.go[0]) }>N</button>
+    : northButton = <button>X</button>;
+
   render() {
     return(
       <div>
