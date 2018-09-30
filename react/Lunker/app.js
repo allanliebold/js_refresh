@@ -1,4 +1,6 @@
 class Game extends React.Component {
+  const {currScene} = this.state;
+  
   render() {
     return(
       <div>
