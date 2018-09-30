@@ -1,16 +1,17 @@
 class Game extends React.Component {
-      constructor(props) {
-        super(props);
+   constructor(props) {
+      super(props);
 
-        this.state = {
+      this.state = {
             currScene: scenesArr[0]
-        };
+      };
 
-        this._changeScene = this._changeScene.bind(this);
-    }
+  this._changeScene = this._changeScene.bind(this);
+  }
   
-  const {currScene} = this.state;
-  let northButton, southButton, eastButton, westButton;  
+  render() {
+      const {currScene} = this.state;
+      let northButton, southButton, eastButton, westButton;  
 
   currScene.go[0]
     ? northButton = <button onClick={() => this._changeScene(currScene.go[0]) }>N</button>
@@ -28,8 +29,7 @@ class Game extends React.Component {
     ? westButton = <button onClick={() => this._changeScene(currScene.go[3]) }>W</button>
     : westButton = <button>X</button>;
 
-  render() {
-    return(
+  return(
       <div>
         <h2>{currScene.name}</h2>
         <p>{currScene.text}</p>
