@@ -1,15 +1,18 @@
 const scenesArr = [
    { 
       id: 1, 
-      text: 'Scene 1' 
+      text: 'Scene 1',
+      go: ['1']
    }, 
    { 
       id: 2,
-      text: 'Scene 2' 
+      text: 'Scene 2',
+      go: ['2']
    },
    {
       id: 3,
-      text: 'Scene 3'
+      text: 'Scene 3',
+      go: ['0']
    }
 ];
 
