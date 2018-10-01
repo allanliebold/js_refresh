@@ -1,4 +1,6 @@
-const scenesArr = [];
+const scenesArr = [
+   { id: 1 }, {id: 2}
+];
 
 class Game extends React.Component {
    constructor(props) {
