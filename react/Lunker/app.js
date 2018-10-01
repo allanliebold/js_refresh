@@ -2,7 +2,7 @@ const scenesArr = [
    { 
       id: 1, 
       text: 'Scene 1',
-      go: ['1']
+      go: ['1', false, false, false]
    }, 
    { 
       id: 2,
