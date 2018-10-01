@@ -1,7 +1,8 @@
 const scenesArr = [
    { id: 1, 
      text: 'Scene 1' }, 
-   { id: 2 }
+   { id: 2,
+     text: 'Scene 2' }
 ];
 
 class Game extends React.Component {
