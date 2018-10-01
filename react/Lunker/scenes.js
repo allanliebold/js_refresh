@@ -1,1 +1,1 @@
-const scenesArr = [];
+export const scenesArr = [];
