@@ -1,6 +1,7 @@
 export const scenesArr = [
   {
-    id: 1
+    id: 1,
+    name: 'Scene 1'
   },
   {
     id: 2
