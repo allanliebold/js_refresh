@@ -8,7 +8,8 @@ export const scenesArr = [
   {
     id: 2,
     name: 'Scene 2',
-    text: ''
+    text: '',
+    go: []
   },
   {
     id: 3,
