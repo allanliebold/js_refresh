@@ -2,7 +2,7 @@ export const scenesArr = [
   {
     id: 1,
     name: 'Scene 1',
-    text: '',
+    text: 'There is a passage north.',
     go: ['1', false, false, false]
   },
   {
