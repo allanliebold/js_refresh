@@ -3,7 +3,8 @@ export const scenesArr = [
     id: 1,
     name: 'Room',
     text: 'There is a passage north.',
-    go: ['1', false, false, false]
+    go: ['1', false, false, false],
+    visited: false
   },
   {
     id: 2,
