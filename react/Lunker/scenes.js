@@ -3,7 +3,7 @@ export const scenesArr = [
     id: 1,
     name: 'Scene 1',
     text: '',
-    go: []
+    go: [false, false, false, false]
   },
   {
     id: 2,
