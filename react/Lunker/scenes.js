@@ -14,6 +14,7 @@ export const scenesArr = [
   {
     id: 3,
     name: 'Scene 3',
-    text: ''
+    text: '',
+    go: []
   }
 ];
