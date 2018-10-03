@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const numbers = [1, 2, 3, 4];
 const people = ['Bill', 'Bob', 'Dave'];
 
 const peopleList = people.map((person, i) =>
