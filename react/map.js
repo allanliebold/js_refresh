@@ -9,7 +9,7 @@ const peopleList = people.map((person, i) =>
 );
 
 const doubleNumList = numbers.map((number) =>
-                                  
+  <li key={}></li>                               
 );
 
 ReactDOM.render(
