@@ -14,5 +14,6 @@ const doubleNumList = numbers.map((number) =>
 
 ReactDOM.render(
   <ul>{peopleList}</ul>,
+  <ul>{doubleNumList}</ul>,
   document.getElementById('app')
 );
