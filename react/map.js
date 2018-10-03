@@ -8,6 +8,10 @@ const peopleList = people.map((person, i) =>
   <li key={'person_' + i}>{person}</li>
 );
 
+const doubleNumList = numbers.map((number) =>
+                                  
+                                  );
+
 ReactDOM.render(
   <ul>{peopleList}</ul>,
   document.getElementById('app')
