@@ -1,4 +1,4 @@
-export const scenesArr = [
+const scenesArr = [
   {
     id: 1,
     name: 'Room',
