@@ -1,19 +1,25 @@
-const scenesArr = [
-   { 
-      id: 1, 
-      text: 'Scene 1',
-      go: ['1', false, false, false] // go: North, South, East, West
-   }, 
-   { 
-      id: 2,
-      text: 'Scene 2',
-      go: ['2', '0', false, false]
-   },
-   {
-      id: 3,
-      text: 'Scene 3',
-      go: ['1', false, false, false]
-   }
+export const scenesArr = [
+  {
+    id: 1,
+    name: 'Room',
+    text: 'There is a passage north.',
+    go: ['1', false, false, false],
+    visited: false
+  },
+  {
+    id: 2,
+    name: 'Passage',
+    text: 'The passage goes north and south.',
+    go: [false, '0', false, false],
+    visited: false
+  },
+  {
+    id: 3,
+    name: 'Dead End',
+    text: 'There is a passage south.',
+    go: [false, '1', false, false],
+    visited: false
+  }
 ];
 
 class Game extends React.Component {
