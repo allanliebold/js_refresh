@@ -2,7 +2,7 @@ const scenesArr = [
   {
     id: 1,
     name: 'Room',
-    text: 'There is a passage north.',
+    text: 'There is a passage to the north.',
     go: ['1', false, false, false],
     visited: false
   },
