@@ -16,7 +16,7 @@ function ToDoList({todos}) {
 
 class TodoForm extends React.Component {
     constructor(props) {
-        
+        super(props);
     }
     
     render() {
