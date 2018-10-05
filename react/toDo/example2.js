@@ -41,6 +41,10 @@ class TodoForm extends React.Component {
     }
 }
 
+TodoForm.propTypes = {
+    
+};
+
 class AppComponent extends React.Component {
     constructor(props) {
         super(props);
