@@ -17,6 +17,8 @@ function ToDoList({todos}) {
 class TodoForm extends React.Component {
     constructor(props) {
         super(props);
+        
+        this._onSubmit = this._onSubmit.bind(this);
     }
     
     render() {
