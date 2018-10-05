@@ -32,6 +32,7 @@ class TodoForm extends React.Component {
     
     _onSubmit(e) {
         e.preventDefault();
+        const todoText = this._todoText.value;
     }
 }
 
