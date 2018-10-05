@@ -42,7 +42,7 @@ class TodoForm extends React.Component {
 }
 
 TodoForm.propTypes = {
-    
+    onAddTodo: React.PropType.func.isRequired
 };
 
 class AppComponent extends React.Component {
