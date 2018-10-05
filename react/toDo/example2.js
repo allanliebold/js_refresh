@@ -24,7 +24,7 @@ class TodoForm extends React.Component {
     render() {
         return (
             <form onSubmit={this._onSubmit}>
-                <input type="text" ref="something" />
+                <input type="text" ref={input => this._todoText = input} />
                 <button>Add Todo</button>
             </form>
         );
