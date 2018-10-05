@@ -31,7 +31,7 @@ class TodoForm extends React.Component {
     }
     
     _onSubmit(e) {
-        
+        e.preventDefault();
     }
 }
 
