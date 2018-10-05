@@ -35,6 +35,8 @@ class TodoForm extends React.Component {
         const todoText = this._todoText.value;
         if (todoText.length == 0)
             return;
+        
+        this._todoText.value = "";
     }
 }
 
