@@ -15,7 +15,9 @@ function ToDoList({todos}) {
 }
 
 class TodoForm extends React.Component {
-    
+    render() {
+        
+    }
 }
 
 class AppComponent extends React.Component {
