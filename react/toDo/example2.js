@@ -1,7 +1,6 @@
 class AppComponent extends React.Component {
   constructor(props) {
     super(props);
-    
     this.state = {
       count: 5,
       title: "Count"
@@ -17,6 +16,7 @@ class AppComponent extends React.Component {
             </section>
         );
   }
+};
 
 ReactDOM.render(
     <AppComponent />,
