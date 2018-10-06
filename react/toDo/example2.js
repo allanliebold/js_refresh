@@ -5,18 +5,18 @@ class AppComponent extends React.Component {
       count: 5,
       title: "Count"
     };
-  };
+  }
     
   
   render() {
-        return (
-            <section className="site-wrap">
-                <h2>To Do</h2>
-                <p>Paragraph</p>
-            </section>
-        );
+    return (
+      <section className="site-wrap">
+        <h2>To Do</h2>
+        <p>Paragraph</p>
+      </section>
+    );
   }
-};
+}
 
 ReactDOM.render(
     <AppComponent />,
