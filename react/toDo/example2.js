@@ -8,6 +8,7 @@ class AppComponent extends React.Component {
         return (
             <div>
                 <h2>To Do</h2>
+                <p>Paragraph</p>
             </div>
         );
   }
