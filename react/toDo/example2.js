@@ -7,7 +7,6 @@ class AppComponent extends React.Component {
     };
   }
     
-  
   render() {
     return (
       <section className="site-wrap">
