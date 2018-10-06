@@ -6,7 +6,7 @@ class AppComponent extends React.Component {
   
   render() {
         return (
-            <section>
+            <section className="site-wrap">
                 <h2>To Do</h2>
                 <p>Paragraph</p>
             </section>
