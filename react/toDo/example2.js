@@ -8,6 +8,8 @@ class AppComponent extends React.Component {
   }
     
   render() {
+    const {count, title} = this.state;
+    
     return (
       <section className="site-wrap">
         <h2>To Do</h2>
