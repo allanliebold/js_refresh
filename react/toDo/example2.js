@@ -6,10 +6,10 @@ class AppComponent extends React.Component {
   
   render() {
         return (
-            <div>
+            <section>
                 <h2>To Do</h2>
                 <p>Paragraph</p>
-            </div>
+            </section>
         );
   }
 
