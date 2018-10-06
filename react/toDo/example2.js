@@ -12,8 +12,8 @@ class AppComponent extends React.Component {
     
     return (
       <section className="site-wrap">
-        <h2>To Do</h2>
-        <p>Paragraph</p>
+        <h2>{title}</h2>
+        <p>{count}</p>
       </section>
     );
   }
