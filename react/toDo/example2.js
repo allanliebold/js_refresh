@@ -10,11 +10,11 @@ class AppComponent extends React.Component {
   render() {
     const {filter} = this.state;
     
-    return {
+    return (
       <div>
       
       </div>
-    }
+    )
   }
 }
 
