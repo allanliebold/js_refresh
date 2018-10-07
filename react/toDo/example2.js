@@ -14,7 +14,7 @@ class AppComponent extends React.Component {
       <section className="site-wrap">
         <h2>{title}</h2>
         <p>{count}</p>
-        <button>-</button>
+        <button onClick={this.decrement}>-</button>
         <button>+</button>
       </section>
     );
