@@ -17,6 +17,10 @@ class AppComponent extends React.Component {
       </section>
     );
   }
+  
+  increment() {
+    
+  }
 }
 
 ReactDOM.render(
