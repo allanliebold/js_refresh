@@ -19,7 +19,7 @@ class AppComponent extends React.Component {
   }
   
   increment() {
-    
+    console.log("INC"); 
   }
   
   decrement() {
