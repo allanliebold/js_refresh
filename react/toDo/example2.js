@@ -25,7 +25,7 @@ class AppComponent extends React.Component {
   }
   
   decrement() {
-    
+    console.log("DEC");
   }
 }
 
