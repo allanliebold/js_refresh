@@ -7,6 +7,7 @@ class AppComponent extends React.Component {
     };
     
     this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
   }
     
   render() {
