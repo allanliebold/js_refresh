@@ -21,6 +21,10 @@ class AppComponent extends React.Component {
   increment() {
     
   }
+  
+  decrement() {
+    
+  }
 }
 
 ReactDOM.render(
