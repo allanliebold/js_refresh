@@ -30,6 +30,7 @@ class AppComponent extends React.Component {
   
   decrement() {
     const {count} = this.state;
+    this.setState();
   }
 }
 
