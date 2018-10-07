@@ -24,7 +24,7 @@ class AppComponent extends React.Component {
   }
   
   increment() {
-    console.log("INC"); 
+    const {count} = this.state;
   }
   
   decrement() {
