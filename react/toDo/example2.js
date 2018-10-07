@@ -15,7 +15,7 @@ class AppComponent extends React.Component {
         <h2>{title}</h2>
         <p>{count}</p>
         <button onClick={this.decrement}>-</button>
-        <button>+</button>
+        <button onClick={this.increment}>+</button>
       </section>
     );
   }
