@@ -5,6 +5,8 @@ class AppComponent extends React.Component {
       count: 5,
       title: "Count"
     };
+    
+    this.increment = this.increment.bind(this);
   }
     
   render() {
