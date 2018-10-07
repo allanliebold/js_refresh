@@ -12,7 +12,11 @@ class AppComponent extends React.Component {
     
     return (
       <div>
-      
+        <h2>Todo List</h2>
+        <label>
+          Show Completed
+          <input type="checkbox" checked={filter.showCompleted} onChange={} />
+        </label>
       </div>
     )
   }
