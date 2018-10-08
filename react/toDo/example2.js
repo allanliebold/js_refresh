@@ -32,7 +32,8 @@ class AppComponent extends React.Component {
         <label>
           Show Completed
           <input 
-            type="checkbox" checked={filter.showCompleted} onChange={} />
+            type="checkbox" 
+            checked={filter.showCompleted} onChange={} />
         </label>
       </div>
     )
