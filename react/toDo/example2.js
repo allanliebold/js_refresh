@@ -35,7 +35,9 @@ class AppComponent extends React.Component {
   }
   
   _onShowCompletedChanged(e) {
-    this.setState();
+    this.setState({
+      filter: {showCompleted: e.target.checked} 
+    });
   }
 }
 
