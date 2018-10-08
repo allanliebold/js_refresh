@@ -22,6 +22,9 @@ class AppComponent extends React.Component {
   
   render() {
     const {filter} = this.state;
+    const filteredTodos = filter.showCompleted
+      ? todos
+      : todos.filter(todo => !todo.isCompleted);
     
     return (
       <div>
