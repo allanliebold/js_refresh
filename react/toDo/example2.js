@@ -11,7 +11,8 @@ class AppComponent extends React.Component {
     super(props); 
     
     this.state = {
-      filter: { showCompleted: true }
+      filter: { showCompleted: true },
+      todos: []
     };
   }
   
