@@ -10,6 +10,7 @@ class AppComponent extends React.Component {
   constructor(props) {
     super(props); 
     
+    this._nextTodoId = 1;    
     this.state = {
       filter: { showCompleted: true },
       todos: [
