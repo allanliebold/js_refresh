@@ -33,6 +33,10 @@ class AppComponent extends React.Component {
       </div>
     )
   }
+  
+  _onShowCompletedChanged(e) {
+    
+  }
 }
 
 ReactDOM.render(
