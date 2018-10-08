@@ -34,7 +34,7 @@ class AppComponent extends React.Component {
           <input 
             type="checkbox" 
             checked={filter.showCompleted} 
-            onChange={} />
+            onChange={this._onShowCompletedChanged} />
         </label>
       </div>
     )
