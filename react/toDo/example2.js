@@ -14,7 +14,8 @@ class AppComponent extends React.Component {
     this.state = {
       filter: { showCompleted: true },
       todos: [
-        {id: this._nextTodoId++, text: "Hi", isCompleted: false}
+        {id: this._nextTodoId++, text: "Hi", isCompleted: false},
+        {id: this._nextTodoId++, text: "Okay", isCompleted: false}
       ]
     };
   }
