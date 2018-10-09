@@ -12,6 +12,9 @@ ids.forEach(id => {
   db.get("SELECT * FROM TemperatureData WHERE id=$id",
     {
       $id: id
+    },
+    (error, row) => {
+    
     }
-  );
-});
+  }
+);
