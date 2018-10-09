@@ -8,4 +8,6 @@ db.all("SELECT * FROM TemperatureData WHERE year = 1970" (error, rows) => {
   printQueryResults(rows);
 });
 
-ids.forEach();
+ids.forEach(id => {
+  
+});
