@@ -9,5 +9,5 @@ db.all("SELECT * FROM TemperatureData WHERE year = 1970" (error, rows) => {
 });
 
 ids.forEach(id => {
-  db.get();
+  db.get("SELECT * FROM TemperatureData WHERE id=$id");
 });
