@@ -14,7 +14,7 @@ ids.forEach(id => {
       $id: id
     },
     (error, row) => {
-    
-    }
+      printQueryResults(row);
+    })
   }
 );
