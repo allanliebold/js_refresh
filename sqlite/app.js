@@ -7,3 +7,5 @@ const db = new sqlite.Database('./db.sqlite');
 db.all("SELECT * FROM TemperatureData WHERE year = 1970" (error, rows) => {
   printQueryResults(rows);
 });
+
+ids.forEach();
