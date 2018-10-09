@@ -3,4 +3,4 @@ const sqlite3 = require('sqlite3');
 
 const db = new sqlite.Database('./db.sqlite');
 
-db.all();
+db.all("SELECT * FROM TemperatureData");
