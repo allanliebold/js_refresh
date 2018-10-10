@@ -19,6 +19,9 @@ ids.forEach(id => {
       $id: id
     },
     (error, row) => {
+      if(error) {
+        return console.log(error);
+      }
       printQueryResults(row);
     })
   }
