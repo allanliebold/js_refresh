@@ -26,7 +26,8 @@ ids.forEach(id => {
 
 db.run("INSERT INTO Temperature Data(location, year, temp_avg) VALUES($location, $year, $tempAvg)", {
   $location: newRow.location,
-  $year: newRow.year
+  $year: newRow.year,
+  $tempAvg: newRow.tempAvg
 }, function(error) {
   console.log(this.lastID);
 });
