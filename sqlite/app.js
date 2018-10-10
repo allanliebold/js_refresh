@@ -5,7 +5,8 @@ const ids = [5, 20, 43, 100];
 const db = new sqlite.Database('./db.sqlite');
 const newRow = {
   location: 'London, England',
-  year: 1982
+  year: 1982,
+  tempAvg: 17.48
 };
 
 db.all("SELECT * FROM TemperatureData WHERE year = 1970" (error, rows) => {
