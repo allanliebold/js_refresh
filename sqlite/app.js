@@ -32,5 +32,8 @@ db.run("INSERT INTO Temperature Data(location, year, temp_avg) VALUES($location,
   $year: newRow.year,
   $tempAvg: newRow.tempAvg
 }, function(error) {
+  if(error) {
+    console.log(error); 
+  }
   console.log(this.lastID);
 });
