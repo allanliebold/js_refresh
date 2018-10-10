@@ -18,14 +18,13 @@ ids.forEach(id => {
     {
       $id: id
     },
-    (error, row) => {
+    function (error, row) {
       if(error) {
         return console.log(error);
       }
       printQueryResults(row);
     })
-  }
-);
+  });
 
 db.run("INSERT INTO Temperature Data(location, year, temp_avg) VALUES($location, $year, $tempAvg)", {
   $location: newRow.location,
