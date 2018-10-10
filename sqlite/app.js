@@ -4,7 +4,8 @@ const sqlite3 = require('sqlite3');
 const ids = [5, 20, 43, 100];
 const db = new sqlite.Database('./db.sqlite');
 const newRow = {
-  location: 'London, England'
+  location: 'London, England',
+  year: 1982
 };
 
 db.all("SELECT * FROM TemperatureData WHERE year = 1970" (error, rows) => {
