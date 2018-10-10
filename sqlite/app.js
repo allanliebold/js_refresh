@@ -22,3 +22,5 @@ ids.forEach(id => {
     })
   }
 );
+
+db.run();
