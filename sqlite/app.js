@@ -24,5 +24,5 @@ ids.forEach(id => {
 );
 
 db.run("INSERT INTO Temperature Data(location, year) VALUES()", {
-  
+  $location: newRow.location
 }, function() {});
