@@ -23,4 +23,4 @@ ids.forEach(id => {
   }
 );
 
-db.run("INSERT INTO Temperature Data() VALUES()");
+db.run("INSERT INTO Temperature Data(location, year) VALUES()");
