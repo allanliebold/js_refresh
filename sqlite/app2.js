@@ -5,4 +5,6 @@ const db = new sqlite.Database('./db.sqlite');
 
 const temperaturesByYear = {};
 
-db.serialize(() => { };
+db.serialize(() => { 
+  db.run('DROP TABLE IF EXISTS Average', error => {});
+};
