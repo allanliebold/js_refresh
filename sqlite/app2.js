@@ -17,7 +17,9 @@ db.serialize(() => {
       throw error; 
     }
     addClimateRowToObject(row, temperaturesByYear);
-  }
-         
+  },
+    error => {
+      throw error;  
+    }
   );
 };
