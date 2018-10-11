@@ -11,8 +11,5 @@ db.serialize(() => {
       throw error;
     }
   })
-  db.run('CREATE TABLE Average (id INTEGER PRIMARY KEY,
-                                year INTEGER NOT NULL,
-                                temperature REAL NOT NULL',
-                                logNodeError);
+  db.run('CREATE TABLE Average (id INTEGER PRIMARY KEY, year INTEGER NOT NULL, temperature REAL NOT NULL')', logNodeError);
 };
