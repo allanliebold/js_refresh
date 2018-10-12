@@ -1,3 +1,3 @@
 const db = require('./db');
 
-db.each('SELECT * FROM Flower');
+db.each('SELECT * FROM Flower', (error, rows) => {});
