@@ -14,6 +14,14 @@ db.all('SELECT * FROM Scientist WHERE field="biology"', (err, row) => {
   console.log(row);
 });
 
+const db = require('./db');
+
+db.each('SELECT * FROM CartoonCharacter WHERE species="mouse"', (err, row) => {
+  if(row.species === 'mouse') {
+    console.log(row.height);
+  }
+});
+
 // Find the price for each shirt in the Clothing database and log the total price of all of them. 
 
 const db = require('./db');
