@@ -22,3 +22,5 @@ db.each(
 		console.log(totalPrice);
   }
 );
+
+// With db.each there are three arguments. The first is the database query. The second argument is called on each row that is returned. 
