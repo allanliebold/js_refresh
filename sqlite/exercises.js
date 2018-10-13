@@ -40,3 +40,9 @@ db.serialize(() => {
 });
 
 // Placeholders let you use variables in database queries. Placeholder names begin with $. 
+
+const selectByGenre = genre => {
+	db.all('SELECT title FROM Song WHERE genre=$genre', {
+    $genre: genre
+  });
+}
