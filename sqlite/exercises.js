@@ -9,3 +9,5 @@ db.each('SELECT * FROM Flower', (error, row) => {
 });
 
 // Find the price for each shirt in the Clothing database and log the total price of all of them. 
+
+const db = require('./db');
