@@ -29,3 +29,5 @@ db.each(
 // With each shirt, the second argument takes that row's price property and adds its value to a previously declared totalPrice variable.
 // Finally, the third argument is called after the second argument has added all of the shirt prices to the totalPrice, and it logs that 
 // final totalPrice value to the console.
+
+// db.serialize
