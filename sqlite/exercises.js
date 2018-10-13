@@ -7,3 +7,5 @@ db.each('SELECT * FROM Flower', (error, row) => {
     console.log(row);
   }
 });
+
+// Find the price for each shirt in the Clothing database and log the total price of all of them. 
