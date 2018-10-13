@@ -30,7 +30,7 @@ db.each(
 // Finally, the third argument is called after the second argument has added all of the shirt prices to the totalPrice, and it logs that 
 // final totalPrice value to the console.
 
-// db.serialize
+// db.serialize allows database methods to run synchonously. 
 const db = require('./db');
 
 db.serialize(() => {
