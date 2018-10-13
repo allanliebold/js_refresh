@@ -13,4 +13,5 @@ db.each('SELECT * FROM Flower', (error, row) => {
 const db = require('./db');
 let totalPrice = 0;
 
-db.each();
+db.each(
+  'SELECT price FROM Clothing WHERE item="shirt");
