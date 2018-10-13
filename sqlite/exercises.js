@@ -23,6 +23,7 @@ db.each(
   }
 );
 
-// With db.each there are three arguments. The first is the database query. The second argument is called on each row that is returned. 
-// The third argument is called after all other rows have been retrieved. 
+// With db.each there are three arguments. The first is the database query. The second argument, a callback, called on each row that is returned. 
+// The third argument is another callback called after all other rows have been retrieved. 
 // In this case, the query selects each row of the Clothing database's price column where the item column is 'shirt'. 
+// With each shirt, the 
