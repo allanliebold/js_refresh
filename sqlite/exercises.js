@@ -38,3 +38,5 @@ db.serialize(() => {
 	db.run('INSERT INTO POPCORN (type) VALUES ("cheddar")');
 	db.run('INSERT INTO POPCORN (type) VALUES ("kettle corn")');
 });
+
+// Placeholders let you use variables in database queries. Placeholder names begin with $. 
