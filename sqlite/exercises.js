@@ -8,6 +8,12 @@ db.each('SELECT * FROM Flower', (error, row) => {
   }
 });
 
+const db = require('./db');
+
+db.all('SELECT * FROM Scientist WHERE field="biology"', (err, row) => {
+  console.log(row);
+});
+
 // Find the price for each shirt in the Clothing database and log the total price of all of them. 
 
 const db = require('./db');
