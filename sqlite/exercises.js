@@ -80,6 +80,7 @@ const logCaffeineLevel = (name) => {
 
 db.run('INSERT INTO Bridge (name, established_year) VALUES ("Brooklyn Bridge", 1883)');
 
+// Get a specific row using two parameters
 db.get("SELECT traffic FROM TrainStation WHERE station_id=38 AND month='April'", (err, row) => {
   console.log(row.traffic);
 });
