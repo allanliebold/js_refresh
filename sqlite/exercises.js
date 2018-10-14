@@ -62,6 +62,7 @@ const selectByGenre = genre => {
 }
 
 // Use Drop Table if Exists before creating a new table to ensure the new table is clear to start with. 
-
-
+db.serialize(() => {
+	db.run('DROP TABLE IF EXISTS Furniture');
+});
 
