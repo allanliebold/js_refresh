@@ -77,3 +77,5 @@ const logCaffeineLevel = (name) => {
 };
 
 // Insert a new row into a table
+
+db.run('INSERT INTO Bridge (name, established_year) VALUES ("Brooklyn Bridge", 1883)');
