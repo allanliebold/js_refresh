@@ -71,4 +71,6 @@ db.serialize(() => {
 // LogCaffeine function
 const db = require('./db');
 
-const logCaffeineLevel = (name) => {};
+const logCaffeineLevel = (name) => {
+  db.get('SELECT * FROM Tea WHERE name=$name');
+};
