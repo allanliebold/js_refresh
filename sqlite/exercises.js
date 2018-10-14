@@ -60,3 +60,8 @@ const selectByGenre = genre => {
     $genre: genre
   });
 }
+
+// Use Drop Table if Exists before creating a new table to ensure the new table is clear to start with. 
+
+
+
