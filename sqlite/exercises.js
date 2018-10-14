@@ -75,3 +75,5 @@ const logCaffeineLevel = (name) => {
   db.get('SELECT * FROM Tea WHERE name=$name', { $name: name }, 
 	(err, row) => {console.log(row.caffeine_level)});
 };
+
+// Insert a new row into a table
