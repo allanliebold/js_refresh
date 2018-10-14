@@ -76,6 +76,6 @@ const logCaffeineLevel = (name) => {
 	(err, row) => {console.log(row.caffeine_level)});
 };
 
-// Insert a new row into a table
+// Insert a new row into a table with specified values
 
 db.run('INSERT INTO Bridge (name, established_year) VALUES ("Brooklyn Bridge", 1883)');
