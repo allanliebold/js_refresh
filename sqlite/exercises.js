@@ -69,3 +69,6 @@ db.serialize(() => {
 
 
 // LogCaffeine function
+const db = require('./db');
+
+const logCaffeineLevel = (name) => {};
