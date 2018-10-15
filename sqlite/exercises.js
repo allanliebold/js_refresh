@@ -76,9 +76,10 @@ const logFloorsForAddress = address => {
   });
 }
 
-// Add a new row to the database with specified parameters
+// Add a new row to the database with pre-set parameters
 db.run('INSERT INTO BirdOfParadise (scientific_name, common_name) VALUES ("Cicinnurus regius", "king bird-of-paradise")');
 
+// Add a new row to the database with user specified parameters using placeholders
 const addMovie = (title, publicationYear, director) => {
 	db.run('INSERT INTO Movie (title, publication_year, director) VALUES ($title, $publication_year, $director)', 
         {
