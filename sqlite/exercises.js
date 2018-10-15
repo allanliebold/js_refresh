@@ -92,3 +92,13 @@ const logFloorsForAddress = address => {
 }
 
 db.run('INSERT INTO BirdOfParadise (scientific_name, common_name) VALUES ("Cicinnurus regius", "king bird-of-paradise")');
+
+const addMovie = (title, publicationYear, director) => {
+	db.run('INSERT INTO Movie (title, publication_year, director) VALUES ($title, $publication_year, $director)', 
+        {
+    		$title: title,
+    		$publication_year: publicationYear,
+    		$director: director
+  	});
+};
+
