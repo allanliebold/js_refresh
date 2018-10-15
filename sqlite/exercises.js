@@ -38,8 +38,6 @@ db.each(
 // final totalPrice value to the console.
 
 // db.serialize allows database methods to run synchonously. 
-const db = require('./db');
-
 db.serialize(() => {
 	db.run('CREATE TABLE Popcorn (id INTEGER PRIMARY KEY, type TEXT)');
 	db.run('INSERT INTO POPCORN (type) VALUES ("cheddar")');
