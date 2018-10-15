@@ -12,8 +12,7 @@ db.all('SELECT * FROM Scientist WHERE field="biology"', (err, row) => {
   console.log(row);
 });
 
-const db = require('./db');
-
+// Select all rows with a specified parameter and log another parameter
 db.each('SELECT * FROM CartoonCharacter WHERE species="mouse"', (err, row) => {
   if(row.species === 'mouse') {
     console.log(row.height);
