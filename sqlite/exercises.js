@@ -7,8 +7,7 @@ db.each('SELECT * FROM Flower', (error, row) => {
   }
 });
 
-const db = require('./db');
-
+// Select all rows with a specified parameter
 db.all('SELECT * FROM Scientist WHERE field="biology"', (err, row) => {
   console.log(row);
 });
