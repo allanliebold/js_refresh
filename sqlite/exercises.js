@@ -90,3 +90,5 @@ const logFloorsForAddress = address => {
     console.log(row.number_of_floors);
   });
 }
+
+db.run('INSERT INTO BirdOfParadise (scientific_name, common_name) VALUES ("Cicinnurus regius", "king bird-of-paradise")');
