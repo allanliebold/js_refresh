@@ -45,11 +45,8 @@ db.serialize(() => {
 });
 
 // Placeholders let you use variables in database queries. Placeholder names begin with $. 
-
 const selectByGenre = genre => {
-	db.all('SELECT title FROM Song WHERE genre=$genre', {
-    $genre: genre
-  });
+	db.all('SELECT title FROM Song WHERE genre=$genre', { $genre: genre });
 }
 
 // Use Drop Table if Exists before creating a new table to ensure the new table is clear to start with. 
