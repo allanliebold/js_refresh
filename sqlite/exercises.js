@@ -14,9 +14,7 @@ db.all('SELECT * FROM Scientist WHERE field="biology"', (err, row) => {
 
 // Select all rows with a specified parameter and log another parameter
 db.each('SELECT * FROM CartoonCharacter WHERE species="mouse"', (err, row) => {
-  if(row.species === 'mouse') {
-    console.log(row.height);
-  }
+  console.log(row.height);
 });
 
 // Find the price for each shirt in the Clothing database and log the total price of all of them. 
