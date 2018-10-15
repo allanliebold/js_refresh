@@ -55,8 +55,7 @@ db.serialize(() => {
 	db.run('CREATE TABLE Furniture');
 });
 
-
-// LogCaffeine function
+// LogCaffeine function. Create a function that takes in an argument name and uses it as a placeholder in a database query. 
 const logCaffeineLevel = (name) => {
   db.get('SELECT * FROM Tea WHERE name=$name', { $name: name }, 
 	(err, row) => {console.log(row.caffeine_level)});
