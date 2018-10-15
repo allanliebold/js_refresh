@@ -84,3 +84,9 @@ db.run('INSERT INTO Bridge (name, established_year) VALUES ("Brooklyn Bridge", 1
 db.get("SELECT traffic FROM TrainStation WHERE station_id=38 AND month='April'", (err, row) => {
   console.log(row.traffic);
 });
+
+const logFloorsForAddress = address => {
+  db.get('SELECT number_of_floors FROM Building WHERE address=$address', {$address: address}, (err, row) => {
+    console.log(row.number_of_floors);
+  });
+}
