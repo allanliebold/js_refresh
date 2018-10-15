@@ -76,6 +76,7 @@ const logFloorsForAddress = address => {
   });
 }
 
+// Add a new row to the database with specified parameters
 db.run('INSERT INTO BirdOfParadise (scientific_name, common_name) VALUES ("Cicinnurus regius", "king bird-of-paradise")');
 
 const addMovie = (title, publicationYear, director) => {
