@@ -69,6 +69,7 @@ db.get("SELECT traffic FROM TrainStation WHERE station_id=38 AND month='April'",
   console.log(row.traffic);
 });
 
+// Practice more with placeholders
 const logFloorsForAddress = address => {
   db.get('SELECT number_of_floors FROM Building WHERE address=$address', {$address: address}, (err, row) => {
     console.log(row.number_of_floors);
