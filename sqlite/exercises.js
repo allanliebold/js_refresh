@@ -18,8 +18,6 @@ db.each('SELECT * FROM CartoonCharacter WHERE species="mouse"', (err, row) => {
 });
 
 // Find the price for each shirt in the Clothing database and log the total price of all of them. 
-
-const db = require('./db');
 let totalPrice = 0;
 
 db.each(
