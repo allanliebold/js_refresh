@@ -34,6 +34,6 @@ while (counter > 0) {
 // Always executes the code once, then checks if the condition is true
 var w = 0
 do {
-  
+  console.log('Is ' + w + ' bigger than 1?');
 }
-while();
+while(w > 1);
