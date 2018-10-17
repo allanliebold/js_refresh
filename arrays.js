@@ -31,3 +31,4 @@ while (counter > 0) {
 }
 
 // do while loop
+var w = 0
