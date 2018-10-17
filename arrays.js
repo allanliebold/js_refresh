@@ -31,4 +31,5 @@ while (counter > 0) {
 }
 
 // do while loop
+// Always executes the code once, then checks if the condition is true
 var w = 0
