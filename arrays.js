@@ -29,3 +29,5 @@ while (counter > 0) {
   console.log("Looping");
   counter--; 
 }
+
+// do while loop
