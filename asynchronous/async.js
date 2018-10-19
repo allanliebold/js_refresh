@@ -16,3 +16,4 @@ function doAsyncTask(cb) {
 }
 
 // Read file
+const fs = require("fs");
