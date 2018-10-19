@@ -19,5 +19,5 @@ function doAsyncTask(cb) {
 const fs = require("fs");
 
 fs.readFile("myFile.txt", (err, data) => {
-  
+  // Execute once the file has been loaded. 
 });
