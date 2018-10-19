@@ -18,4 +18,4 @@ function doAsyncTask(cb) {
 // Read file
 const fs = require("fs");
 
-fs.readFile();
+fs.readFile("myFile.txt");
