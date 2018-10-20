@@ -1,3 +1,4 @@
+// Scope
 // Hoisting
 calculateAge(1980); // function called before it is declared
 
