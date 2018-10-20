@@ -4,7 +4,7 @@ var pasta = 'Spaghetti'; // ES5
 const meat = 'Pancetta'; // ES6
 let sauce = 'Eggs and cheese'; //ES6
 
-// Template literals
+// Template literals - String interpolation
 const carbonara = `You can make carbonara with ${pasta}, ${meat}, and a sauce made with ${sauce}.`;
 
 let esFivePercentageSupport = 95.88; // 95.88% of browsers support ES5, according to caniuse.com
