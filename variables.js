@@ -1,5 +1,4 @@
 // Variables
-
 'use strict';
 
 /* var name = 'Al';
