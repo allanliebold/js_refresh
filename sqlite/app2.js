@@ -1,3 +1,4 @@
+// SQLite tutorial 2
 const { calculateAverages, addClimateRowToObject, logNodeError, printQueryResults } = require('./utils');
 const sqlite = require('sqlite3');
 
