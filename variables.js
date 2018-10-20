@@ -9,7 +9,6 @@ console.log(age);
 */
 
 // Example variables
-
 var name = 'John'; // string
 var age = 26; // int
 var married = false; // bool
