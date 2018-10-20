@@ -16,6 +16,7 @@ export class Input extends React.Component {
     }); 
   }
   
+  // Render to the page
   render() {
     return (
       <div>
