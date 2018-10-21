@@ -134,7 +134,6 @@ function arrayCalc(arr, fn) {
 };
 
 // Closures
-
 function retirement(retirementAge) {
      var a = ' years left until retirement.';
      return function(yearOfBirth) {
