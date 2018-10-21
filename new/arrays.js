@@ -1,4 +1,4 @@
-// Arrays
+// New Tutorial - Arrays
 const boxes = document.querySelectorAll('.box');
 
 // ES5
