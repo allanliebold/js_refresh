@@ -14,7 +14,6 @@ var retirement = function(year) {
 }
 
 // Lexical scope
-
 var a = "Hello";
 first();
 
