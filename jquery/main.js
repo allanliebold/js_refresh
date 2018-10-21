@@ -16,6 +16,7 @@ $(document).ready(() => {
     $('.first-image').slideToggle();
   });
   
+  // Mouse enter
   $('.product-photo').on('mouseenter', event => {
     $(event.currentTarget).addClass('photo-active')
   }).on('mouseleave', event => {
