@@ -10,7 +10,6 @@ var ages5 = years.map(function(el) {
 let ages6 = years.map(el => 2018 - el); 
 
 // In ES6 lexical arrow functions, return is implicit. 
-
 ages6 = years.map((el, index) => `Age element ${index + 1}: ${2018 - el}`);
 console.log(ages6);
   
