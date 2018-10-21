@@ -1,3 +1,4 @@
+// SQLite Exercises
 const db = require('./db');
 
 // Select all rows from the Flower database and log the ones with petal_color blue. 
