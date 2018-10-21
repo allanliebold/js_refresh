@@ -4,6 +4,7 @@ $(document).ready(() => {
     $('.main-image').toggle();
   });
   
+  // Fade toggle
   $('.fade-toggle-button').on('click', () => {
     $('.fade-image').fadeToggle();
   });
