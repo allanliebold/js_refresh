@@ -33,6 +33,7 @@ if(passedTest) {
 }
 
 This works because of where firstName was declared. Can't do the same for const since it's immutable.
+Note - const isn't actually immutable. The binding of const is immutable but the values contained can be reassigned.
 */
 
 let i = 23;
