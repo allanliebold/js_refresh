@@ -11,7 +11,6 @@ var bob =  {
 // Accessing data in an object
 console.log(bob.lastName);
 console.log(bob['lastName']); // bracket notation uses string for key name
-
 var xyz = 'job';
 console.log(bob[xyz]); // returns 'teacher'
 
