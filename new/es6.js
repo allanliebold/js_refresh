@@ -1,3 +1,4 @@
+// New ES6 concepts tutorial
 // let and const
 
 //ES5
