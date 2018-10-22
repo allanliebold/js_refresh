@@ -1,5 +1,4 @@
 // New ES6 concepts tutorial
-// let and const
 
 //ES5 - var
 var name5 = 'Jane Smith';
