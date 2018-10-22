@@ -34,7 +34,8 @@ This works because of where firstName was declared. Can't do the same for const 
 Note - const is actually not completely immutable. The binding of const is immutable but the values contained can be 
 reassigned. For example, if you declare an array as a const, the values of the indices can be changed. 
 
-Here's a better definition. "Variables declared using const are not immutable. Using const only means that the variable will always have a reference to the same object or primitive value, because that reference can't change. The reference itself is immutable, but the value held by the variable does not become immutable."
+Here's a better definition. "Variables declared using const are not immutable. Using const only means that the variable 
+will always have a reference to the same object or primitive value, because that reference can't change. The reference itself is immutable, but the value held by the variable does not become immutable."
 */
 
 let i = 23;
