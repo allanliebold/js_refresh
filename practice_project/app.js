@@ -1,4 +1,4 @@
-// Javascript Practice Project 
+// Javascript Practice Project 1
 var scores, roundScore, winningScore, activePlayer, gamePlaying; // Declare universal variables used by different functions
 var lastRoll; // Only works with one die
 
