@@ -47,7 +47,7 @@ for (let i = 0; i < 5; i++) {
 
 console.log(i); // 23
 
-// IIFEs
+// IIFEs - Immediately Invoked Function Expressions
 // ES5
 (function() {
   var c = 3;
