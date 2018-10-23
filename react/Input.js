@@ -1,4 +1,4 @@
-// React user input tutorial
+// React User Input Tutorial
 import React from 'react';
 import ReactDOM from 'react-dom';
 
