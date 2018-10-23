@@ -106,7 +106,6 @@ game();
 })();
 
 // Closures
-
 function sayHello(name) {
    var text = 'Hello, ' + name;
    return function() {
