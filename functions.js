@@ -66,7 +66,6 @@ console.log(fullAges);
 console.log(rates); 
 
 // Functions returning functions
-
 function interviewQuestions(job) {
    if (job === 'designer') {
       return function(name) {
