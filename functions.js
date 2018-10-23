@@ -31,7 +31,6 @@ var someFun = function(parameter) {
 }
 
 // Passing functions as objects
-
 var years = [1988, 1945, 2015, 1885, 1966];
 
 function arrayCalc(arr, fn) { // fn is a callback function
