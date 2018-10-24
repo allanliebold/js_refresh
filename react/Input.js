@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 // Define class using the Component property of React and the export keyword
 export class Input extends React.Component {
   constructor(props) {
+    // constructor takes in props passed to it
     super(props);
     this.state = { userInput: '' };
     
