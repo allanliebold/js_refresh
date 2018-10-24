@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Define class
 export class Input extends React.Component {
   constructor(props) {
     super(props);
