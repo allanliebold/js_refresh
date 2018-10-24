@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 export class Input extends React.Component {
   constructor(props) {
     // constructor takes in props passed to it. 
-    //The super keyword is used to access and call functions on an object's parent.
+    // The super keyword is used to access and call functions on an object's parent.
     super(props);
     this.state = { userInput: '' };
     
