@@ -18,7 +18,7 @@ console.log(bob[xyz]); // returns 'teacher'
 bob.name = 'Robert'; // Dot notation 
 bob[xyz] = 'developer'; // Bracket notation. Remember that xyz is actually referencing the string 'job'
 
-var jane = new Object(); // creates empty object
+var jane = new Object(); // Creates an empty object
 jane.name = 'Jane';
 jane.lastName = 'Jones';
 jane['age'] = 30;
