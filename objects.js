@@ -11,11 +11,11 @@ var bob =  {
 // Accessing data in an object
 console.log(bob.lastName);
 console.log(bob['lastName']); // Bracket notation uses strings for key names
-var xyz = 'job';
+var xyz = 'job'; 
 console.log(bob[xyz]); // returns 'teacher'
 
 // Mutating data in an object
-bob.name = 'Robert';
+bob.name = 'Robert'; // Dot notation 
 bob[xyz] = 'developer';
 
 var jane = new Object(); // creates empty object
