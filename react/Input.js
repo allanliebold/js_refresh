@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Define class using the Component property of React
+// Define class using the Component property of React and the export keyword
 export class Input extends React.Component {
   constructor(props) {
     super(props);
