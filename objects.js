@@ -16,7 +16,7 @@ console.log(bob[xyz]); // returns 'teacher'
 
 // Mutating data in an object
 bob.name = 'Robert'; // Dot notation 
-bob[xyz] = 'developer';
+bob[xyz] = 'developer'; // Bracket notation. Remember that xyz is actually referencing the string 'job'
 
 var jane = new Object(); // creates empty object
 jane.name = 'Jane';
