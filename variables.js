@@ -1,6 +1,6 @@
-// Variables
 'use strict';
 
+// Variables
 /* var name = 'Al';
 console.log('Hello ' + name);
 
