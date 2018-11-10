@@ -5,7 +5,7 @@ const ids = [5, 20, 43, 100, 75, 30];
 const db = new sqlite.Database('./db.sqlite');
 const newRow = {
   location: 'London, England',
-  year: 1982,
+  year: 1984,
   tempAvg: 17.48
 };
 
