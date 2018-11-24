@@ -8,7 +8,6 @@ $(document).ready(() => {
   $('.fade-toggle-button').on('click', () => {
     $('.fade-image').fadeToggle();
   });
-  
   // Slide toggle
   $('.slide-toggle-button').on('click', () => {
     $('.slide-image').slideToggle();
