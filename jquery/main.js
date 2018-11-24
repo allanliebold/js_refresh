@@ -30,6 +30,7 @@ $(document).ready(() => {
    	}, 200)
   });
   
+  //
   $('.nav-menu').on('mouseleave', () => {
     $('.nav-menu').hide();
     $('.menu-button').css({
