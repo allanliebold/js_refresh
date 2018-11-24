@@ -30,7 +30,7 @@ $(document).ready(() => {
    	}, 200)
   });
   
-  //
+  // Mouse leave
   $('.nav-menu').on('mouseleave', () => {
     $('.nav-menu').hide();
     $('.menu-button').css({
