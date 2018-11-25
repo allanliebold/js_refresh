@@ -69,4 +69,4 @@ Person.prototype.friends6 = function(friends) {
 }
 
 new Person('Don').friends6(friends);
-
+new Person('Buddy').friends6(friends);
