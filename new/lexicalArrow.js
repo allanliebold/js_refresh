@@ -20,7 +20,6 @@ ages6 = years.map((el, index) =>  {
   return `Age element ${index + 1}: ${age}`;
 });
 console.log(ages6);
-
 // 'this' keyword with arrow functions
 
 //ES5 - 'this' doesn't work the way it's used here
