@@ -5,3 +5,4 @@
 
 var myName; 
 var a = 9;
+var b;
