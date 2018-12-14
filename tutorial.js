@@ -10,3 +10,4 @@ b = a;
 
 var camelCase;
 a++;
+console.log(a);
