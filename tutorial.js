@@ -11,3 +11,5 @@ b = a;
 var camelCase;
 a++;
 console.log(a);
+
+var doubleQuotes = "Quotes \"within\" quotes";
