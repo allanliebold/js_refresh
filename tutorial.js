@@ -9,3 +9,4 @@ var b;
 b = a;
 
 var camelCase;
+a++;
