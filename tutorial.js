@@ -14,5 +14,4 @@ console.log(a);
 var doubleQuotes = "Quotes \"within\" quotes";
 var singleQuotes = 'Quotes "within" quotes';
 var escapeChars = 'First\nSecond\n\t\\Third';
-
 var concatString = 'First part and ' + ' the Second part';
