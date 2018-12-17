@@ -22,6 +22,7 @@ $(document).ready(() => {
   }).on('mouseleave', event => {
     $(event.currentTarget).removeClass('photo-active')
   });
+  
   $('.menu-button').on('mouseenter', () => {
   $('.nav-menu').removeClass('hide');
   $('.menu-button').addClass('button-active')
