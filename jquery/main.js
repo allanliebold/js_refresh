@@ -15,6 +15,7 @@ $(document).ready(() => {
     $('.fade-image').slideToggle();
     $('.first-image').slideToggle();
   });
+  
   // Mouse enter
   $('.product-photo').on('mouseenter', event => {
     $(event.currentTarget).addClass('photo-active')
