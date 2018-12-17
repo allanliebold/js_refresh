@@ -19,3 +19,5 @@ var singleQuotes = 'Quotes "within" quotes';
 var escapeChars = 'First\nSecond\n\t\\Third';
 
 var concatString = 'First part and ' + ' the Second part';
+
+var anotherString;
