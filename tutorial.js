@@ -20,4 +20,4 @@ var escapeChars = 'First\nSecond\n\t\\Third';
 
 var concatString = 'First part and ' + ' the Second part';
 
-var anotherString;
+var anotherString = "This is the beginning. ";
