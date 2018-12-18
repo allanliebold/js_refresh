@@ -22,3 +22,10 @@ anotherString += "The End.";
 var aWord = "Something";
 var firstLetter = aWord[0];
 var lastLetter = aWord[aWord.length - 1];
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  var result = "There was a " + myAdjective + " " + myNoun + " that " + myAdverb + " " + myVerb + ".";
+  return result;
+}
+
+wordBlanks("dog", "big", "ran", "quickly");
