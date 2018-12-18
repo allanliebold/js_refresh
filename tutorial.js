@@ -21,3 +21,4 @@ anotherString += "The End.";
 
 var aWord = "Something";
 var firstLetter = aWord[0];
+var lastLetter = aWord[aWord.length - 1];
