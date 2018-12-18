@@ -18,3 +18,5 @@ var escapeChars = 'First\nSecond\n\t\\Third';
 var concatString = 'First part and ' + ' the Second part';
 var anotherString = "This is the beginning. ";
 anotherString += "The End.";
+
+var aWord = "Something";
