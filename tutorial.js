@@ -20,3 +20,4 @@ var anotherString = "This is the beginning. ";
 anotherString += "The End.";
 
 var aWord = "Something";
+var firstLetter = aWord[0];
