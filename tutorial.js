@@ -36,3 +36,4 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 wordBlanks("dog", "big", "ran", "quickly");
 
 var numArr = [21, 55, 9999];
+var firstNum = numArr[0];
