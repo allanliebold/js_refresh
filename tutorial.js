@@ -49,4 +49,4 @@ function functionWithArg(arg) {
     console.log("This function accepts an arg. The arg is: " + arg);
 }
 
-functionWithArg(5);
+functionWithArg(5); // This function accepts an arg. The arg is: 5
