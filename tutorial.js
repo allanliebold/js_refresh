@@ -12,6 +12,8 @@ var b;
 b = a;
 
 var camelCase;
+
+// Increment
 a++;
 
 console.log(a);
