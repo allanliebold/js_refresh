@@ -18,6 +18,7 @@ a++;
 
 console.log(a);
 
+// Strings
 var doubleQuotes = "Quotes \"within\" quotes";
 var singleQuotes = 'Quotes "within" quotes';
 
