@@ -55,3 +55,7 @@ function functionWithArg(arg) {
 }
 
 functionWithArg(5); // This function accepts an arg. The arg is: 5
+
+function trueOrFalse(bool) {
+  
+}
