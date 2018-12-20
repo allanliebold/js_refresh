@@ -40,5 +40,5 @@ var firstNum = numArr[0];
 var multiDimensional = [['arr1-1', 1], ['arr1-2', 2]]
 
 function myFunction() {
-  
+  console.log("This is my function.");
 }
