@@ -38,3 +38,7 @@ wordBlanks("dog", "big", "ran", "quickly");
 var numArr = [21, 55, 9999];
 var firstNum = numArr[0];
 var multiDimensional = [['arr1-1', 1], ['arr1-2', 2]]
+
+function myFunction() {
+  
+}
