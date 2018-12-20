@@ -44,3 +44,7 @@ function myFunction() {
 }
 
 myFunction();
+
+function functionWithArg(arg) { 
+    
+}
