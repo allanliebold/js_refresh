@@ -83,4 +83,4 @@ function testNotEqual(str) {
 }
 
 console.log(testNotEqual("Okay.")); // This is fine.
-testNotEqual("Bad string");
+console.log(testNotEqual("Bad string")); // This is not fine.
