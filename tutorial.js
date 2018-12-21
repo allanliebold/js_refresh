@@ -82,4 +82,4 @@ function testNotEqual(str) {
   return "This is not fine.";
 }
 
-testNotEqual("Okay.");
+console.log(testNotEqual("Okay.")); // This is fine.
