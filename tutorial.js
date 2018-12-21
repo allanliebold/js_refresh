@@ -77,6 +77,6 @@ console.log(testEqual(10)); // num equals 10
 function testNotEqual(str) {
   console.log("Test Not Equal Function");
   if(str != "Bad string") {
-    
+    return "This is fine."; 
   }
 }
