@@ -71,4 +71,4 @@ function testEqual(num) {
   return "num does not equal 10";
 }
 
-console.log(testEqual(5));
+console.log(testEqual(5)); // num does not equal 10
