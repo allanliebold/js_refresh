@@ -68,6 +68,7 @@ function testEqual(num) {
   if(num == 10) {
     return "num equals 10";
   }
+  return "num does not equal 10";
 }
 
 testEqual(5);
