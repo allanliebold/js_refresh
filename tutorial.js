@@ -56,6 +56,7 @@ function functionWithArg(arg) {
 }
 
 functionWithArg(5); // This function accepts an arg. The arg is: 5
+functionWithArg("Something"); 
 
 function trueOrFalse(bool) {
   if (bool) {
@@ -83,3 +84,4 @@ function testNotEqual(str) {
 
 console.log(testNotEqual("Okay.")); // This is fine.
 console.log(testNotEqual("Bad string")); // This is not fine.
+
