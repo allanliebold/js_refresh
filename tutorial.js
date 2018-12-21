@@ -62,3 +62,7 @@ function trueOrFalse(bool) {
   }
   return "False."
 }
+
+function testEqual(num) {
+  
+}
