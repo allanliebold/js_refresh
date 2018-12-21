@@ -66,7 +66,7 @@ function trueOrFalse(bool) {
 function testEqual(num) {
   console.log("Test equal function");
   if(num == 10) {
-    
+    return "num equals 10";
   }
 }
 
