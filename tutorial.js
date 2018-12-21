@@ -74,3 +74,7 @@ function testEqual(num) {
 
 console.log(testEqual(5)); // num does not equal 10
 console.log(testEqual(10)); // num equals 10
+
+function testNotEqual(num) {
+  
+}
