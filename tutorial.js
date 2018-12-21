@@ -64,5 +64,5 @@ function trueOrFalse(bool) {
 }
 
 function testEqual(num) {
-  
+  console.log("Test equal function");
 }
