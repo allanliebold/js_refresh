@@ -1,6 +1,7 @@
 // JavaScript Tutorial
 
 // Single line comment
+
 /* 
   Multi line comment
 */
