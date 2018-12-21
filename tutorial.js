@@ -81,3 +81,5 @@ function testNotEqual(str) {
   }
   return "This is not fine.";
 }
+
+testNotEqual("Okay.");
