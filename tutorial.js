@@ -85,5 +85,7 @@ console.log(testNotEqual("Okay.")); // This is fine.
 console.log(testNotEqual("Bad string")); // This is not fine.
 
 function whatIsMyFunction(func) {
-  
+  if(func == "You pass butter") {
+    
+  }
 }
