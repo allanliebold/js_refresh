@@ -14,8 +14,8 @@ b = a;
 var camelCase;
 
 // Increment
+console.log(a); // 9
 a++;
-
 console.log(a); // 10
 
 // Strings
