@@ -16,7 +16,7 @@ var camelCase;
 // Increment
 a++;
 
-console.log(a);
+console.log(a); // 10
 
 // Strings
 var doubleQuotes = "Quotes \"within\" quotes";
