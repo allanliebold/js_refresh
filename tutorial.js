@@ -91,3 +91,5 @@ function whatIsMyFunction(func) {
     console.log("Does not compute."); 
   }
 }
+
+whatIsMyFunction("You pass butter"); 
