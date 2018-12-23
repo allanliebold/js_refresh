@@ -93,3 +93,4 @@ function whatIsMyFunction(func) {
 }
 
 whatIsMyFunction("You pass butter"); // Oh my god...
+whatIsMyFunction("Error"); 
