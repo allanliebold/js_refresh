@@ -100,5 +100,7 @@ function howManyEggs(eggs) {
     console.log("This is not enough eggs...");
   } elif (eggs == 12) {
     console.log("Perfect.");
+  } else {
+    
   }
 }
