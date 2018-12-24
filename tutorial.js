@@ -98,7 +98,7 @@ whatIsMyFunction("Error"); // Does not compute.
 function howManyEggs(eggs) {
   if(eggs < 12) {
     console.log("This is not enough eggs...");
-  } elif (eggs >= 12) {
+  } elif (eggs > 12) {
     console.log("This is too many eggs...");
   } else {
     console.log("Perfect.");
