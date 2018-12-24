@@ -104,3 +104,5 @@ function howManyEggs(eggs) {
     console.log("Perfect.");
   }
 }
+
+howManyEggs(4); 
