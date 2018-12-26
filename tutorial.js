@@ -20,7 +20,7 @@ console.log(a); // 10
 
 // Decrement
 b--;
-
+console.log(b);
 // Strings
 var doubleQuotes = "Quotes \"within\" quotes";
 var singleQuotes = 'Quotes "within" quotes';
