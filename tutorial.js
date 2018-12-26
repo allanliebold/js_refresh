@@ -119,5 +119,7 @@ function andOperator() {
   
   if(this && that) {
     console.log("Everything checks out.");
+  } else {
+    console.log("Something is missing."); 
   }
 }
