@@ -19,7 +19,7 @@ a++;
 console.log(a); // 10
 
 // Decrement
-console.log(b);
+console.log(b); // 9
 b--;
 console.log(b); // 8
 
