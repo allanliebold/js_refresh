@@ -115,4 +115,7 @@ howManyEggs(200); // This is too many eggs...
 
 function andOperator() {
   console.log("Using the && operator");
+  if(this && that) {
+    
+  }
 }
