@@ -1,4 +1,4 @@
-// JavaScript Tutorial
+// JavaScript Basics Tutorial
 
 // Single line comment
 /* 
