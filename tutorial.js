@@ -18,6 +18,7 @@ console.log(a); // 9
 a++;
 console.log(a); // 10
 
+// Decrement
 b--;
 
 // Strings
