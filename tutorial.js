@@ -120,3 +120,5 @@ function andOperator(this, that) {
     console.log("Something is missing."); 
   }
 }
+
+andOperator(true, true); // Everything checks out.
