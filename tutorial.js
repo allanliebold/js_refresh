@@ -113,10 +113,7 @@ function howManyEggs(eggs) {
 howManyEggs(4); // This is not enough eggs...
 howManyEggs(200); // This is too many eggs...
 
-function andOperator() {
-  var this = true; 
-  var that = true; 
-  
+function andOperator(this, that) {
   if(this && that) {
     console.log("Everything checks out.");
   } else {
