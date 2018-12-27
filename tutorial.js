@@ -114,7 +114,7 @@ function howManyEggs(eggs) {
 
 howManyEggs(4); // This is not enough eggs...
 howManyEggs(200); // This is too many eggs...
-howManyEggs(12);
+howManyEggs(12); // Perfect.
 
 // The && Operator
 
