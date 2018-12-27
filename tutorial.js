@@ -122,3 +122,4 @@ function andOperator(this, that) {
 }
 
 andOperator(true, true); // Everything checks out.
+andOperator(true, false); 
