@@ -122,4 +122,4 @@ function andOperator(this, that) {
 }
 
 andOperator(true, true); // Everything checks out.
-andOperator(true, false); 
+andOperator(true, false); // Something is missing. 
