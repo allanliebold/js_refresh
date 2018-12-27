@@ -102,6 +102,7 @@ function whatIsMyFunction(func) {
 whatIsMyFunction("You pass butter"); // Oh my god...
 whatIsMyFunction("Error"); // Does not compute.
 
+// Comparative operators
 function howManyEggs(eggs) {
   if(eggs < 12) {
     console.log("This is not enough eggs...");
