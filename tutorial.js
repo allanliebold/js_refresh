@@ -56,6 +56,7 @@ function myFunction() {
 
 myFunction(); // This is my function.
 
+// Passing an argument to a function
 function functionWithArg(arg) { 
     console.log("This function accepts an arg. The arg is: " + arg);
 }
