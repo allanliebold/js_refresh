@@ -122,9 +122,11 @@ function andOperator(this, that) {
   if(this && that) {
     console.log("Everything checks out.");
   } elif(this || that) {
+    
+  } else {
     console.log("Something is missing."); 
   }
 }
 
 andOperator(true, true); // Everything checks out.
-andOperator(true, false); // Something is missing. 
+andOperator(false, false); // Something is missing. 
