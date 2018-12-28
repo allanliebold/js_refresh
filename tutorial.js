@@ -13,6 +13,7 @@ var b;
 b = a;
 
 var camelCase;
+var PascalCase;
 
 // Increment
 console.log(a); // 9
