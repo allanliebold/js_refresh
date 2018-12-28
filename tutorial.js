@@ -121,7 +121,7 @@ howManyEggs(12); // Perfect.
 function andOperator(this, that) {
   if(this && that) {
     console.log("Everything checks out.");
-  } else {
+  } elif(this || that) {
     console.log("Something is missing."); 
   }
 }
