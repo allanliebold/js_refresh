@@ -132,3 +132,5 @@ function andOperator(this, that) {
 andOperator(true, true); // Everything checks out.
 andOperator(false, false); // Something is missing. 
 andOperator(true, false); // Half right.
+
+// Golf
