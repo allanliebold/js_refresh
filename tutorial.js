@@ -118,7 +118,7 @@ howManyEggs(4); // This is not enough eggs...
 howManyEggs(200); // This is too many eggs...
 howManyEggs(12); // Perfect.
 
-// The && Operator
+// The && and || Operators
 function andOperator(this, that) {
   if(this && that) {
     console.log("Everything checks out.");
