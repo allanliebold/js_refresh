@@ -39,6 +39,8 @@ var aWord = "Something";
 var firstLetter = aWord[0];
 var lastLetter = aWord[aWord.length - 1];
 
+// Arrays
+
 // Function
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
   var result = "There was a " + myAdjective + " " + myNoun + " that " + myAdverb + " " + myVerb + ".";
