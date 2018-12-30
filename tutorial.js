@@ -153,4 +153,4 @@ function golfScore(par, strokes) {
   }
 }
 
-golfScore(5, 4);
+golfScore(5, 4); // Birdie
