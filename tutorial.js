@@ -50,9 +50,9 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 
 wordBlanks("dog", "big", "ran", "quickly");
 
-var numArr = [21, 55, 9999];
+var numArr = [21, 55, 9999]; // Array with numbers
 var firstNum = numArr[0];
-var multiDimensional = [['arr1-1', 1], ['arr1-2', 2]]
+var multiDimensional = [['arr1-1', 1], ['arr1-2', 2]];
 
 function myFunction() {
   console.log("This is my function.");
