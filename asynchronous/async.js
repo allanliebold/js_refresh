@@ -16,7 +16,6 @@ function doAsyncTask(cb) {
 }
 
 // Read file
-
 const fs = require("fs");
 
 fs.readFile("myFile.txt", (err, data) => {
