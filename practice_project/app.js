@@ -22,6 +22,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
       nextPlayer(); // turn ends 
     }
     */
+    
     if (dice1 !== 1 && dice2 !== 1) { 
       roundScore += dice1 + dice2;
       document.querySelector('#current-' + activePlayer).textContent = roundScore;
