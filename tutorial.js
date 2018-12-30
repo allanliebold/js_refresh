@@ -40,6 +40,7 @@ var firstLetter = aWord[0];
 var lastLetter = aWord[aWord.length - 1];
 
 // Arrays
+var myArray = [];
 
 // Function
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
