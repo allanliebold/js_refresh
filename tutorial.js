@@ -163,7 +163,9 @@ golfScore(4, 4);
 function caseInSwitch(val) {
   var answer = "";
   switch(val) {
-    
+    case 1:
+      answer = "alpha";
+      break;
   }  
   return answer;  
 }
