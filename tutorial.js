@@ -175,6 +175,9 @@ function caseInSwitch(val) {
     case 4:
       answer = "gamma";
       break;
+    default:
+      answer = "invalid";
+      break;
   }  
   return answer;  
 }
