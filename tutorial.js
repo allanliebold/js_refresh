@@ -160,5 +160,13 @@ golfScore(5, 4); // Birdie
 golfScore(4, 4); 
 
 // Switch Statement
+function caseInSwitch(val) {
+  var answer = "";
+  switch(val) {
+    
+  }  
+  return answer;  
+}
 
+caseInSwitch(1);
 
