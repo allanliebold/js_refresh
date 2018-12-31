@@ -172,6 +172,9 @@ function caseInSwitch(val) {
     case 3:
       answer = "delta";
       break;
+    case 4:
+      answer = "gamma";
+      break;
   }  
   return answer;  
 }
