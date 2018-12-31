@@ -169,6 +169,9 @@ function caseInSwitch(val) {
     case 2:
       answer = "beta";
       break;
+    case 3:
+      answer = "delta";
+      break;
   }  
   return answer;  
 }
