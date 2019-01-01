@@ -186,3 +186,10 @@ function caseInSwitch(val) {
 
 caseInSwitch(1); // alpha
 
+function isLess(a, b) {
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  }
+}
