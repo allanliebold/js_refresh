@@ -194,4 +194,4 @@ function isLess(a, b) {
   }
 }
 
-isLess(3, 4);
+isLess(3, 4); // true
