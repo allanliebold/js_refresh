@@ -193,3 +193,5 @@ function isLess(a, b) {
     return false;
   }
 }
+
+isLess(3, 4);
