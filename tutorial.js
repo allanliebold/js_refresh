@@ -195,4 +195,4 @@ function isLess(a, b) {
 }
 
 isLess(3, 4); // true
-isLess(99999, 1);
+isLess(99999, 1); // false
