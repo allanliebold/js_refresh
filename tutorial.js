@@ -186,6 +186,8 @@ function caseInSwitch(val) {
 
 caseInSwitch(1); // alpha
 
+// Returning booleans
+
 function isLess(a, b) {
   return a < b;
 }
