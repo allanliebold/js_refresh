@@ -238,4 +238,4 @@ function cc(card) {
   return count + ' ' + decision;
 }
 
-cc(2); cc(3); console.log(cc(7)); cc('K'); cc('A');
+cc(2); cc(3); console.log(cc(7)); cc('K'); cc('A'); // will finally return 0 Hold
