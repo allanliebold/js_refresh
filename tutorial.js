@@ -205,3 +205,37 @@ function abTest(a, b) {
 console.log(abTest(2,2)); // 8
 
 // Card Counter
+var count = 0;
+
+function cc(card) {
+  var decision = '';
+
+  switch(card) {
+    case 2: case 3: case 4: case 5: case 6:
+      count++;
+      break;
+    case 7:
+    case 8:
+    case 9:
+      break;
+    case 10:
+    case 'J':
+    case 'Q':
+    case 'K':
+    case 'A':
+      count--;
+      break;
+    default:
+      break;
+  }  
+
+  if(count > 0) {
+    decision = 'Bet';
+  } else {
+    decision = 'Hold';
+  }
+
+  return count + ' ' + decision;
+}
+
+cc(2); cc(3); console.log(cc(7)); cc('K'); cc('A');
