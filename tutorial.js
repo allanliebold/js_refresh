@@ -228,7 +228,6 @@ function cc(card) {
   } else {
     decision = 'Hold';
   }
-
   return count + ' ' + decision;
 }
 
