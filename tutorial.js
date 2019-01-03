@@ -248,3 +248,5 @@ var myDog = {
   "tails": 2,
   "friends": ["Sanic"]
 };
+
+dogName = myDog.name;
