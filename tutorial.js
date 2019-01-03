@@ -235,3 +235,16 @@ function cc(card) {
 cc(2); cc(3); console.log(cc(7)); cc('K'); cc('A'); // will finally return 0 Hold
 
 // Objects
+var ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+var myDog = {
+  
+  
+  
+  
+};
