@@ -246,5 +246,5 @@ var myDog = {
   "name": "Miles",
   "legs": 4,
   "tails": 2,
-  "friends": []
+  "friends": ["Sanic"]
 };
