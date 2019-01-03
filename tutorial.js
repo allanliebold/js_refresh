@@ -250,3 +250,4 @@ var myDog = {
 };
 
 dogName = myDog.name;
+console.log(dogName); // Miles
