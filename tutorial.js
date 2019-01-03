@@ -233,3 +233,5 @@ function cc(card) {
 }
 
 cc(2); cc(3); console.log(cc(7)); cc('K'); cc('A'); // will finally return 0 Hold
+
+// Objects
