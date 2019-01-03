@@ -89,6 +89,7 @@ function testNotEqual(str) {
   if(str != "Bad string") {
     return "This is fine."; 
   }
+
   return "This is not fine.";
 }
 
