@@ -243,7 +243,7 @@ var ourDog = {
 };
 
 var myDog = {
-  "name": "",
+  "name": "Tails",
   "legs": 4,
   "tails": 2,
   "friends": []
