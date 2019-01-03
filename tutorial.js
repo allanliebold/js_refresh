@@ -216,8 +216,7 @@ function cc(card) {
       break;
     case 7: case 8: case 9:
       break;
-    case 10: case 'J':
-    case 'Q':
+    case 10: case 'J': case 'Q':
     case 'K':
     case 'A':
       count--;
