@@ -251,3 +251,21 @@ var myDog = {
 
 dogName = myDog.name;
 console.log(dogName); // Miles
+
+// Object hasOwnProperty method
+
+var myObj = {
+  gift: "pony",
+  pet: "kitten",
+  bed: "sleigh"
+};
+
+function checkObj(checkProp) {
+  return myObj.hasOwnProperty(checkProp) ? myObj[checkProp] : "Not Found";
+}
+
+console.log(checkObj("candy"));
+console.log(checkObj("bed"));
+console.log(checkObj("pet"));
+console.log(checkObj("potato"));
+console.log(checkObj("gift"));
