@@ -27,6 +27,7 @@ var collection = {
 
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 
+// Update Records Function
 function updateRecords(id, prop, value) {
   if(value == "") {
     delete collection[id][prop];
