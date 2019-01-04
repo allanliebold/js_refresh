@@ -269,3 +269,5 @@ console.log(checkObj("bed"));
 console.log(checkObj("pet"));
 console.log(checkObj("potato"));
 console.log(checkObj("gift"));
+
+// While Loop
