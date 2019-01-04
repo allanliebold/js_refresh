@@ -271,6 +271,7 @@ console.log(checkObj("potato"));
 console.log(checkObj("gift"));
 
 // While Loop
+var myArr = [];
 var i = 0;
 while(i < 5) {
   i++;
