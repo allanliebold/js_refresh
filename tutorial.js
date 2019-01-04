@@ -271,3 +271,4 @@ console.log(checkObj("potato"));
 console.log(checkObj("gift"));
 
 // While Loop
+var i = 0;
