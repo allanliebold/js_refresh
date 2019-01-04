@@ -282,3 +282,6 @@ console.log(myArr); // [0, 1, 2, 3, 4]
 
 // For Loop
 var loopArr = [];
+for(var j = 1; j < 6; j++) {
+  
+}
