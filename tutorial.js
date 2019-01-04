@@ -285,3 +285,5 @@ var loopArr = [];
 for(var j = 1; j < 6; j++) {
   loopArr.push(j);
 }
+
+console.log(loopArr); // [1, 2, 3, 4, 5]
