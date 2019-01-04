@@ -279,3 +279,5 @@ while(i < 5) {
 }
 
 console.log(myArr); // [0, 1, 2, 3, 4]
+
+// For Loop
