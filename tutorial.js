@@ -273,5 +273,5 @@ console.log(checkObj("gift"));
 // While Loop
 var i = 0;
 while(i < 5) {
-  
+  i++;
 }
