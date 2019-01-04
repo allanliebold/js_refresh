@@ -278,4 +278,4 @@ while(i < 5) {
   i++;
 }
 
-console.log(myArr);
+console.log(myArr); // [0, 1, 2, 3, 4]
