@@ -1,3 +1,5 @@
+// Record Collection
+
 var collection = {
     "2548": {
       "album": "Slippery When Wet",
