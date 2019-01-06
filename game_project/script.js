@@ -1,5 +1,5 @@
 // Game Project Prototype
 
-function Room() {
+function Room(desc, exits) {
   
 }
