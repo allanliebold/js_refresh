@@ -9,4 +9,5 @@ function Room(name, desc, exits) {
 
 function Map(rooms) {
   this.rooms = rooms;
+  this.addRoom = function() { };
 }
