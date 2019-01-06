@@ -291,3 +291,5 @@ console.log(loopArr); // [1, 2, 3, 4, 5]
 for(var k = 5; k > 0; k--) {
   loopArr.pop();
 }
+
+console.log(loopArr);
