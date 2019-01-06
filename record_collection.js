@@ -45,8 +45,7 @@ function updateRecords(id, prop, value) {
       collection[id]["tracks"].push(value);
       return collection;
     }
-  }
-  
+  }  
   collection[id][prop] = value;
   return collection;
 }
