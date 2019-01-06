@@ -27,6 +27,7 @@ var collection = {
     }
 };
 
+// Save a copy of the collection as a JSON Object
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 
 // Update Records Function
