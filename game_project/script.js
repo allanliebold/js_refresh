@@ -7,6 +7,6 @@ function Room(name, desc, exits) {
   this.exits = exits;
 }
 
-function Map() {
-  
+function Map(rooms) {
+  this.rooms = rooms;
 }
