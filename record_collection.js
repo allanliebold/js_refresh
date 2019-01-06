@@ -1,4 +1,6 @@
 // Record Collection
+
+// collection Object
 var collection = {
     "2548": {
       "album": "Slippery When Wet",
