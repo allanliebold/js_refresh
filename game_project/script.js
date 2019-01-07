@@ -18,3 +18,4 @@ function connectRooms(start, connection, end) {
 
 var firstRoom = Room('First Room', 'This is the first room');
 var secondRoom = Room('Second Room', 'This is the second room');
+connectRooms(firstRoom, secondRoom, 'North');
