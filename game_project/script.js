@@ -15,3 +15,5 @@ function Map(rooms) {
 function connectRooms(start, connection, end) {
   start.exits[connection] = end;
 }
+
+var firstRoom = Room();
