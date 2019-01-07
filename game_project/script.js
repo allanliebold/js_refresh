@@ -1,10 +1,10 @@
 // Game Project Prototype
 
 // Room object constructor
-function Room(name, desc, exits = []) {
+function Room(name, desc, exits) {
   this.name = name;
   this.desc = desc;
-  this.exits = exits;
+  this.exits = [];
 }
 
 function Map(rooms) {
