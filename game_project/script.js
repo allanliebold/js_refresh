@@ -12,7 +12,7 @@ function Map(rooms) {
   this.addRoom = function() { };
 }
 
-function connectRooms(start, connection, end) {
+function connectRooms(start, end, connection) {
   start.exits[connection] = end;
 }
 
