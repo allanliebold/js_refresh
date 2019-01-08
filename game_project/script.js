@@ -22,6 +22,6 @@ connectRooms(secondRoom, firstRoom, 'South');
 
 function Player() {
   this.currentRoom = firstRoom;  
-  
+  this.showCurrent = function() { };
 }
 
