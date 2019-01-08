@@ -21,5 +21,7 @@ var secondRoom = Room('Second Room', 'This is the second room');
 connectRooms(secondRoom, firstRoom, 'South');
 
 function Player() {
-  currentRoom = firstRoom;  
+  this.currentRoom = firstRoom;  
+  
 }
+
