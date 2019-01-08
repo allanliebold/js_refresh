@@ -16,7 +16,7 @@ function connectRooms(start, end, connection) {
   start.exits[connection] = end;
 }
 
-var firstRoom = Room('First Room', 'This is the first room');
+var firstRoom = Room('First Room', 'This is the first room', ['North': secondRoom]);
 var secondRoom = Room('Second Room', 'This is the second room');
 connectRooms(firstRoom, secondRoom, 'North');
 connectRooms(secondRoom, firstRoom, 'South');
