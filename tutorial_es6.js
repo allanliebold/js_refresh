@@ -14,6 +14,12 @@ const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers); // 16, 1764, 36
 
 // Rest Operator
+const countArgs(...args) {
+  return args.length + ' args passed.';
+}
+
+console.log(countArgs(1, 2, 3)); // 3 args passed.
+
 const sum = (function() {
   "use strict";
   return function sum(...args) {
