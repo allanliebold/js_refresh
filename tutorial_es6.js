@@ -13,6 +13,7 @@ const squareList = (arr) => {
 const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers); // 16, 1764, 36
 
+// Rest Operator
 const sum = (function() {
   "use strict";
   return function sum(x, y, z) {
