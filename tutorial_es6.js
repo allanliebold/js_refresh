@@ -8,5 +8,6 @@ const squareList = (arr) => {
   return realNumberArray.filter((num) => num >= 0 && Number.isInteger(num)).map((num) => num * num);
 };
 
+// Declare a const called squareIntegers to store the return value of squareList, with realNumberArray passed as its argument.
 const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers); // 16, 1764, 36
