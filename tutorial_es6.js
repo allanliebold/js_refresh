@@ -8,4 +8,4 @@ const squareList = (arr) => {
 };
 
 const squaredIntegers = squareList(realNumberArray);
-console.log(squaredIntegers);
+console.log(squaredIntegers); // 16, 1764, 36
