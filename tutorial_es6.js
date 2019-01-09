@@ -12,3 +12,12 @@ const squareList = (arr) => {
 // Declare a const called squareIntegers to store the return value of squareList, with realNumberArray passed as its argument.
 const squaredIntegers = squareList(realNumberArray);
 console.log(squaredIntegers); // 16, 1764, 36
+
+const sum = (function() {
+  "use strict";
+  return function sum(x, y, z) {
+    const args = [ x, y, z ];
+    return args.reduce((a, b) => a + b, 0);
+  };
+})();
+console.log(sum(1, 2, 3)); // 6
