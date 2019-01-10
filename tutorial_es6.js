@@ -1,5 +1,10 @@
 // ES6 Tutorial
 // let is block scoped
+var x = 1;
+{ 
+  let x = 2;
+}
+
 
 // const can't be reassigned, but a const array can be mutated
 const myArr = [1, 2, 3];
