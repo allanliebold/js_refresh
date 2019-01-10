@@ -1,4 +1,5 @@
 // ES6 Tutorial
+// let is block scoped
 
 // Higher Order Arrow Functions
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
