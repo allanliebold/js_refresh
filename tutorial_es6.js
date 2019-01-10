@@ -5,7 +5,7 @@ var x = 1;
   let x = 2;
   console.log(x); // 2
 }
-
+console.log(x); // 1
 
 // const can't be reassigned, but a const array can be mutated
 const myArr = [1, 2, 3];
