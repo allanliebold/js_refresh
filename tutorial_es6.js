@@ -50,6 +50,7 @@ var maximus = Math.max(arr); // NaN
 var maximus = Math.max.apply(null, arr); // 89
 
 // ES6
+// The spread operator will separate each index of the array to pass as arguments.
 const arr = [6, 89, 3, 45];
 const maximus = Math.max(...arr); // 89
 
