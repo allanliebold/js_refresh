@@ -39,3 +39,5 @@ const sum = (function() {
   };
 })();
 console.log(sum(2, 2, 5)); // 9
+
+// Spread Operator
