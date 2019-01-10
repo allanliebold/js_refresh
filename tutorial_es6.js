@@ -44,8 +44,10 @@ console.log(sum(2, 2, 5)); // 9
 
 // ES5
 var arr = [6, 89, 3, 45];
-var maximus = Math.max.apply(null, arr); // 89
+var maximus = Math.max(arr); // NaN
+
 // apply is necessary because Math.max(arr) will take arr as a single NaN argument. 
+var maximus = Math.max.apply(null, arr); // 89
 
 // ES6
 const arr = [6, 89, 3, 45];
