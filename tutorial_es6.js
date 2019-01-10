@@ -41,3 +41,10 @@ const sum = (function() {
 console.log(sum(2, 2, 5)); // 9
 
 // Spread Operator
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+(function() {
+  "use strict";
+  arr2 = []; 
+})();
+console.log(arr2);
