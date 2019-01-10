@@ -72,3 +72,8 @@ var z = voxel.z; // z = 6.54
 
 // ES6
 const { x, y, z } = voxel; // x = 3.6, y = 7.4, z = 6.54
+
+// You can also assign the values to different variables. 
+const { x : a, y : b, z : c } = voxel;
+// assign value of x to a, y to b, z to c. 
+console.log(a); // 3.6
