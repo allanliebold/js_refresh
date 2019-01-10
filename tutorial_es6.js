@@ -77,3 +77,16 @@ const { x, y, z } = voxel; // x = 3.6, y = 7.4, z = 6.54
 const { x : a, y : b, z : c } = voxel;
 // assign value of x to a, y to b, z to c. 
 console.log(a); // 3.6
+
+const AVG_TEMPERATURES = {
+  today: 77.5,
+  tomorrow: 79
+};
+
+function getTempOfTmrw(avgTemperatures) {
+  "use strict";
+  const tempOfTomorrow = undefined; // change this line
+  return tempOfTomorrow;
+}
+
+console.log(getTempOfTmrw(AVG_TEMPERATURES)); // 79
