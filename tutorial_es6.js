@@ -48,8 +48,8 @@ var maximus = Math.max.apply(null, arr); // 89
 // apply is necessary because Math.max(arr) will take arr as a single NaN argument. 
 
 // ES6
-
-
+const arr = [6, 89, 3, 45];
+const maximus = Math.max(...arr); // 89
 
 const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 let arr2;
