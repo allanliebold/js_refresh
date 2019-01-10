@@ -46,6 +46,10 @@ console.log(sum(2, 2, 5)); // 9
 var arr = [6, 89, 3, 45];
 var maximus = Math.max.apply(null, arr); // 89
 
+// ES6
+
+
+
 const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 let arr2;
 (function() {
