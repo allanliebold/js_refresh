@@ -63,3 +63,10 @@ let arr2;
 console.log(arr2); // JAN,FEB,MAR,APR,MAY
 
 // Destructuring Assignment
+
+// ES5
+var voxel = {x: 3.6, y: 7.4, z: 6.54 };
+var x = voxel.x; // x = 3.6
+var y = voxel.y; // y = 7.4
+var z = voxel.z; // z = 6.54
+
