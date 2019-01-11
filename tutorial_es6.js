@@ -101,5 +101,6 @@ var name = 'Bob';
 var myString = 'Hello ' + name + '!';
 console.log(myString); // Hello Bob!
 
-
-
+// ES6 template literals
+let newString = `Hi there, ${name}!`;
+console.log(newString); // Hi there, Bob!
