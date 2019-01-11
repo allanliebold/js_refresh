@@ -54,6 +54,7 @@ var maximus = Math.max.apply(null, arr); // 89
 const arr = [6, 89, 3, 45];
 const maximus = Math.max(...arr); 
 const minimus = Math.min(...arr);
+console.log(maximus); // 89
 
 const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 let arr2;
