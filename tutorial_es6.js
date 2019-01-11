@@ -92,3 +92,5 @@ function getTempOfTmrw(avgTemperatures) {
 }
 
 console.log(getTempOfTmrw(AVG_TEMPERATURES)); // 79
+
+// Template Literals
