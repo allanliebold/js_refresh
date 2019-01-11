@@ -94,3 +94,12 @@ function getTempOfTmrw(avgTemperatures) {
 console.log(getTempOfTmrw(AVG_TEMPERATURES)); // 79
 
 // Template Literals
+// Use backtick ` not single quote '
+
+// ES5 string concatenation
+var name = 'Bob';
+var myString = 'Hello ' + name + '!';
+console.log(myString); // Hello Bob!
+
+
+
