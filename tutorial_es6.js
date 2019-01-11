@@ -53,6 +53,7 @@ var maximus = Math.max.apply(null, arr); // 89
 // The spread operator will separate each index of the array to pass as individual arguments.
 const arr = [6, 89, 3, 45];
 const maximus = Math.max(...arr); // 89
+const minimus = Math.min(...arr);
 
 const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
 let arr2;
