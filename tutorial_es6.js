@@ -111,4 +111,7 @@ let myName = 'Al';
 let newString = `Hi there, ${myName}!`;
 console.log(newString); // Hi there, Al!
 const namesArr = ['Jack', 'Burt', 'Mandy'];
+for(let i = 0; i < namesArr.length; i++) {
+  
+}
 
