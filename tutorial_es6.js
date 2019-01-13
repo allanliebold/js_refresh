@@ -48,7 +48,6 @@ const sum = (function() {
 console.log(sum(2, 2, 5)); // 9
 
 // Spread Operator
-
 // ES5
 var arr = [6, 89, 3, 45];
 var maximus = Math.max(arr); // NaN
