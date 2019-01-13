@@ -96,7 +96,6 @@ function getTempOfTmrw(avgTemperatures) {
   const { tomorrow : tempOfTomorrow } = avgTemperatures; 
   return tempOfTomorrow;
 }
-
 console.log(getTempOfTmrw(AVG_TEMPERATURES)); // 79
 
 // Template Literals
