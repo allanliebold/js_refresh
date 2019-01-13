@@ -8,6 +8,7 @@ var x = 1;
 }
 console.log(x); // 1
 
+// an array declared with var can be overwritten
 var oldArr = ['a', 'b', 'c'];
 oldArr = ['d', 'e', 'f'];
 console.log(oldArr); // d, e, f
