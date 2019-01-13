@@ -15,6 +15,7 @@ console.log(oldArr); // d, e, f
 
 // const can't be reassigned, but a const array can be mutated
 const myArr = [1, 2, 3];
+myArr = [4, 5, 6]; // throws an error
 myArr[0] = 0;
 console.log(myArr); // 0, 2, 3
 
