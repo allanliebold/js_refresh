@@ -1,4 +1,5 @@
 // ES6 Tutorial
+// var is global or local
 // let is block scoped
 var x = 1;
 { 
