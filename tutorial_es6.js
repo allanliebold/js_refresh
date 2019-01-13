@@ -118,4 +118,8 @@ function greetEverybody() {
     }
 }
 
-greetEverybody();
+greetEverybody(); 
+// Welcome, Jack!
+// Welcome, Burt!
+// Welcome, Mandy!
+
