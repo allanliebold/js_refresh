@@ -145,3 +145,9 @@ console.log(resultDisplayArray);
   `<li class="text-warning">var-on-top</li>`, 
   `<li class="text-warning">linebreak</li>` ]
 */
+
+// ES5
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y
+});
