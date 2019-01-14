@@ -153,4 +153,4 @@ const getMousePosition = (x, y) => ({
 });
 
 //ES6
-
+const getMousePosition = (x, y) => ({ x, y });
