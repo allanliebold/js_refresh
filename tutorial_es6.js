@@ -156,5 +156,8 @@ const getMousePosition = (x, y) => ({
 const getMousePosition = (x, y) => ({ x, y });
 
 const newObject = (name) => ({
-
+  name,
+  sayHi() { 
+    return `Hi. My name is ${this.name}`;
+  };
 });
