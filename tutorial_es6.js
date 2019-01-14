@@ -161,3 +161,11 @@ const newObject = (name) => ({
     return `Hi. My name is ${this.name}`;
   };
 });
+
+// ES6 Class Syntax
+class SpaceShuttle {
+  constructor(targetPlanet){
+    this.targetPlanet = targetPlanet;
+  }
+}
+const zeus = new SpaceShuttle('Jupiter');
