@@ -151,3 +151,6 @@ const getMousePosition = (x, y) => ({
   x: x,
   y: y
 });
+
+//ES6
+
