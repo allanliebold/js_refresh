@@ -15,3 +15,9 @@ let spliceArr = ['This', 'array', 'has', 'some', 'extra', 'words'];
 let removedWord = spliceArr.splice(4, 1);
 console.log(spliceArr); // This, array, has, some, words
 console.log(removedWord); // extra
+
+function sumRemaining(arr) {
+  return arr.reduce((a, b) => a + b);
+}
+
+console.log(sumOfTen([2, 5, 1, 5, 2, 1]));
