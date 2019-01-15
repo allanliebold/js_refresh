@@ -12,5 +12,5 @@ console.log(firstArr); // first, second, third
 console.log(shifted); // zero
 
 let spliceArr = ['This', 'array', 'has', 'some', 'extra', 'words'];
-let removedWord = spliceArr.splice(3, 1);
+let removedWord = spliceArr.splice(4, 1);
 console.log(spliceArr); / This, array, has, some, words
