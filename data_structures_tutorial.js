@@ -1,3 +1,4 @@
 // Basic Data Structures
 
-let firstArr = ['first', 2, 'third'];
+let firstArr = ['first', 'second', 'third'];
+firstArr.unshift('zero');
