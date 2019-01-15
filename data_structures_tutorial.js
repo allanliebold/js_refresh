@@ -17,6 +17,7 @@ console.log(spliceArr); // This, array, has, some, words
 console.log(removedWord); // extra
 
 function sumRemaining(arr) {
+  arr.splice(2,2);
   return arr.reduce((a, b) => a + b);
 }
 
