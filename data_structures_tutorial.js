@@ -24,3 +24,5 @@ function sumRemaining(arr) {
 console.log(sumRemaining([2, 5, 1, 5, 2, 1])); // 10
 
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+
+fruits.indexOf('dates') // -1
