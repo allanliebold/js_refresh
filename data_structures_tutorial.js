@@ -39,3 +39,4 @@ function quickCheck(arr, elem) {
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
