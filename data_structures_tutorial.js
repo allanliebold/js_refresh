@@ -81,4 +81,7 @@ function whoIsOnline(obj) {
     if(obj[item].online == true) 
       onlineUsers++;
   }
+  return onlineUsers;
 }
+
+console.log(whoIsOnline(users)); // 2
