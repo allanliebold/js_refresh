@@ -50,3 +50,10 @@ function spreadOut() {
 }
 
 console.log(spreadOut()); // learning,how,to,code,is,fun
+
+let users = ['al', 'bea', 'charlie'];
+for (let user in users) {
+  console.log(user);
+};
+
+// 
