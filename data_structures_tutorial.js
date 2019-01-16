@@ -49,4 +49,4 @@ function spreadOut() {
   return sentence;
 }
 
-console.log(spreadOut());
+console.log(spreadOut()); // learning,how,to,code,is,fun
