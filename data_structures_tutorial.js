@@ -45,7 +45,7 @@ console.log(thatArray); // ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 
 
 function spreadOut() {
   let fragment = ['to', 'code'];
-  let sentence;
+  let sentence = ['learning', 'how', ...fragment, 'is', 'fun'];
   return sentence;
 }
 
