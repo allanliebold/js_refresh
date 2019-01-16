@@ -69,8 +69,9 @@ let users = {
     online: true
   }
 };
+
 for (let user in users) {
   console.log(user);
 };
 
-// 
+// Alan, Jeff, Sarah, Ryan
