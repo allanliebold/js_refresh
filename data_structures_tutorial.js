@@ -51,7 +51,24 @@ function spreadOut() {
 
 console.log(spreadOut()); // learning,how,to,code,is,fun
 
-let users = ['al', 'bea', 'charlie'];
+let users = {
+  Alan: {
+    age: 27,
+    online: false
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
 for (let user in users) {
   console.log(user);
 };
