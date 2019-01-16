@@ -30,7 +30,7 @@ fruits.indexOf('oranges') // 2
 fruits.indexOf('pears') // 1, the first index at which the element exists
 
 function quickCheck(arr, elem) {
-
+  return arr.indexOf(elem);
 }
 
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
