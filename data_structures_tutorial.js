@@ -42,3 +42,11 @@ console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
 let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
 console.log(thatArray); // ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']
+
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence;
+  return sentence;
+}
+
+console.log(spreadOut());
