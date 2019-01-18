@@ -171,5 +171,7 @@ class SpaceShuttle {
 const zeus = new SpaceShuttle('Jupiter');
 
 class Character {
-  
+  constructor(name, job, equipment) {
+    
+  }
 }
