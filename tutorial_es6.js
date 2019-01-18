@@ -172,6 +172,8 @@ const zeus = new SpaceShuttle('Jupiter');
 
 class Character {
   constructor(name, job, equipment) {
-    
+    this.name = name;
+    this.job = job;
+    this.equipment = equipment;
   }
 }
