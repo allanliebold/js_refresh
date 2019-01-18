@@ -169,3 +169,7 @@ class SpaceShuttle {
   }
 }
 const zeus = new SpaceShuttle('Jupiter');
+
+class Character {
+  
+}
