@@ -177,3 +177,6 @@ class Character {
     this.equipment = equipment;
   }
 }
+
+const erdrick = new Character('Erdrick', 'Warrior', ['Sword', 'Shield']);
+
