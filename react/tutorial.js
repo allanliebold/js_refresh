@@ -24,7 +24,9 @@ Camper.propTypes = {
 class StatefulComponent extends React.Component {
   constructor(props) {
     super(props);
-
+    this.state = {
+      
+    }
   }
   render() {
     return (
