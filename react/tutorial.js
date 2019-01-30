@@ -10,3 +10,5 @@ class CampSite extends React.Component {
     );
   }
 };
+
+const Camper = props => (<p>{props.name}</p>);
