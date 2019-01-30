@@ -52,3 +52,19 @@ class MyComponent extends React.Component {
     );
   }
 };
+
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: 'Allan'
+    }
+  }
+  render() {
+    const name = this.state.name;
+    return (
+      <div>
+      </div>
+    );
+  }
+};
