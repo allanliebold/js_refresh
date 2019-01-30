@@ -64,6 +64,7 @@ class MyComponent extends React.Component {
     const name = this.state.name;
     return (
       <div>
+        <h1>{name}</h1>
       </div>
     );
   }
