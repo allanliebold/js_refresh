@@ -36,3 +36,19 @@ class StatefulComponent extends React.Component {
     );
   }
 };                         
+
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: ''
+    }
+  }
+  render() {
+    return (
+      <div>
+      
+      </div>
+    );
+  }
+};
