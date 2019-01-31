@@ -80,7 +80,7 @@ class MyComponent extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick() {
-    this.setState();
+    this.setState({name: 'Button Clicked!'});
   }
   render() {
     return (
