@@ -110,11 +110,41 @@ class MyComponent extends React.Component {
   render() {
     return (
       <div>
-        { /* change code below this line */ }
         <button onClick={this.addItem}>Click Me</button>
-        { /* change code above this line */ }
         <h1>Current Item Count: {this.state.itemCount}</h1>
       </div>
     );
+  }
+};
+
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      visibility: false
+    };
+    // change code below this line
+    this.toggleVisibility = this.toggleVisibility.bind(this);
+  }
+  toggleVisibility() {
+    this.state.visibility == true ?
+      this.setState({visibility:false})
+      : this.setState({visibility:true})
+  }
+  render() {
+    if (this.state.visibility) {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+          <h1>Now you see me!</h1>
+        </div>
+      );
+    } else {
+      return (
+        <div>
+          <button onClick={this.toggleVisibility}>Click Me</button>
+        </div>
+      );
+    }
   }
 };
