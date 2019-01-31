@@ -70,6 +70,7 @@ class MyComponent extends React.Component {
   }
 };
 
+// Button Click
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
