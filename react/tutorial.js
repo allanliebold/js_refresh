@@ -70,7 +70,7 @@ class MyComponent extends React.Component {
   }
 };
 
-// Button Click
+// Button Click to change state
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
