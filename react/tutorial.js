@@ -187,22 +187,16 @@ class MyForm extends React.Component {
     });
   }
   handleSubmit(event) {
-    // change code below this line
 
-    // change code above this line
   }
   render() {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          { /* change code below this line */ }
 
-          { /* change code above this line */ }
           <button type='submit'>Submit!</button>
         </form>
-        { /* change code below this line */ }
 
-        { /* change code above this line */ }
       </div>
     );
   }
