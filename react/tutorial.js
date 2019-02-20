@@ -220,9 +220,9 @@ class Controller extends React.Component {
     render() {
       return (
         <div>
-        
+          <button onClick={this.addVaue}>Add</button>
+          <OnlyEvens value={this.state.value} />
         </div>
-      )
+      );
     }
-  }
-}
+};
