@@ -235,4 +235,8 @@ class OnlyEvens extends React.Component {
   shouldComponentUpdate(nextProps, nextState) {
       
   }
-}
+  
+  render() {
+    return <h1>{this.props.value}</h1> 
+  }
+};
