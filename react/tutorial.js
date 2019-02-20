@@ -209,5 +209,12 @@ class Controller extends React.Component {
     this.state = {
       value: 0 
     };
+    this.addValue.bind(this);
+    
+    addValue() {
+      this.setState({
+        value: this.state.value++
+      });
+    }
   }
 }
