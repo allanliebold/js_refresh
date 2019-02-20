@@ -216,5 +216,13 @@ class Controller extends React.Component {
         value: this.state.value++
       });
     }
+    
+    render() {
+      return (
+        <div>
+        
+        </div>
+      )
+    }
   }
 }
