@@ -226,3 +226,13 @@ class Controller extends React.Component {
       );
     }
 };
+
+class OnlyEvens extends React.Component {
+  constructor(props) {
+    super(props); 
+  }
+  
+  shouldComponentUpdate(nextProps, nextState) {
+      
+  }
+}
