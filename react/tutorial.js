@@ -233,7 +233,8 @@ class OnlyEvens extends React.Component {
   }
   
   shouldComponentUpdate(nextProps, nextState) {
-      
+    // Return true only if the next value of props is an even number
+    return nextProps.value % 2 == 0 ? true : false;     
   }
   
   render() {
