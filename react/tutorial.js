@@ -269,6 +269,9 @@ class MyComponent extends React.Component {
     return(
       <div>
         <h1>Current Online Users:</h1>
+        <ul>
+          {renderOnline}
+        </ul>
       </div>
     );
   }
