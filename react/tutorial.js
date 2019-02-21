@@ -254,6 +254,10 @@ class MyComponent extends React.Component {
         {
           username: 'Grem',
           online: false
+        },
+        {
+          username: 'Perd',
+          online: true
         }
       ] 
     }
