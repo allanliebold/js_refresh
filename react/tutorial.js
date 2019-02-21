@@ -265,6 +265,7 @@ class MyComponent extends React.Component {
   
   render() {
     const usersOnline = this.state.users.filter(user => user.online == true);
+    const renderOnline = usersOnline.map();
     return(
       <div>
         <h1>Current Online Users:</h1>
