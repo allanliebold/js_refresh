@@ -267,7 +267,7 @@ class MyComponent extends React.Component {
       ] 
     }
   }
-  
+  // filtering by properties and creating JSX elements with map
   render() {
     const usersOnline = this.state.users.filter(user => user.online == true);
     const renderOnline = usersOnline.map(item => <li key={item.username + 1}>{item.username}</li>);
