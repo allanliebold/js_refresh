@@ -251,7 +251,11 @@ class MyComponent extends React.Component {
           username: 'Jepp',
           online: true
         }
-      ]; 
+      ] 
     }
+  }
+  
+  render() {
+    
   }
 }
