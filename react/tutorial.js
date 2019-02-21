@@ -256,6 +256,10 @@ class MyComponent extends React.Component {
           online: false
         },
         {
+          username: 'Torpal',
+          online: false
+        },
+        {
           username: 'Perd',
           online: true
         }
@@ -276,3 +280,4 @@ class MyComponent extends React.Component {
     );
   }
 };
+
