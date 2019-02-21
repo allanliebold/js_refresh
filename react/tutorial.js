@@ -257,6 +257,10 @@ class MyComponent extends React.Component {
   
   render() {
   
-    return();
+    return(
+      <div>
+        <h1>Current Online Users:</h1>
+      </div>
+    );
   }
 };
