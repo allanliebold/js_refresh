@@ -242,6 +242,7 @@ class OnlyEvens extends React.Component {
   }
 };
 
+// Using array, filter, and map
 class MyComponent extends React.Component {
   constructor(props) {
     super(props);
