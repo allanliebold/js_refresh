@@ -246,7 +246,12 @@ class MyComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      users: []; 
+      users: [
+        {
+          username: 'Jepp',
+          online: true
+        }
+      ]; 
     }
   }
 }
