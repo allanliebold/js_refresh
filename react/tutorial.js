@@ -241,3 +241,7 @@ class OnlyEvens extends React.Component {
     return <h1>{this.props.value}</h1> 
   }
 };
+
+class MyComponent extends React.Component {
+  
+}
