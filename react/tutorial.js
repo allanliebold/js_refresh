@@ -292,7 +292,7 @@ class GameOfChance extends React.Component {
   }
   handleClick() {
     this.setState({
-      counter: 0
+      counter: this.state.countr + 1
     });
   }
   
