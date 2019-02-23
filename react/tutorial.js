@@ -301,6 +301,7 @@ class GameOfChance extends React.Component {
     return (
       <div>
         <button onClick={this.handleClick}>Play Again</button>
+        <p>{'Turn: ' + this.state.counter}</p>
       </div>
     );
   }
