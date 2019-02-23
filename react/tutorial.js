@@ -300,7 +300,7 @@ class GameOfChance extends React.Component {
     let expression = null;
     return (
       <div>
-      
+        <button onClick={this.handleClick}>Play Again</button>
       </div>
     );
   }
