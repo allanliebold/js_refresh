@@ -297,7 +297,7 @@ class GameOfChance extends React.Component {
   }
   
   render() {
-    let expression = null;
+    let expression = Math.random() > .5;
     return (
       <div>
         <button onClick={this.handleClick}>Play Again</button>
