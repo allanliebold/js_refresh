@@ -301,6 +301,8 @@ class GameOfChance extends React.Component {
     return (
       <div>
         <button onClick={this.handleClick}>Play Again</button>
+        { expression == true ? <Results fiftyFifty="You Win!" /> : 
+                               <Results fiftyFifty="You Lose!" /> }
         <p>{'Turn: ' + this.state.counter}</p>
       </div>
     );
