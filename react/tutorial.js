@@ -290,4 +290,18 @@ class GameOfChance extends React.Component {
     }
     this.handleClick = this.handleClick.bind(this);
   }
-}
+  handleClick() {
+    this.setState({
+      counter: 0
+    });
+  }
+  
+  render() {
+    let expression = null;
+    return (
+      <div>
+      
+      </div>
+    );
+  }
+};
