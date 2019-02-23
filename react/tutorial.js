@@ -282,3 +282,9 @@ class MyComponent extends React.Component {
   }
 };
 
+class GameOfChance extends React.Component {
+  constructor(props) {
+    super(props);
+    
+  }
+}
