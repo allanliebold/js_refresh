@@ -285,6 +285,8 @@ class MyComponent extends React.Component {
 class GameOfChance extends React.Component {
   constructor(props) {
     super(props);
-    
+    this.state = {
+      counter: 1 
+    }
   }
 }
