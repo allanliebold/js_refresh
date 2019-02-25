@@ -2,6 +2,7 @@
 // Convert Celsius to Fahrenheit
 cons convertToF = (celsius) => (celsius * 9/5) + 32;
 
+// Reverse String (without using reverse method)
 function reverseString(str) {
   let strArr = str.split('');
   let reverseArr = [];
@@ -10,3 +11,4 @@ function reverseString(str) {
   }
   return reverseArr.join('');
 }
+
