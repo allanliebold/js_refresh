@@ -14,3 +14,14 @@ function reverseString(str) {
 
 // Factorialize (with recursion)
 const factorialize = (num) => num == 0 ? 1 : num * factorialize(num - 1);
+
+// Return length of longest word in a string
+function findLongestWordLength(str) {
+  let wordArr = str.split(' ');
+  let longest = 0;
+  for(let i = 0; i < wordArr.length; i++) {
+    if(wordArr[i].length > longest) longest = wordArr[i].length; 
+  }
+  
+  return longest; 
+}
