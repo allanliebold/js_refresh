@@ -27,3 +27,6 @@ function findLongestWordLength(str) {
 }
 
 // Using Reduce
+function findingLongestWordLength(str) {
+  
+}
