@@ -43,3 +43,12 @@ function getMin(data) {
 function getMax(data) {
   return Math.max(...data); 
 }
+
+function largestofFour(arr) {
+  let largest = [];
+  for(let i = 0; i < arr.length; i++) {
+    largest.push(arr[i].reduce((acc, curr) => Math.max(acc, curr), arr[i][0]))
+  }
+  
+  return largest;
+}
