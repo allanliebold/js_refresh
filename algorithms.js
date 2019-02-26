@@ -28,5 +28,7 @@ function findLongestWordLength(str) {
 
 // Using Reduce
 function findingLongestWordLength(str) {
-  
+  return str.split(' ').reduce(function(acc, curr) {
+    return Math.max(acc, curr.length);
+  }, 0);
 }
