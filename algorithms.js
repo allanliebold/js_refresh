@@ -32,3 +32,5 @@ function findingLongestWordLength(str) {
     return Math.max(acc, curr.length);
   }, 0);
 }
+
+// Using Map and Spread Operator to find min and max number in an array
