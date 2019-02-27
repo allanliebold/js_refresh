@@ -64,4 +64,8 @@ function confirmEnding(str, target) {
 }
 function repeatStringNumTimes(str, num) {
   let newStr = '';
+  while(num > 0) {
+    newStr += str;
+    num--;
+  }
 }
