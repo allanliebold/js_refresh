@@ -68,4 +68,5 @@ function repeatStringNumTimes(str, num) {
     newStr += str;
     num--;
   }
+  return newStr;
 }
