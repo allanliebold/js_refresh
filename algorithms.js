@@ -62,6 +62,6 @@ function confirmEnding(str, target) {
 function confirmEnding(str, target) {
    return str.slice(-Math.abs(target.length)) == target;
 }
-funtion repeatStringNumTimes(str, num) {
+function repeatStringNumTimes(str, num) {
   
 }
