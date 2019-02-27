@@ -60,5 +60,5 @@ function confirmEnding(str, target) {
 }
 
 function confirmEnding(str, target) {
-   return str.slice() == target;
+   return str.slice(-Math.abs(target.length)) == target;
 }
