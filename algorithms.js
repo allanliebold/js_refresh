@@ -59,3 +59,6 @@ function confirmEnding(str, target) {
   return str.slice(target.length - (target.length * 2)) == target;
 }
 
+function confirmEnding(str, target) {
+   
+}
