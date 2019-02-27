@@ -70,3 +70,4 @@ function repeatStringNumTimes(str, num) {
   }
   return newStr;
 }
+repeatStringNumTimes("abc", 3);
