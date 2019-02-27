@@ -63,5 +63,5 @@ function confirmEnding(str, target) {
    return str.slice(-Math.abs(target.length)) == target;
 }
 function repeatStringNumTimes(str, num) {
-  
+  let newStr = '';
 }
