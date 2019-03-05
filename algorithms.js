@@ -91,6 +91,7 @@ function sumAll(arr) {
 //Intermediate
 function sumAll(arr) {
   var sortedArr = arr.sort((a,b) => a-b); 
+  return (arr[1] - arr[0] + 1) * (arr[0] + arr[1]) / 2; 
 }
 
 //Advanced
