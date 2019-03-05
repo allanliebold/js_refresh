@@ -109,6 +109,12 @@ sumAll([1, 4]);
 
 function diffArray(arr1, arr2) {
   var newArr = [];
+  
+  function compareArr(first, second) {
+    for(let i = 0; i < first.length; i++) {
+      
+    }
+  }
   return newArr;
 }
 
