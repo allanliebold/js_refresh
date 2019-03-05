@@ -88,6 +88,10 @@ function sumAll(arr) {
   }
   return sum; 
 }
+//Intermediate
+function sumAll(arr) {
+  var sortedArr = arr.sort((a,b) => a-b); 
+}
 
 //Advanced
 function sumAll(arr) {
