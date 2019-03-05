@@ -80,7 +80,7 @@ truncateString("abracadabra", 4); // abra...
 // Sum all numbers in a range
 
 function sumAll(arr) {
-  return 1;
+  return sum;
 }
 
 sumAll([1, 4]);
