@@ -81,6 +81,9 @@ truncateString("abracadabra", 4); // abra...
 
 function sumAll(arr) {
   let sum = 0;
+  for (let i = min; i <= max; i++) {
+    
+  }
   return sum;
 }
 
