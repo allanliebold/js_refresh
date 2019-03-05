@@ -79,6 +79,10 @@ truncateString("abracadabra", 4); // abra...
 
 // Sum all numbers in a range
 //Basic 
+function sumAll(arr) {
+  var max = Math.max(arr[0], arr[1]);
+  var min = Math.min(arr[0], arr[1]);
+}
 
 //Advanced
 function sumAll(arr) {
