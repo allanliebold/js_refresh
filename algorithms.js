@@ -78,7 +78,9 @@ function truncateString(str, num) {
 truncateString("abracadabra", 4); // abra...
 
 // Sum all numbers in a range
+//Basic 
 
+//Advanced
 function sumAll(arr) {
   let sum = 0;
   for (let i = Math.min(...arr); i <= Math.max(...arr); i++) {
