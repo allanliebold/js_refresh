@@ -3,5 +3,5 @@
 
 let originalText = "I am good.";
 let targetRegex = /good/;
-let replaceText = "well";
+let replaceText = "well, thank you";
 let result = originalText.replace(targetRegex, replaceText);
