@@ -1,2 +1,2 @@
 
-"First Second".replace();
+"First Second".replace(/(\w+)\s(\w+)/);
