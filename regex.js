@@ -18,5 +18,9 @@ let replaceText = "well, thank you";
 let result = originalText.replace(targetRegex, replaceText);
 
 function spinalCase(str) {
-  return str; 
+  let regex = /\s+|_+/g;
+  str = str.replace(/([a-z])([A-Z])/g, '$1 $2'); 
+  // Find any lowercase letterfollowed by uppercase letter, and replace with the same divided by a space 
+  //Return the string with all spaces and underscores replaced with dashes and then convert to all lowercase
+  return str.replace(regex, '-').toLowerCase(); 
 }
