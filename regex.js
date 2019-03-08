@@ -1,5 +1,5 @@
 let regexp = /t.[a-z]*t/;
-
+let regexp = /E+/;
 
 "First Second".replace(/(\w+)\s(\w+)/, '$2 $1'); // "Second First" 
 
