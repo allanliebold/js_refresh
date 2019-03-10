@@ -7,4 +7,5 @@ create table Customer
   Age int
 )
 insert into Customer 
-  (FirstName, LastName, Age)
+(FirstName, LastName, Age)
+  values('John', 'Doe', 40)
