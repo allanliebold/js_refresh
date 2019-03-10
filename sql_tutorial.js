@@ -6,5 +6,5 @@ create table Customer
   LastName varchar(50),
   Age int
 )
-insert into dbo.Customer 
+insert into Customer 
   (FirstName, LastName, Age)
