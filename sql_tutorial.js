@@ -7,3 +7,4 @@ create table Customer
   Age int
 )
 insert into dbo.Customer 
+  (FirstName, LastName, Age)
