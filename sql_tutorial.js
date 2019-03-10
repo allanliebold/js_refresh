@@ -1,2 +1,2 @@
-create table Customer
+create database Customer
 use Customer
