@@ -21,3 +21,10 @@ insert into Customer
   values('Jane', 'Smith', 30)
 
 select FirstName from Customer
+
+/*FirstName
+John
+Bob
+Sally 
+Jane
+*/
