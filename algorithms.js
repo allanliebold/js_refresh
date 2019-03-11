@@ -78,7 +78,15 @@ function truncateString(str, num) {
 truncateString("abracadabra", 4); // abra...
 
 function findElement(arr, func) {
+  let answer = undefined;
+  for(let i = 0; i < arr.length; i++) {
+    if(func(arr[i])) {
+      answer = arr[i];
+      break;
+    }
+  }
   
+  return answer;
 }
 
 // Sum all numbers in a range
