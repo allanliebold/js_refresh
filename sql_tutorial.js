@@ -15,10 +15,10 @@ insert into Customer
   values('Bob', 'Roberts', 60)
 insert into Customer 
 (FirstName, LastName, Age)
-  values('Sally', 'Doe', 42)
+  values('Sally', 'Doe', 38)
 insert into Customer 
 (FirstName, LastName, Age)
-  values('Jane', 'Smith', 30)
+  values('Jane', 'Smith', 40)
 
 select FirstName from Customer
 
