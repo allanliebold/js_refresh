@@ -6,6 +6,17 @@ create table Customer
   LastName varchar(50),
   Age int
 )
+
 insert into Customer 
 (FirstName, LastName, Age)
   values('John', 'Doe', 40)
+insert into Customer 
+(FirstName, LastName, Age)
+  values('Bob', 'Roberts', 60)
+insert into Customer 
+(FirstName, LastName, Age)
+  values('Sally', 'Doe', 42)
+insert into Customer 
+(FirstName, LastName, Age)
+  values('Jane', 'Smith', 30)
+
