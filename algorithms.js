@@ -77,6 +77,10 @@ function truncateString(str, num) {
 }
 truncateString("abracadabra", 4); // abra...
 
+function findElement(arr, func) {
+  
+}
+
 // Sum all numbers in a range
 //Basic 
 function sumAll(arr) {
@@ -125,3 +129,4 @@ function diffArray(arr1, arr2) {
 }
 
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+
