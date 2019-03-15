@@ -38,3 +38,5 @@ Jane Smith
 
 select FirstName,Age
 from Customer where LastName='Doe'
+
+/*FirstName Age
