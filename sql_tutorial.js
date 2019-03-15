@@ -36,3 +36,5 @@ from Customer where Age=40
 John Doe
 Jane Smith
 
+select FirstName,Age
+from Customer where LastName='Doe'
