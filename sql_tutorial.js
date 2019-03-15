@@ -51,8 +51,9 @@ where FirstName='Sally'
 and LastName='Doe';
 
 select FirstName,LastName
-from Customer where LastName like 'Rob_';
+from Customer where LastName like 'Rob%';
 
 /*FirstName LastName
-
+Bob Roberts
+Sally Robbins
 */
