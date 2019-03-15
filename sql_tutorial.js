@@ -35,6 +35,7 @@ from Customer where Age=40;
 /*FirstName LastName
 John Doe
 Jane Smith
+*/
 
 select FirstName,Age
 from Customer where LastName='Doe';
@@ -42,3 +43,4 @@ from Customer where LastName='Doe';
 /*FirstName Age
 John 40
 Sally 38
+*/
