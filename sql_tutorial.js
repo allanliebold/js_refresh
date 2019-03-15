@@ -30,7 +30,7 @@ Jane
 */
 
 select FirstName,LastName 
-from Customer where Age=40
+from Customer where Age=40;
 
 /*FirstName LastName
 John Doe
