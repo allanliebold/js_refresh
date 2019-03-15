@@ -20,7 +20,7 @@ insert into Customer
 (FirstName, LastName, Age)
   values('Jane', 'Smith', 40)
 
-select FirstName from Customer
+select FirstName from Customer;
 
 /*FirstName
 John
