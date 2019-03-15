@@ -40,3 +40,4 @@ select FirstName,Age
 from Customer where LastName='Doe'
 
 /*FirstName Age
+John 40
