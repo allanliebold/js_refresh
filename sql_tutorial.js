@@ -44,3 +44,8 @@ from Customer where LastName='Doe';
 John 40
 Sally 38
 */
+
+update Customer
+Set LastName='Robbins'
+where FirstName='Sally'
+and LastName='Doe';
