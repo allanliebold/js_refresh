@@ -29,7 +29,8 @@ Sally
 Jane
 */
 
-select FirstName,LastName from Customer where Age=40
+select FirstName,LastName 
+from Customer where Age=40
 
 /*Firstame LastName
 John Doe
