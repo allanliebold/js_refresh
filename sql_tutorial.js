@@ -53,6 +53,6 @@ and LastName='Doe';
 select FirstName,LastName
 from Customer where LastName like 'Rob_';
 
-/*
+/*FirstName LastName
 
 */
