@@ -64,4 +64,5 @@ Sally Robbins
 */
 
 update Customer 
-
+Set Age =41
+where Age=40;
