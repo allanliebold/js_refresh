@@ -23,7 +23,8 @@ insert into Customer
 
 select FirstName from Customer;
 
-/*FirstName
+/*
+FirstName
 John
 Bob
 Sally 
