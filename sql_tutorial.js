@@ -43,7 +43,8 @@ Jane Smith
 select FirstName,Age
 from Customer where LastName='Doe';
 
-/*FirstName Age
+/*
+FirstName Age
 John 40
 Sally 38
 */
