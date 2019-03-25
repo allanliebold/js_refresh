@@ -89,3 +89,6 @@ where LastName like "Schmidt_";
 /* This is
 a multi line
 comment */
+
+alter table customer
+add City varchar(50);
