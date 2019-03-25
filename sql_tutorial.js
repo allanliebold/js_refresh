@@ -81,3 +81,6 @@ INSERT INTO Customer
 (FirstName, LastName, Age)
   values('Mike', 'Schmidt', 44);
 
+DELETE Customer
+where LastName like "Schmidt_";
+// Mike Schmidt is not deleted because the _ requires a character
