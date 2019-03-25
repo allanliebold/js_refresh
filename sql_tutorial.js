@@ -69,3 +69,7 @@ where Age=40;
 
 select FirstName,LastName,Age
 from Customer where Age>40;
+
+/*FirstName,LastName,Age
+
+*/
