@@ -75,4 +75,4 @@ John Doe 41
 Jane Smith 41
 */
 
-DELETE Customer; // This deletes the entire table if there is no WHERE clause
+DELETE Customer; // This deletes all of the data in table if there is no WHERE clause
