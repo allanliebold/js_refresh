@@ -74,3 +74,5 @@ from Customer where Age>40;
 John Doe 41
 Jane Smith 41
 */
+
+DELETE Customer; // This deletes the entire table if there is no WHERE clause
