@@ -72,4 +72,5 @@ from Customer where Age>40;
 
 /*FirstName LastName Age
 John Doe 41
+Jane Smith 41
 */
