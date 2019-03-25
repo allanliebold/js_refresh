@@ -76,3 +76,8 @@ Jane Smith 41
 */
 
 DELETE Customer; // This deletes all of the data in table if there is no WHERE clause. DROP deletes the table itself. 
+
+INSERT INTO Customer 
+(FirstName, LastName, Age)
+  values('Mike', 'Schmidt', 44);
+
