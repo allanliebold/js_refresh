@@ -71,5 +71,5 @@ select FirstName,LastName,Age
 from Customer where Age>40;
 
 /*FirstName LastName Age
-
+John Doe 41
 */
