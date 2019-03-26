@@ -112,4 +112,5 @@ Create table Orders
   OrderId int primary key intentity(1,1),
   OrderDate Datetime,
   CustomerId int,
+  ProductId int
 )
