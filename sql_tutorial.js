@@ -100,3 +100,5 @@ create table Products
 )
 
 select * from Products
+
+insert into Products (ProductName) values ('Pencil');
