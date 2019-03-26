@@ -95,5 +95,6 @@ add City varchar(50);
 
 create table Products
 (
-    
+  id int primary key identity(1,1),
+  ProductName varchar(50)
 )
