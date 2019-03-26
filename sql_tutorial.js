@@ -109,5 +109,6 @@ insert into Products (ProductName, Price) values ('Notebook', 5.00);
 
 Create table Orders
 (
-  
+  OrderId int primary key intentity(1,1),
+  CustomerId int,
 )
