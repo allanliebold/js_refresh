@@ -106,3 +106,8 @@ select * from Products
 
 insert into Products (ProductName, Price) values ('Pencils', 2.50);
 insert into Products (ProductName, Price) values ('Notebook', 5.00);
+
+Create table Orders
+(
+  
+)
