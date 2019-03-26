@@ -99,6 +99,9 @@ create table Products
   ProductName varchar(50)
 )
 
+alter table Products
+add Price
+
 select * from Products
 
 insert into Products (ProductName) values ('Pencil');
