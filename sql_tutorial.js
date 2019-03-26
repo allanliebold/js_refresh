@@ -100,7 +100,7 @@ create table Products
 )
 
 alter table Products
-add Price
+add Price float;
 
 select * from Products
 
