@@ -104,4 +104,5 @@ add Price float;
 
 select * from Products
 
-insert into Products (ProductName) values ('Pencils', 2.50);
+insert into Products (ProductName, Price) values ('Pencils', 2.50);
+insert into Products (Product
