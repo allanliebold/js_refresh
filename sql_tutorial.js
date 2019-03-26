@@ -92,3 +92,8 @@ comment */
 
 alter table customer
 add City varchar(50);
+
+create table Products
+(
+    
+)
