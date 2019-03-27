@@ -90,6 +90,7 @@ interviewQuestion('teacher')('Mark'); // without storing as a variable
 interviewQuestion('anthropologist')('Gordon'); 
 
 // IIFE - Immediately Invoked Function Expression
+
 /*
 function game() {
    var score = Math.random() * 10;
