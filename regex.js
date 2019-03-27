@@ -24,5 +24,6 @@ function spinalCase(str) {
   str = str.replace(/([a-z])([A-Z])/g, '$1 $2'); 
   // Find any lowercase letterfollowed by uppercase letter, and replace with the same divided by a space 
   //Return the string with all spaces and underscores replaced with dashes and then convert to all lowercase
+  
   return str.replace(regex, '-').toLowerCase(); 
 }
