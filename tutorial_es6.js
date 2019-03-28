@@ -14,7 +14,9 @@ var oldArr = ['a', 'b', 'c'];
 oldArr = ['d', 'e', 'f'];
 console.log(oldArr); // d, e, f
 
+// It's a common misconception that const is immutable. 
 // const can't be reassigned, but a const array can be mutated
+
 const myArr = [1, 2, 3];
 myArr = [4, 5, 6]; // throws an error
 myArr[0] = 0;
