@@ -11,4 +11,6 @@ const store = Redux.createStore(
 
 let currentState = store.getState();
 
-let action={}
+let action={
+  type: 'LOGIN'
+}
