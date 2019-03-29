@@ -8,4 +8,5 @@ let store = Redux.createStore(reducer);
 const store = Redux.createStore(
   (state = 5) => state
 );
+
 let currentState = store.getState();
