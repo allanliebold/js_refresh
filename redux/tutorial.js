@@ -4,3 +4,7 @@ const reducer = (state = 5) => {
 }
 
 let store = Redux.createStore(reducer);
+
+const store = Redux.createStore(
+  (state = 5) => state
+);
