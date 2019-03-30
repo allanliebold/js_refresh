@@ -117,7 +117,6 @@ function sumAll(arr) {
 sumAll([1, 4]);
 
 //Find the differences between two arrays
-
 function diffArray(arr1, arr2) {
   var newArr = [];
   
