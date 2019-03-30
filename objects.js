@@ -161,7 +161,6 @@ function interviewQuestion(job) {
           }
      }
 }
-
 interviewQuestion('other')('Jon');
 
 // Bind, Call, Apply
