@@ -35,7 +35,6 @@ function updateRecords(id, prop, value) {
     delete collection[id][prop];
     return collection
   }
-
   if(prop == "tracks") {
     if(collection[id].hasOwnProperty("tracks") == false) {
       collection[id]["tracks"] = [];
