@@ -25,8 +25,7 @@ class Nurse extends HospitalEmployee {
     // super takes the name property from the inherited HospitalEmployee class
     super(name);
     this._certifications = certifications;
-  } 
-  
+  }   
   get certifications() {
     return this._certifications;
   }
