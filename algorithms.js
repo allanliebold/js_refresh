@@ -84,7 +84,6 @@ function findElement(arr, func) {
       break;
     }
   }
-  
   return answer;
 }
 
