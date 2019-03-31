@@ -20,5 +20,6 @@ const action = {
 function actionCreator(){
     return action;
 }
-const store = Redux.createStore();
-
+const store = Redux.createStore(
+  (state = {login: false}) => state
+);
