@@ -20,3 +20,5 @@ const action = {
 function actionCreator(){
     return action;
 }
+const store = Redux.createStore();
+
