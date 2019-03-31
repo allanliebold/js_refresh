@@ -25,5 +25,7 @@ const store = Redux.createStore(
 );
 
 const loginAction = () => {
-  return {}
+  return {
+    type: 'LOGIN'
+  }
 };
