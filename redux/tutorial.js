@@ -13,3 +13,7 @@ let currentState = store.getState();
 let action={
   type: 'LOGIN'
 }
+
+const action = {
+  type: 'LOGIN'
+}
