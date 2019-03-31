@@ -17,3 +17,4 @@ let action={
 const action = {
   type: 'LOGIN'
 }
+function actionCreator();
