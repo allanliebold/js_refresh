@@ -7,6 +7,7 @@ const people = ['Bill', 'Bob', 'Dave', 'Doug'];
 const peopleList = people.map((person, i) =>
   <li key={'person_' + i}>{person}</li>
 );
+
 const doubleNumList = numbers.map((number) =>
   <li key={'num_' + number}>{number * 2}</li>                               
 );
