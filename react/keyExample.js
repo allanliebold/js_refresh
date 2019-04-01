@@ -21,6 +21,7 @@ function ThingsList(props) {
 const things = ['apple', 'computer', 'coffee cup', 'desk'];
 
 ReactDOM.render(
+  
   <ThingsList things={things} />,
   document.getElementById('root')
 );
