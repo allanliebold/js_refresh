@@ -11,6 +11,7 @@ function doAsyncTask(cb) {
   });
   
   doAsyncTask(() => console.log(message));
+  
   let message = 'Callback Called';
 }
 
