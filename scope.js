@@ -82,7 +82,6 @@ function goo() {
 
 // The 'this' keyword
 console.log(this); // this is the global window object
-
 this.myVar = 1; 
 
 console.log(this.myVar); // prints 1
