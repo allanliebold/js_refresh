@@ -33,7 +33,6 @@ function third() {
 
 // this keyword
 console.log(this); // will log the Window object
-
 function exampleFunction() {
   console.log(this);  
 }
