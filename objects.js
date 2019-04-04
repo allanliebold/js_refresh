@@ -218,4 +218,4 @@ const droid = {
 	}
 }
 
-function User();
+function User(firstName, lastName, age, gender);
