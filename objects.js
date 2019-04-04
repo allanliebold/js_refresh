@@ -232,3 +232,5 @@ User.prototype.emailDomain = '@email.com';
 
 // If you look at user1 now it will not have an emailDomain, 
 // but emailDomain will exist under its dunder proto (__proto__) property
+
+User.prototype.getEmailAddress = function()
