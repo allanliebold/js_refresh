@@ -224,3 +224,5 @@ function User(firstName, lastName, age, gender) {
 	this.age = age;
 	this.gender = gender;
 }
+
+User.prototype.emailDomain = '@email.com';
