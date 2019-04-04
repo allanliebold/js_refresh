@@ -6,8 +6,7 @@ function Question(question, answers, correct) {
 }
 
 Question.prototype.displayQuestion = function() {
-  console.log(this.question);
-  
+  console.log(this.question);  
   for (var i = 0; i < this.answers.length; i++) {
     console.log(i + ': ' + this.answers[i]);  
   }
