@@ -18,7 +18,6 @@ var q3 = new Question('This isn\'t not untrue.', ['True', 'False'], 1); // I thi
 var q4 = new Question('Is that it?', ['Yup', 'Nope'], 0);
 
 var questions = [q1, q2, q3, q4];
-
 var n = Math.floor(Math.random() * questions.length);
 questions[n].displayQuestion();
 
