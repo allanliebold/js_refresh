@@ -218,6 +218,7 @@ const droid = {
 	}
 }
 
+// Prototype object
 function User(firstName, lastName, age, gender) {
 	this.firstName = firstName;
 	this.lastName = lastName;
