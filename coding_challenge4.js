@@ -20,7 +20,6 @@ var q4 = new Question('Is that it?', ['Yup', 'Nope'], 0);
 var questions = [q1, q2, q3, q4];
 
 var n = Math.floor(Math.random() * questions.length);
-
 questions[n].displayQuestion();
 
 var answer = parseInt(prompt('Please select the correct answer.'));
