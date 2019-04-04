@@ -203,7 +203,7 @@ const robot = {
 		return `I am ${this.model} and my current energy level is ${this.energyLevel}.`;	
 	}
 	checkEnergy: () => {
-   		console.log(`Energy is currently at ${this.energyLevel}%.`)
+   		console.log(`Energy is currently at ${this.energyLevel}%.`);
 		// lexical arrow functions bind to the global scope. this won't work here. Use a function expression as in provideInfo
   	}
 }
