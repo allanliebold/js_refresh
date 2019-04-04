@@ -240,4 +240,4 @@ User.prototype.getEmailAddress = function() {
 }
 
 user1.getEmailAddress();
-// JohnSmith@email.com
+// John.Smith@email.com
