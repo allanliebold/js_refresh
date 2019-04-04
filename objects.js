@@ -217,3 +217,5 @@ const droid = {
 
 	}
 }
+
+function User();
