@@ -236,3 +236,6 @@ User.prototype.emailDomain = '@email.com';
 User.prototype.getEmailAddress = function() {
 	return this.firstName + this.lastName + this.emailDomain;
 }
+
+user1.getEmailAddress();
+
