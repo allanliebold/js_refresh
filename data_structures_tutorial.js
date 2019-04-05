@@ -87,3 +87,6 @@ function whoIsOnline(obj) {
 console.log(whoIsOnline(users)); // 2
 
 // Linked List
+function LinkedList() {
+  
+}
