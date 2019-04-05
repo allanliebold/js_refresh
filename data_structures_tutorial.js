@@ -88,5 +88,6 @@ console.log(whoIsOnline(users)); // 2
 
 // Linked List
 function LinkedList() {
-  
+  this.head = null;
+  this.tail = null;
 }
