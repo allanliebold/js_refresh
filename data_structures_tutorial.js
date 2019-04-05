@@ -95,4 +95,5 @@ function LinkedList() {
 function Node(value, next, previous) {
   this.value = value;
   this.next = next;
+  this.previous = previous; 
 }
