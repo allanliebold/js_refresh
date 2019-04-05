@@ -93,5 +93,5 @@ function LinkedList() {
 }
 
 function Node() {
-  
+  this.value = value;
 }
