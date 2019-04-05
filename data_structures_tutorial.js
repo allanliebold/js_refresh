@@ -92,6 +92,6 @@ function LinkedList() {
   this.tail = null;
 }
 
-function Node() {
+function Node(value) {
   this.value = value;
 }
