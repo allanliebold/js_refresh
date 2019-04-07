@@ -12,6 +12,7 @@ create table Customer
 insert into Customer 
 (FirstName, LastName, Age)
   values('John', 'Doe', 40)
+
 insert into Customer 
 (FirstName, LastName, Age)
   values('Bob', 'Roberts', 60)
