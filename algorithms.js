@@ -1,6 +1,5 @@
 // Convert Celsius to Fahrenheit
-cons convertToF = (celsius) => (celsius * 9/5) + 32;
-const convertToF;
+const convertToF = (celsius) => (celsius * 9/5) + 32;
 
 // Reverse String (without using reverse method)
 function reverseString(str) {
