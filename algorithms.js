@@ -20,8 +20,7 @@ function findLongestWordLength(str) {
   let longest = 0;
   for(let i = 0; i < wordArr.length; i++) {
     if(wordArr[i].length > longest) longest = wordArr[i].length; 
-  }
-  
+  }  
   return longest; 
 }
 
