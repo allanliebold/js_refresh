@@ -20,6 +20,7 @@ insert into Customer
 insert into Customer 
 (FirstName, LastName, Age)
   values('Sally', 'Doe', 38)
+
 insert into Customer 
 (FirstName, LastName, Age)
   values('Jane', 'Smith', 40)
