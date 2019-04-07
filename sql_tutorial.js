@@ -16,6 +16,7 @@ insert into Customer
 insert into Customer 
 (FirstName, LastName, Age)
   values('Bob', 'Roberts', 60)
+
 insert into Customer 
 (FirstName, LastName, Age)
   values('Sally', 'Doe', 38)
