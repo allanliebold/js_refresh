@@ -44,7 +44,7 @@ John Doe
 Jane Smith
 */
 
-select FirstName,Age
+SELECT FirstName,Age
 from Customer where LastName='Doe';
 
 /*
