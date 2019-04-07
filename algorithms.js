@@ -128,7 +128,6 @@ function diffArray(arr1, arr2) {
       }
     }
   }
-
   compareArr(arr1, arr2);
   compareArr(arr2, arr1);
 
