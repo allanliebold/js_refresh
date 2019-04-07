@@ -24,6 +24,7 @@ console.log(myArr); // 0, 2, 3
 
 // Higher Order Arrow Functions
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
+
 const squareList = (arr) => {
   "use strict";
   // Filter realNumberArray to return only positive integers. Then use map to return a new array with these integers squared.
