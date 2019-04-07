@@ -33,7 +33,7 @@ function findingLongestWordLength(str) {
 }
 
 function findingLongestWordLength(str) {
-  return; 
+  return str.split(' '); 
 }
 
 // Using Spread Operator to find min and max number in an array
