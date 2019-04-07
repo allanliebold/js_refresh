@@ -18,6 +18,7 @@ const factorialize = (num) => num == 0 ? 1 : num * factorialize(num - 1);
 function findLongestWordLength(str) {
   let wordArr = str.split(' ');
   let longest = 0;
+  
   for(let i = 0; i < wordArr.length; i++) {
     if(wordArr[i].length > longest) longest = wordArr[i].length; 
   }  
