@@ -45,7 +45,7 @@ Jane Smith
 */
 
 SELECT FirstName,Age
-from Customer where LastName='Doe';
+FROM Customer where LastName='Doe';
 
 /*
 FirstName Age
