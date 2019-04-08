@@ -7,4 +7,4 @@ function Book(title, author, year) {
   this.year = year;
 }
 
-var firstBook = new Book();
+var firstBook = new Book('First Book', 'A. Smith', 1947);
