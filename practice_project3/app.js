@@ -6,3 +6,5 @@ function Book(title, author, year) {
   this.author = author;
   this.year = year;
 }
+
+var firstBook = new Book();
