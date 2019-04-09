@@ -98,6 +98,6 @@ function Node(value, next, previous) {
   this.previous = previous; 
 }
 
-function addNode(data) {
+LinkedList.prototype.addToHead = function() {
   
 }
