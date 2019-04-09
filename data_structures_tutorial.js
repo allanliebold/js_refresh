@@ -100,4 +100,5 @@ function Node(value, next, previous) {
 
 LinkedList.prototype.addToHead = function() {
   var newNode = new Node(value, this.head, null); 
+  if (this.head) this.head.prev = newNode;
 };
