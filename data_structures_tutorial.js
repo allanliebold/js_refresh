@@ -99,5 +99,5 @@ function Node(value, next, previous) {
 }
 
 LinkedList.prototype.addToHead = function() {
-  
+  var newNode = new Node(); 
 };
