@@ -97,3 +97,7 @@ function Node(value, next, previous) {
   this.next = next;
   this.previous = previous; 
 }
+
+function addNode() {
+  
+}
