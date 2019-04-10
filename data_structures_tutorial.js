@@ -108,4 +108,4 @@ LinkedList.prototype.addToHead = function() {
 };
 
 var ll = new LinkedList();
-ll.addToHead();
+ll.addToHead(50);
