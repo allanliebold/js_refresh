@@ -111,5 +111,5 @@ var ll = new LinkedList();
 ll.addToHead(50);
 
 console.log(ll);
-// { head: {},
+// { head: { value: 100},
 //   tail: {}}
