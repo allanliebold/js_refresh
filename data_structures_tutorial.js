@@ -107,3 +107,4 @@ LinkedList.prototype.addToHead = function() {
   this.head = newNode;
 };
 
+var ll = new LinkedList();
