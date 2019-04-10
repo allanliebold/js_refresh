@@ -112,4 +112,4 @@ ll.addToHead(50);
 
 console.log(ll);
 // { head: {},
-// }
+//   tail: {}}
