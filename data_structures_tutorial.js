@@ -1,5 +1,4 @@
 // Basic Data Structures
-
 let firstArr = ['first', 'second', 'third'];
 firstArr.unshift('zero');
 firstArr.push('fourth');
@@ -104,3 +103,4 @@ LinkedList.prototype.addToHead = function() {
   this.head != null ? this.head.prev = newNode : this.tail = newNode;
   this.head = newNode;
 };
+
