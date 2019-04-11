@@ -115,4 +115,4 @@ console.log(ll);
 //   tail: { value: 100, next: null, prev: null} }
 
 ll.addToHead(200);
-ll.addToHead(50);
+ll.addToHead(150);
