@@ -109,6 +109,8 @@ LinkedList.prototype.addToHead = function() {
 
 LinkedList.prototype.addToTail = function() {
   var newNode = new Node(value, null, this.tail);
+  this.tail != null ? this.tail.next = newNode : this.head = newNode;
+  this.tail = newNode; 
 }
 
 var ll = new LinkedList();
