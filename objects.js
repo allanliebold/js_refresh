@@ -36,7 +36,6 @@ var jack = {
 }
 
 var jackAge = jack.calculateAge();
-
 jack.age = jackAge; 
 
 // Object constructor
@@ -77,6 +76,7 @@ Person.prototype.lastName = 'Smith';
 
 var garth = new Person('Garth', 1980, 'musician'); // Instantiation of new Person using constructor function.
 var wayne = new Person('Wayne', 1979, 'tv host');
+var bob = new Person();
 
 garth.calculateAge(); 
 wayne.calculateAge(); 
