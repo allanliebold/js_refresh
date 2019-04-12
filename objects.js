@@ -103,6 +103,7 @@ var jane = Object.create(personProto,
 // Primitives as objects
 var a = 23;
 var b = a;
+var c = a + b;
 a = 46;
 console.log(a); // shows 46
 console.log(b); // shows 23
