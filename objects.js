@@ -218,7 +218,7 @@ console.log(robot.provideInfo());
 const droid = {
 	_name: 'Droidy',
 	get droidName() {
-
+		return this._name;
 	}
 }
 
