@@ -1,4 +1,5 @@
 // Objects
+
 // This is an object literal
 var bob =  {
   name: 'Bob',
