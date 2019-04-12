@@ -25,7 +25,6 @@ jane.lastName = 'Jones';
 jane['age'] = 30;
 jane['job'] = 'scientist';
 jane['married'] = true;
-
 var currentYear = 2018;
 
 var jack = {
