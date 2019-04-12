@@ -36,6 +36,7 @@ var jack = {
 }
 
 var jackAge = jack.calculateAge();
+
 jack.age = jackAge; 
 
 // Object constructor
