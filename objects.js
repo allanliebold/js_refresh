@@ -76,7 +76,7 @@ Person.prototype.lastName = 'Smith';
 
 var garth = new Person('Garth', 1980, 'musician'); // Instantiation of new Person using constructor function.
 var wayne = new Person('Wayne', 1979, 'tv host');
-var bob = new Person();
+var dave = new Person('Dave');
 
 garth.calculateAge(); 
 wayne.calculateAge(); 
