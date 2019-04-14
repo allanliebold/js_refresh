@@ -8,7 +8,6 @@ firstArr.pop();
 console.log(firstArr); // zero, first, second, third
 
 let shifted = firstArr.shift();
-
 console.log(firstArr); // first, second, third
 console.log(shifted); // zero
 
