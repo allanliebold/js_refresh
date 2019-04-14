@@ -125,4 +125,4 @@ console.log(ll);
 ll.addToHead(200);
 ll.addToHead(150);
 ll.addToTail(25);
-ll.addToTail();
+ll.addToTail(10);
