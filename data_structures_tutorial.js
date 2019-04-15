@@ -42,6 +42,7 @@ console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 // combine arrays with spread operator
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
 let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+
 console.log(thatArray); // ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander']
 
 function spreadOut() {
