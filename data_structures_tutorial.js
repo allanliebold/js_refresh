@@ -119,6 +119,7 @@ console.log(ll);
 // { head: { value: 100, next: null, prev: null},
 //   tail: { value: 100, next: null, prev: null} }
 
+ll.addToHead();
 ll.addToHead(200);
 ll.addToHead(150);
 ll.addToTail(25);
