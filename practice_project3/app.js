@@ -8,4 +8,4 @@ function Book(title, author, year) {
 }
 
 var firstBook = new Book('First Book', 'A. Smith', 1947);
-var secondBook = new Book();
+var secondBook = new Book('Another Book');
