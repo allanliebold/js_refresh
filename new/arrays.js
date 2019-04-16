@@ -33,6 +33,7 @@ var ages = [12, 16, 8, 21, 14, 31];
 var full = ages.map(function(curr) {
   return curr >= 18;
 });
+
 console.log(full);
 console.log(full.indexOf(true)); // logs 3, the first index that returned true
 
