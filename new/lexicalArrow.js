@@ -15,6 +15,7 @@ ages6 = years.map((el, index) => `Age element ${index + 1}: ${2018 - el}`);
 console.log(ages6);
   
 // Multiple lines need to use curly braces and return is no longer implicit.
+
 ages6 = years.map((el, index) =>  {
   const now = new Date().getFullYear();
   const age = now - el;
