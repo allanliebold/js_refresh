@@ -1,5 +1,4 @@
 // Coding Challenge #5
-
 class Element {
   constructor (name, buildYear) {
     this.name = name;
