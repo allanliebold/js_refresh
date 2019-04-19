@@ -9,7 +9,6 @@ export class Input extends React.Component {
     // The super keyword is used to access and call functions on an object's parent.
     super(props);
     this.state = { userInput: '' };
-    
     this.handleUserInput = this.handleUserInput.bind(this);
   }
   
