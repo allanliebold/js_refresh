@@ -21,7 +21,7 @@ const strings = ['Home', 'Shop', 'About Me'];
 
 const listItems = strings.map(string => <li>{string}</li>);
 
-<ul>{listItems}</ul>
+//<ul>{listItems}</ul>
                               
 const exampleEl = React.createElement(
   "h1",
