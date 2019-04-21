@@ -4,7 +4,6 @@ function calculateAge(yearOfBirth) {
    return 2018 - yearOfBirth;
 }
 
-
 function calculate() {
    return 2019 - yearOfBirth;
 }
