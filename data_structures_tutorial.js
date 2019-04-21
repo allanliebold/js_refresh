@@ -53,7 +53,6 @@ function spreadOut() {
 }
 
 console.log(spreadOut()); // learning,how,to,code,is,fun
-
 let users = {
   Alan: {
     age: 27,
