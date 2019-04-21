@@ -16,6 +16,7 @@ function ThingsList(props) {
     </ul>
   );
 }
+
 const things = ['apple', 'computer', 'coffee cup', 'desk'];
 
 ReactDOM.render(
