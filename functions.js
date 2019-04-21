@@ -4,6 +4,11 @@ function calculateAge(yearOfBirth) {
    return 2018 - yearOfBirth;
 }
 
+
+function () {
+   
+}
+
 var myAge = calculateAge(1984);
 console.log(myAge);
 
