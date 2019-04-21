@@ -38,7 +38,6 @@ function quickCheck(arr, elem) {
 }
 
 // const quickCheck = (arr, elem) => arr.indexOf(elem);
-
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 
 // combine arrays with spread operator
