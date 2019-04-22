@@ -155,7 +155,7 @@ Person.prototype.friends6 = function(friends) {
   console.log(arr);
 }
 
-
+// Destructuring
 
 var john = ['John', 26];
 var name = john[0];
