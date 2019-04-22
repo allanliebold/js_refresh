@@ -155,8 +155,6 @@ Person.prototype.friends6 = function(friends) {
   console.log(arr);
 }
 
-new Person('Don').friends6(friends);
-
 // Destructuring
 
 // ES5
