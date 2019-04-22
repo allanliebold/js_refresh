@@ -149,15 +149,17 @@ Person.prototype.friends5 = function(friends) {
 var friends = ['Emily', 'Fam', 'Lorenzo'];
 new Person('Bino').friends5(friends);
 
+// ES6
+Person.prototype.friends6 = function(friends) {
+  var arr = friends.map(function(el) => `${this.name} is friends with ${el}`);
+  console.log(arr);
+}
+
+
+
 var john = ['John', 26];
 var name = john[0];
 var age = john[1];
-
-// ES6
-Person.prototype.friends6 = function(friends) {
-  var arr = friends.map(function(el => `${this.name} is friends with ${el}`));
-  console.log(arr);
-}
 
 // Destructuring
 
