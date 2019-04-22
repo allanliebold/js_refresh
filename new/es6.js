@@ -149,7 +149,7 @@ Person.prototype.friends5 = function(friends) {
 var friends = ['Emily', 'Fam', 'Lorenzo'];
 new Person('Bino').friends5(friends);
 
-var john = [];
+var john = ['John', 26];
 
 // ES6
 Person.prototype.friends6 = function(friends) {
