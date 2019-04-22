@@ -149,6 +149,8 @@ Person.prototype.friends5 = function(friends) {
 var friends = ['Emily', 'Fam', 'Lorenzo'];
 new Person('Bino').friends5(friends);
 
+var john = [];
+
 // ES6
 Person.prototype.friends6 = function(friends) {
   var arr = friends.map(function(el => `${this.name} is friends with ${el}`);
