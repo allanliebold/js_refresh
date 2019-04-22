@@ -155,6 +155,8 @@ Person.prototype.friends6 = function(friends) {
   console.log(arr);
 }
 
+var john = [];
+
 // Destructuring
 
 // ES5
