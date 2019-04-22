@@ -408,3 +408,4 @@ class Athlete5 extends Person6 {
 }
 
 const burtAthlete6 = new Athlete6('Burt', 1970, 'runner', 5, 5);
+const brodyAthlete7;
