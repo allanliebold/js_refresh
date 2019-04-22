@@ -151,6 +151,7 @@ new Person('Bino').friends5(friends);
 
 var john = ['John', 26];
 var name = john[0];
+var age = john[1];
 
 // ES6
 Person.prototype.friends6 = function(friends) {
