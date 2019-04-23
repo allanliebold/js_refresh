@@ -20,6 +20,7 @@ export class Input extends React.Component {
   
   // Render to the page
   render() {
+    
     return (
       <div>
         <input type="text" value={this.state.userInput} onChange={this.handleUserInput} />
