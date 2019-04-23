@@ -17,6 +17,7 @@ export class Input extends React.Component {
       userInput: e.target.value
     }); 
   }
+  
   // Render to the page
   render() {
     return (
