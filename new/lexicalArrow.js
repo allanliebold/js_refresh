@@ -47,6 +47,7 @@ const box6 = {
     });
   }
 }
+
 box6.clickMe();
 
 function Person(name) {
