@@ -57,7 +57,6 @@ update Customer
 Set LastName='Robbins'
 where FirstName='Sally'
 and LastName='Doe';
-
 select FirstName,LastName
 from Customer where LastName like 'Rob%';
 
