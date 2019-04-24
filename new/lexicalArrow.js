@@ -61,6 +61,7 @@ Person.prototype.friends5 = function(friends) {
   }.bind(this));
   console.log(arr);
 }
+
 var friends = ['Emily', 'Fam', 'Lorenzo'];
 new Person('Bino').friends5(friends);
 
