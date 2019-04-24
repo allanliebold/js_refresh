@@ -1,5 +1,4 @@
 // Lexical Arrow Functions
-
 const years = [1990, 1967, 1977, 1982];
 
 // ES5
