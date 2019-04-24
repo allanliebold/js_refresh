@@ -1,4 +1,5 @@
 // JavaScript Basics Tutorial
+
 // Single line comment
 /* 
   Multi line comment
