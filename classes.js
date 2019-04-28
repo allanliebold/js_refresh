@@ -8,6 +8,7 @@ class HospitalEmployee {
   get name() {
     return this._name;
   }
+  
   get remainingVacationDays() {
     return this._remainingVacationDays;
   }
