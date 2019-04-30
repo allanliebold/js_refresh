@@ -132,7 +132,10 @@
        .data(dataset)
        .enter()
        .append("circle")
-       
+          .attr("cx")
+          .attr("cy")
+          .attr("r")
+    
     svg.selectAll("text")
        .data(dataset)
        .enter()
