@@ -133,8 +133,8 @@
        .enter()
        .append("circle")
           .attr("cx", (d) => xScale(d[0]))
-          .attr("cy")
-          .attr("r")
+          .attr("cy", (d) => yScale(d[1]))
+          .attr("r", 5)
     
     svg.selectAll("text")
        .data(dataset)
