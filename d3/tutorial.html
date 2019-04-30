@@ -132,7 +132,7 @@
        .data(dataset)
        .enter()
        .append("circle")
-          .attr("cx")
+          .attr("cx", (d) => xScale(d[0]))
           .attr("cy")
           .attr("r")
     
