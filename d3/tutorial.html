@@ -142,7 +142,7 @@
        .append("text")
        .text((d) =>  (d[0] + ", "
  + d[1]))
-       .attr("x")
-       .attr("y")
+       .attr("x", (d) => xScale(d[0] + 5))
+       .attr("y", (d) => yScale(d[1]))
   </script>
 </body>
