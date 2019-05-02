@@ -5,7 +5,7 @@
       req.open("GET", '/json/cats.json', true);
       req.send();
       req.onload=function(){
-        
+        json=JSON.parse(req.responseText);
       }
     }
   });
