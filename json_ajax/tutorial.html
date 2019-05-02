@@ -6,6 +6,7 @@
       req.send();
       req.onload=function(){
         json=JSON.parse(req.responseText);
+        document.getElementsByClassName('message')[0]
       }
     }
   });
