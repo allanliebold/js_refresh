@@ -8,7 +8,7 @@
         json=JSON.parse(req.responseText);
         document.getElementsByClassName('message')[0].innerHTML=JSON.stringify(json);
       };
-      console.log(json[0]);
+      console.log(json[0].altText);
     }
   });
 </script>
