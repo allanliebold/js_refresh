@@ -3,6 +3,7 @@
     document.getElementById('getMessage').onclick=function(){
       req=new XMLHttpRequest();
       req.open("GET", '/json/cats.json', true);
+      req.send();
     }
   });
 </script>
