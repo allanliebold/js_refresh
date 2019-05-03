@@ -62,7 +62,7 @@
         var html = "";
         json.forEach(function(val) {
           html += "<div class = 'cat'>";
-          html += "<img src = ''>";          
+          html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";       
           html += "</div><br>";
         });
         document.getElementsByClassName('message')[0].innerHTML=html;
