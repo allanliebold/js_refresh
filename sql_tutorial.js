@@ -103,7 +103,6 @@ create table Products
 
 alter table Products
 add Price float;
-
 select * from Products
 
 insert into Products (ProductName, Price) values ('Pencils', 2.50);
