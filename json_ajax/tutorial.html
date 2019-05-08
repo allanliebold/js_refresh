@@ -148,6 +148,7 @@
     document.getElementById('sendMessage').onclick=function(){
       var userName=document.getElementById('name').value;
       req = new XMLHttpRequest();
+      req.open("POST",url,true);
     };
   });
 </script>
