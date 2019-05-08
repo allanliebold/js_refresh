@@ -154,7 +154,8 @@
         if(req.readyState==4 && req.status==200) {
           document.getElementsByClassName('message')[0].innerHTML=req.responseText;
         }
-      }
+      };
+      req.send(username);
     };
   });
 </script>
