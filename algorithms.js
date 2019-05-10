@@ -79,6 +79,7 @@ repeatStringNumTimes("abc", 3);
 function truncateString(str, num) {
   return num >= str.length ? str : str.slice(0, num) + '...';
 }
+
 truncateString("abracadabra", 4); // abra...
 
 function findElement(arr, func) {
