@@ -53,7 +53,6 @@ function largestofFour(arr) {
   for(let i = 0; i < arr.length; i++) {
     largest.push(arr[i].reduce((acc, curr) => Math.max(acc, curr), arr[i][0]))
   }
-  
   return largest;
 }
 
