@@ -24,7 +24,6 @@ for (var i = 0; i < names.length; i++) {
 
 // while loop
 counter = 10;
-
 while (counter > 0) {
   console.log("Looping");
   counter--; 
