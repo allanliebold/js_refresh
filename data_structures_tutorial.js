@@ -26,7 +26,6 @@ console.log(sumRemaining([2, 5, 1, 5, 2, 1])); // 10
 
 // indexOf
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
-
 fruits.indexOf('dates') // -1, does not exist in array
 fruits.indexOf('oranges') // 2
 fruits.indexOf('pears') // 1, the first index at which the element exists
