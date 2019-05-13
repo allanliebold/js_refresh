@@ -115,7 +115,6 @@ LinkedList.prototype.addToTail = function() {
 
 var ll = new LinkedList();
 ll.addToHead(50);
-
 console.log(ll);
 // { head: { value: 100, next: null, prev: null},
 //   tail: { value: 100, next: null, prev: null} }
