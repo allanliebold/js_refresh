@@ -14,7 +14,6 @@ console.log(myAge);
 function yearsUntilRetirement(name, yearOfBirth) {
   var age = calculateAge(yearOfBirth);
   var retirement = 65 - age;
-  
   if (age > 0) {
     console.log(name + " will retire in " + retirement + " years"); 
   } else {
