@@ -114,7 +114,7 @@ function sayHello(name) {
    }
 };
 
-sayHello('Allan');
+sayHello('Allan'); // Hello Allan
 
 var foo = [];
 for (var i = 0; i < 10; i++) {
