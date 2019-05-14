@@ -20,7 +20,6 @@ function yearsUntilRetirement(name, yearOfBirth) {
     console.log(name + " is already retired"); 
   }
 }
-}
 
 // Function statement
 function someFun(parameter) {
