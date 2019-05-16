@@ -75,6 +75,7 @@ function repeatStringNumTimes(str, num) {
   }
   return newStr;
 }
+
 repeatStringNumTimes("abc", 3);
 
 function truncateString(str, num) {
