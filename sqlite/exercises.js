@@ -8,7 +8,7 @@ db.each('SELECT * FROM Flower', (error, row) => {
   }
 });
 
-db.each()
+db.each('SELECT * FROM Flower')
 
 // Select all rows with a specified parameter
 db.all('SELECT * FROM Scientist WHERE field="biology"', (err, row) => {
