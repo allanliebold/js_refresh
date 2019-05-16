@@ -38,7 +38,6 @@ function findingLongestWordLength(str) {
   return str.split(' '); 
 }
 
-function finding
 
 // Using Spread Operator to find min and max number in an array
 let data = [253, 43, 999, 107, 781, 2];
