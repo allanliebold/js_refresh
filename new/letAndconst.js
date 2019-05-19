@@ -10,7 +10,6 @@ console.log(name5);
 const name6 = 'Jane Smith';
 let age6 = 27;
 name6 = 'Jane Miller'; // error: Assignment to constant variable. const is immutable.
-
 console.log(name6);
 
 // var is function-scoped. let and const are block-scoped
