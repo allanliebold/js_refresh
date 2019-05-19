@@ -63,6 +63,7 @@ var rates = arrayCalc(ages, maxHeartRate);
 
 console.log(ages);
 console.log(fullAges);
+
 console.log(rates); 
 
 // Functions returning functions
