@@ -118,7 +118,6 @@
       req.onload=function(){
         json=JSON.parse(req.responseText);
         var html = "";
-       
          json.forEach(function(val) {
            html += "<div class = 'cat'>"
            html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>"
