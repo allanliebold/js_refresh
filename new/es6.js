@@ -1,4 +1,5 @@
 // New ES6 concepts tutorial
+
 //ES5 - var
 var name5 = 'Jane Smith';
 var age5 = 27;
