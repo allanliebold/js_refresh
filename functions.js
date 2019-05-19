@@ -54,7 +54,6 @@ function maxHeartRate(el) {
    if(el >= 18 && el <= 81) {
       return Math.round(206.9 - (0.67 * el));
    }      
-   
    return -1; // if person is not between 18 and 81 then heart rate cannot be calculated 
 }
 
