@@ -1,6 +1,5 @@
 // Javascript Practice Project 2
 // Global app controller
-
 import Search from './models/Search';
 
 // Search object
