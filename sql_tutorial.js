@@ -115,3 +115,5 @@ Create table Orders
   CustomerId int,
   ProductId int
 )
+
+CREATE TABLE groceries ();
