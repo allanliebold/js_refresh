@@ -115,5 +115,3 @@ Create table Orders
   CustomerId int,
   ProductId int
 )
-
-select
