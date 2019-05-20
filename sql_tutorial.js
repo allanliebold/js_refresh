@@ -118,4 +118,4 @@ Create table Orders
 
 // Tutorial
 
-CREATE TABLE groceries (name TEXT, quantity INTEGER);
+CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
