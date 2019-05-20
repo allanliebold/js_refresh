@@ -123,3 +123,5 @@ CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 INSERT INTO groceries VALUES (1, "Peanut Butter", 1);
 INSERT INTO groceries VALUES (2, "Apples", 3);
 INSERT INTO groceries VALUES (3, "Tea", 2);
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
