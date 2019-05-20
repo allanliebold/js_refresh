@@ -75,14 +75,12 @@ for (let user in users) {
 };
 
 // Alan, Jeff, Sarah, Ryan
-
 function whoIsOnline(obj) {
   let onlineUsers = 0;
   for(let item in obj) {
     if(obj[item].online == true) 
       onlineUsers++;
-  }
-  
+  }  
   return onlineUsers;
 }
 
