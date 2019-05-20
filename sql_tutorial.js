@@ -87,7 +87,7 @@ DELETE Customer
 where LastName like "Schmidt_";
 // Mike Schmidt is not deleted because the _ requires a character
 
---This is a one line comment in SQL
+// --This is a one line comment in SQL
 /* This is
 a multi line
 comment */
