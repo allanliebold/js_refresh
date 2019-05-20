@@ -116,4 +116,4 @@ Create table Orders
   ProductId int
 )
 
-CREATE TABLE groceries ();
+CREATE TABLE groceries (name TEXT);
