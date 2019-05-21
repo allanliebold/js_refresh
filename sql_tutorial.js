@@ -124,7 +124,7 @@ INSERT INTO groceries VALUES (1, "Peanut Butter", 1, 4);
 INSERT INTO groceries VALUES (2, "Apples", 3, 1);
 INSERT INTO groceries VALUES (3, "Tea", 2, 3);
 
-SELECT * FROM groceries ORDER BY aisle;
+SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 
