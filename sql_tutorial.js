@@ -125,3 +125,5 @@ INSERT INTO groceries VALUES (2, "Apples", 3);
 INSERT INTO groceries VALUES (3, "Tea", 2);
 
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+
+INSERT INTO books VALUES (1, "A Knight of the Seven Kingdoms", 4);
