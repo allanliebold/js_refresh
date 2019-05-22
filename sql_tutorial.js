@@ -154,3 +154,18 @@ INSERT INTO todo_list VALUES (4, "Nap", 60);
 SELECT SUM(minutes) FROM todo_list;
 
 CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, price INTEGER, aisle INTEGER);
+INSERT INTO store VALUES (1, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (2, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (3, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (4, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (5, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (6, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (7, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (8, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (9, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (10, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (11, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (12, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (13, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (14, "Shoes", 5, 10, 4);
+INSERT INTO store VALUES (15, "Shoes", 5, 10, 4);
