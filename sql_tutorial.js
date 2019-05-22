@@ -125,6 +125,7 @@ INSERT INTO groceries VALUES (2, "Apples", 3, 1);
 INSERT INTO groceries VALUES (3, "Tea", 2, 3);
 
 SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
+SELECT SUM(quantity) FROM groceries;
 
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 
