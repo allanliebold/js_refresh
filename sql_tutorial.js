@@ -145,3 +145,8 @@ CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 
 INSERT INTO books VALUES (1, "A Knight of the Seven Kingdoms", 4);
 INSERT INTO books VALUES (2, "Dune", 4);
+
+CREATE TABLE todo_list (id INTEGER PRIMARY KEY, item TEXT, minutes INTEGER);
+INSERT INTO todo_list VALUES (1, "Laundry", 90);
+INSERT INTO todo_list VALUES (2, "Dishes", 20);
+INSERT INTO todo_list VALUES (3, "Study", 30);
