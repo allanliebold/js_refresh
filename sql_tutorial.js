@@ -152,3 +152,5 @@ INSERT INTO todo_list VALUES (3, "Study", 30);
 INSERT INTO todo_list VALUES (4, "Nap", 60);
 
 SELECT SUM(minutes) FROM todo_list;
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, price INTEGER, aisle INTEGER);
