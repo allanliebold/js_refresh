@@ -128,7 +128,7 @@ SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 SELECT SUM(quantity) FROM groceries;
 // Aggregate function. Returns 6
 SELECT MAX(quantity) FROM groceries;
-
+// Returns 3, the highest number from quantity
 
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 
