@@ -116,8 +116,7 @@ Create table Orders
   ProductId int
 )
 
-// Tutorial
-
+// SQL Tutorial
 CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER);
 
 INSERT INTO groceries VALUES (1, "Peanut Butter", 1, 4);
