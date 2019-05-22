@@ -130,6 +130,9 @@ SELECT SUM(quantity) FROM groceries;
 SELECT MAX(quantity) FROM groceries;
 // Returns 3, the highest number from quantity
 
+INSERT INTO groceries VALUES (4, "Bananas", 5, 1);
+
+
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 
 INSERT INTO books VALUES (1, "A Knight of the Seven Kingdoms", 4);
