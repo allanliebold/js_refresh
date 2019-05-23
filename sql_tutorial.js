@@ -177,4 +177,5 @@ CREATE TABLE exercise_log
    minutes INTEGER,
    calories INTEGER,
    heart_rate INTEGER);
-;
+
+
