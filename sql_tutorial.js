@@ -178,4 +178,4 @@ CREATE TABLE exercise_log
    calories INTEGER,
    heart_rate INTEGER);
 
-
+INSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES ("jogging", 30, 100, 120);
