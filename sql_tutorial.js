@@ -49,6 +49,7 @@ INSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES ("weights",
 SELECT * FROM exercise_log WHERE calories > 50 AND minutes < 30;
 SELECT type FROM exercise_log WHERE minutes > 10; 
 SELECT calories FROM exercise log WHERE type IN ("walking", "jogging");
+SELECT type, SUM(calories) AS total_calories FROM exercise_log GROUP BY type;
 
 CREATE TABLE artists (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
