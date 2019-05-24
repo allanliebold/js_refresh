@@ -1,36 +1,5 @@
 
 
-select FirstName,LastName 
-from Customer where Age=40;
-
-/*
-FirstName LastName
-John Doe
-Jane Smith
-*/
-
-SELECT FirstName,Age
-FROM Customer where LastName='Doe';
-
-/*
-FirstName Age
-John 40
-Sally 38
-*/
-
-update Customer
-Set LastName='Robbins'
-where FirstName='Sally'
-and LastName='Doe';
-select FirstName,LastName
-from Customer where LastName like 'Rob%';
-
-/*
-FirstName LastName
-Bob Roberts
-Sally Robbins
-*/
-
 update Customer 
 Set Age =41
 where Age=40;
