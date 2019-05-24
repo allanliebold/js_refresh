@@ -128,4 +128,4 @@ INSERT INTO songs (artist, title)
 INSERT INTO songs (artist, title)
     VALUES ("Guns N' Roses", "Don't cry");
     
-
+SELECT title FROM songs WHERE artist = "Queen";
