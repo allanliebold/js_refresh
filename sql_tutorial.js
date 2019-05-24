@@ -52,7 +52,6 @@ INSERT INTO store VALUES (13, "Shoes", 5, 10, 4);
 INSERT INTO store VALUES (14, "Shoes", 5, 10, 4);
 INSERT INTO store VALUES (15, "Shoes", 5, 10, 4);
 
-
 CREATE TABLE exercise_log
   (id INTEGER PRIMARY KEY AUTOINCREMENT,
    type TEXT,
