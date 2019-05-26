@@ -116,8 +116,8 @@ INSERT INTO songs (artist, title)
 SELECT title FROM songs WHERE artist = "Queen";
 SELECT artist FROM artists WHERE genre = "Pop";
 SELECT title FROM songs WHERE artist IN (SELECT name FROM artists WHERE genre = "Pop");
+
 SELECT type FROM exercise_log GROUP BY type HAVING COUNT(*) >= 2;
-                                       
 CREATE TABLE students (id INTEGER PRIMARY KEY,
     first_name TEXT,
     last_name TEXT,
@@ -141,3 +141,5 @@ INSERT INTO student_grades (student_id, test, grade)
     VALUES (2, "Nutrition", 92);
 INSERT INTO student_grades (student_id, test, grade)
     VALUES (1, "Chemistry", 85);
+INSERT INTO student_grades (student_id, test, grade)
+    VALUES (2, "Chemistry", 95);
