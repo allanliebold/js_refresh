@@ -137,3 +137,5 @@ CREATE TABLE student_grades (id INTEGER PRIMARY KEY,
 
 INSERT INTO student_grades (student_id, test, grade)
     VALUES (1, "Nutrition", 95);
+INSERT INTO student_grades (student_id, test, grade)
+    VALUES (2, "Nutrition", 92);
