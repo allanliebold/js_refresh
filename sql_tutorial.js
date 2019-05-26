@@ -124,3 +124,6 @@ CREATE TABLE students (id INTEGER PRIMARY KEY,
     email TEXT,
     phone TEXT,
     birthdate TEXT);
+
+INSERT INTO students (first_name, last_name, email, phone, birthdate)
+    VALUES ("Peter", "Rabbit", "peter@rabbit.com", "555-6666", "2002-06-24");
