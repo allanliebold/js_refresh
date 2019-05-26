@@ -117,3 +117,4 @@ SELECT title FROM songs WHERE artist = "Queen";
 SELECT artist FROM artists WHERE genre = "Pop";
 SELECT title FROM songs WHERE artist IN (SELECT name FROM artists WHERE genre = "Pop");
 SELECT type FROM exercise_log GROUP BY type HAVING COUNT(*) >= 2;
+                                       
