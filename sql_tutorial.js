@@ -158,8 +158,6 @@ INSERT INTO persons (name, age) VALUES ("Lucy BoBucie", 25);
 INSERT INTO persons (name, age) VALUES ("Banana FoFanna", 14);
 INSERT INTO persons (name, age) VALUES ("Shish Kabob", 20);
 INSERT INTO persons (name, age) VALUES ("Fluffy Sparkles", 8);
-
-
     
 INSERT INTO hobbies (person_id, name) VALUES (1, "drawing");
 INSERT INTO hobbies (person_id, name) VALUES (1, "coding");
