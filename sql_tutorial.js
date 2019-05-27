@@ -46,6 +46,7 @@ INSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES ("jogging",
 INSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES ("walking", 20, 40, 90);
 INSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES ("biking", 15, 100, 150);
 INSERT INTO exercise_log(type, minutes, calories, heart_rate) VALUES ("weights", 10, 50, 95);
+INSERT INTO exercise_log();
 
 SELECT * FROM exercise_log WHERE calories > 50 AND minutes < 30;
 SELECT type FROM exercise_log WHERE minutes > 10; 
