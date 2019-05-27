@@ -122,3 +122,16 @@ INSERT INTO student_grades (student_id, test, grade)
     VALUES (1, "Math", 88);
 INSERT INTO student_grades (student_id, test, grade)
     VALUES (2, "Math", 79);
+
+CREATE TABLE persons (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    age INTEGER);
+    
+INSERT INTO persons (name, age) VALUES ("Bobby McBobbyFace", 12);
+INSERT INTO persons (name, age) VALUES ("Lucy BoBucie", 25);
+INSERT INTO persons (name, age) VALUES ("Banana FoFanna", 14);
+INSERT INTO persons (name, age) VALUES ("Shish Kabob", 20);
+INSERT INTO persons (name, age) VALUES ("Fluffy Sparkles", 8);
+
+
