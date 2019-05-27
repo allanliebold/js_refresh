@@ -119,3 +119,4 @@ INSERT INTO student_grades (student_id, test, grade)
 INSERT INTO student_grades (student_id, test, grade)
     VALUES (2, "Chemistry", 95);
 INSERT INTO student_grades (student_id, test, grade)
+    VALUES (1, "Math", 88);
