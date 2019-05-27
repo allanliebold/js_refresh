@@ -172,6 +172,7 @@ INSERT INTO hobbies (person_id, name) VALUES (3, "skating");
 INSERT INTO hobbies (person_id, name) VALUES (3, "rowing");
 INSERT INTO hobbies (person_id, name) VALUES (3, "drawing");
 INSERT INTO hobbies (person_id, name) VALUES (4, "coding");
-
+INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
+INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
 
 
