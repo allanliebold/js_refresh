@@ -133,6 +133,11 @@ CREATE TABLE persons (
     name TEXT,
     age INTEGER);
     
+CREATE TABLE persons (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    age INTEGER);
+    
 INSERT INTO persons (name, age) VALUES ("Bobby McBobbyFace", 12);
 INSERT INTO persons (name, age) VALUES ("Lucy BoBucie", 25);
 INSERT INTO persons (name, age) VALUES ("Banana FoFanna", 14);
@@ -144,3 +149,7 @@ CREATE table hobbies (
     person_id INTEGER,
     name TEXT);
     
+INSERT INTO hobbies (person_id, name) VALUES (1, "drawing");
+
+
+
