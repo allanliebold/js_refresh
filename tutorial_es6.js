@@ -184,4 +184,4 @@ class Character {
 const erdrick = new Character('Erdrick', 'Warrior', ['Sword', 'Shield']);
 console.log(`${erdrick.name} is a ${erdrick.job}.`); // Erdrick is a Warrior.
 
-const rats = new Character();
+const rats = new Character('Rats', 'Bard', ['Bow', 'Lute']);
