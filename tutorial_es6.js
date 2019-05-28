@@ -171,6 +171,7 @@ class SpaceShuttle {
     this.targetPlanet = targetPlanet;
   }
 }
+
 const zeus = new SpaceShuttle('Jupiter');
 
 class Character {
