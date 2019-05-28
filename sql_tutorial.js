@@ -161,6 +161,7 @@ INSERT INTO persons (name, age) VALUES ("Fluffy Sparkles", 8);
     
 INSERT INTO hobbies (person_id, name) VALUES (1, "drawing");
 INSERT INTO hobbies (person_id, name) VALUES (1, "coding");
+INSERT INTO hobbies (person_id, name) VALUES (1, "lounging");
 INSERT INTO hobbies (person_id, name) VALUES (2, "dancing");
 INSERT INTO hobbies (person_id, name) VALUES (2, "coding");
 INSERT INTO hobbies (person_id, name) VALUES (2, "purring");
