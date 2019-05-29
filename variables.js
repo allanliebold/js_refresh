@@ -44,6 +44,7 @@ function myFunc() {
 }
 
 // Block scope
+
 // Hoisting
 var a;
 console.log(a);
