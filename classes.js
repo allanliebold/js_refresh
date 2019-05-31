@@ -20,6 +20,10 @@ class HospitalEmployee {
   }
 }  
 
+class Janitor extends HospitalEmployee {
+  
+}
+
 class Nurse extends HospitalEmployee {
   constructor(name, certifications) {
     // super takes the name property from the inherited HospitalEmployee class
