@@ -78,6 +78,7 @@ function repeatStringNumTimes(str, num) {
 
 repeatStringNumTimes("abc", 3);
 repeatStringNumTimes("def", 4);
+repeatStringNumTimes("ghi", 5);
 
 function truncateString(str, num) {
   return num >= str.length ? str : str.slice(0, num) + '...';
