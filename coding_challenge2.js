@@ -6,10 +6,6 @@ function calculateAge(year) {
   return 2018 - year;  
 }
 
-function calculateMonths(year) {
-  
-}
-
 for (var i = 0; i < years.length; i++) {
   ages[i] = calculateAge(years[i]);  
 }
