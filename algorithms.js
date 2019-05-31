@@ -12,10 +12,6 @@ function reverseString(str) {
   return reverseArr.join('');
 }
 
-function findShortestWord(str) {
-  
-}
-
 // Factorialize (with recursion)
 const factorialize = (num) => num == 0 ? 1 : num * factorialize(num - 1);
 
