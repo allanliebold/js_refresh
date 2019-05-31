@@ -31,6 +31,7 @@ function someFun(parameter) {
 // Function expression
 var someFun = function(parameter) {
   // Produces a value
+  return;
 }
 
 // Passing functions as objects
