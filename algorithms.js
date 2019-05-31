@@ -9,7 +9,6 @@ function reverseString(str) {
   for(let i = strArr.length; i > -1; i--) {
     reverseArr.push(strArr[i]); 
   }
-  
   return reverseArr.join('');
 }
 
