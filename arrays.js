@@ -10,6 +10,7 @@ console.log(types);
 types.unshift(5); // adds element at beginning of array
 types.pop(); // removes element at end of array
 types.shift(); // removes element at beginning of array
+
 types.indexOf(10); // should return 1, since 10 is types[1]
 
 if (types.indexOf('nothing') === -1) {
