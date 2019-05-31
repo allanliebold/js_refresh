@@ -21,7 +21,9 @@ class HospitalEmployee {
 }  
 
 class Janitor extends HospitalEmployee {
-  
+  constructor(name, equipment) {
+    
+  }
 }
 
 class Nurse extends HospitalEmployee {
