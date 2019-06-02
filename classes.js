@@ -6,7 +6,7 @@ class HospitalEmployee {
   }
   
   get name() {
-    return this;
+    return this._name;
   }
   
   get name() {
