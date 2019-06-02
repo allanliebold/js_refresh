@@ -174,4 +174,4 @@ INSERT INTO hobbies (person_id, name) VALUES (4, "coding");
 INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
 INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
 
-INSERT INTO hobbies (person_id, name);
+INSERT INTO hobbies (person_id, name) VALUES ();
