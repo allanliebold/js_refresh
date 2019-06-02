@@ -6,7 +6,7 @@ INSERT INTO groceries VALUES (2, "Apples", 5, 1);
 INSERT INTO groceries VALUES (3, "Tea", 2, 3);
 INSERT INTO groceries VALUES (4, "Bread", 1, 4);
 INSERT INTO groceries VALUES (5, "Bananas", 4, 1);
-INSERT INTO groceries VALUES ();
+INSERT INTO groceries VALUES (6, "Cereal", 2, 3);
 
 SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 
