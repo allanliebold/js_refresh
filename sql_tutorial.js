@@ -182,3 +182,5 @@ CREATE TABLE student_projects (id INTEGER PRIMARY KEY,
     student_id INTEGER,
     title TEXT);
     
+INSERT INTO student_projects (student_id, title)
+    VALUES (1, "");
