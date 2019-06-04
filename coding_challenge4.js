@@ -17,7 +17,7 @@ var q1 = new Question('Are we having fun yet?', ['Yes', 'No'], 0); // index 0 is
 var q2 = new Question('What is the answer?', ['This', 'That', 'Other'], 2);
 var q3 = new Question('This isn\'t not untrue.', ['True', 'False'], 1); // I think this is right?
 var q4 = new Question('Is that it?', ['Yup', 'Nope'], 0);
-var q5;
+var q5 = new Question();
 
 var questions = [q1, q2, q3, q4];
 var n = Math.floor(Math.random() * questions.length);
