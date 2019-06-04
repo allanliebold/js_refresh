@@ -176,5 +176,9 @@ INSERT INTO hobbies (person_id, name) VALUES (3, "drawing");
 INSERT INTO hobbies (person_id, name) VALUES (4, "coding");
 INSERT INTO hobbies (person_id, name) VALUES (4, "dilly-dallying");
 INSERT INTO hobbies (person_id, name) VALUES (4, "meowing");
-
 INSERT INTO hobbies (person_id, name) VALUES (4, "napping");
+
+CREATE TABLE student_projects (id INTEGER PRIMARY KEY,
+    student_id INTEGER,
+    title TEXT);
+    
