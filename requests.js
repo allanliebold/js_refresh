@@ -15,4 +15,3 @@ xhr.onreadystatechange = () => {
   }
 };
 
-xhr.onreadystatechange;
