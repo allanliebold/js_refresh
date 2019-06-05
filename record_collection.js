@@ -1,5 +1,4 @@
 // Record Collection
-
 // collection Object
 
 var collection = {
