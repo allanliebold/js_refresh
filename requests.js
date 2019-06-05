@@ -14,3 +14,5 @@ xhr.onreadystatechange = () => {
     return xhr.response;
   }
 };
+
+xhr.onreadystatechange;
