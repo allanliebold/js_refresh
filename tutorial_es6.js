@@ -7,6 +7,7 @@ var x = 1;
   let x = 2;
   console.log(x); // 2
 }
+
 console.log(x); // 1
 
 // an array declared with var can be overwritten
