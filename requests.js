@@ -15,5 +15,5 @@ xhr.onreadystatechange = () => {
 };
 
 setTimeout(() => {
-  
+  console.log('Really delayed message.');
 });
