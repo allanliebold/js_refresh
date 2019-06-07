@@ -252,4 +252,4 @@ User.prototype.getEmailAddress = function() {
 user1.getEmailAddress();
 // John.Smith@email.com
 
-var user2;
+var user2 = new User();
