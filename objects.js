@@ -11,7 +11,9 @@ var bob =  {
 var bill = {
   name: 'Bill',
   lastName: 'Williams',
-  age: 35
+  age: 35,
+  job: 'scientist',
+  married: true
 };
 
 // Accessing data in an object
