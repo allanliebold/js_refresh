@@ -10,7 +10,8 @@ var bob =  {
 
 var bill = {
   name: 'Bill',
-  lastName: 'Williams'
+  lastName: 'Williams',
+  age: 35
 };
 
 // Accessing data in an object
