@@ -14,3 +14,4 @@ xhr.onreadystatechange = () => {
   }
 };
 
+setTimeout();
