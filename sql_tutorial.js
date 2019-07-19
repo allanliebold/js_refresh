@@ -95,6 +95,7 @@ INSERT INTO artists (name, country, genre)
     VALUES ("Gloria Estefan", "US", "Pop");
 INSERT INTO artists (name, country, genre)
     VALUES ("Bob Marley", "Jamaica", "Reggae");
+INSERT INTO artists (name, country, genre)
     
 SELECT title FROM songs WHERE artist = "Queen";
 SELECT artist FROM artists WHERE genre = "Pop";
