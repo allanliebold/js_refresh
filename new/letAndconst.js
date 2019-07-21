@@ -39,5 +39,5 @@ for (let i = 0; i < 5; i++) {
   console.log(i); 0, 1, 2, 3, 4
 }
 
-console.log(i); // 23
+console.log(i); // i is still 23 outside of the for loop
 
