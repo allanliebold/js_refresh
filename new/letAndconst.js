@@ -31,6 +31,8 @@ if(passedTest) {
 This works because of where firstName was declared. Can't do the same for const since it's immutable.
 */
 
+// let
+
 let i = 23;
 
 for (let i = 0; i < 5; i++) {
