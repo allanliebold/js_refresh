@@ -193,7 +193,8 @@ CREATE TABLE student_projects (id INTEGER PRIMARY KEY,
 INSERT INTO student_projects (student_id, title)
     VALUES (1, "Book Report");
 
-INSERT INTO student_projects (student_id, title);
+INSERT INTO student_projects (student_id, title)
+    VALUES (2, "Essay");
 
 SELECT students.first_name, students.last_name, student_projects.title
     FROM students
