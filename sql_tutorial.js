@@ -11,7 +11,7 @@ INSERT INTO groceries VALUES (7, "Eggs", 6, 6);
 INSERT INTO groceries VALUES (8, "Bean Sprouts", 1, 5);
 INSERT INTO groceries VALUES (9, "Tuna", 5, 5);
 INSERT INTO groceries VALUES (10, "Chili", 2, 5);
-INSERT INTO groceries VALUES ();
+INSERT INTO groceries VALUES (11);
 
 SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 
