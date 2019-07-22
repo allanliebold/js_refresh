@@ -16,6 +16,8 @@ function reverseString(str) {
 // Factorialize (with recursion)
 const factorialize = (num) => num == 0 ? 1 : num * factorialize(num - 1);
 
+const factorialize;
+
 // Return length of longest word in a string
 function findLongestWordLength(str) {
   let wordArr = str.split(' ');
