@@ -8,7 +8,7 @@ INSERT INTO groceries VALUES (4, "Bread", 1, 4);
 INSERT INTO groceries VALUES (5, "Bananas", 4, 1);
 INSERT INTO groceries VALUES (6, "Cereal", 2, 3);
 INSERT INTO groceries VALUES (7, "Eggs", 6, 6);
-INSERT INTO groceries VALUES (9, "Tuna", 5, 5);
+INSERT INTO groceries VALUES (10, "Tuna", 5, 5);
 INSERT INTO groceries VALUES (10, "Chili", 2, 5);
 INSERT INTO groceries VALUES (11, "Cheese", 1, 6);
 
