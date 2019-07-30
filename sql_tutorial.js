@@ -3,7 +3,7 @@ CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, ais
 
 INSERT INTO groceries VALUES (1, "Peanut Butter", 1, 4);
 INSERT INTO groceries VALUES (2, "Apples", 5, 1);
-INSERT INTO groceries VALUES (3, "Tea", 2, 3);
+INSERT INTO groceries VALUES (3, "Juice", 2, 3);
 INSERT INTO groceries VALUES (4, "Bread", 1, 4);
 INSERT INTO groceries VALUES (5, "Bananas", 4, 1);
 INSERT INTO groceries VALUES (6, "Cereal", 2, 3);
