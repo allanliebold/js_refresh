@@ -203,3 +203,4 @@ SELECT students.first_name, students.last_name, student_projects.title
 SELECT name, age, salary
   FROM employee 
   WHERE name LIKE 'A%';
+// Display the name age and salary of entries in the employee database with name beginning with A. 
