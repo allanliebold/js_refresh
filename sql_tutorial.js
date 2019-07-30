@@ -202,4 +202,4 @@ SELECT students.first_name, students.last_name, student_projects.title
 
 SELECT name, age, salary
   FROM employee 
-  WHERE age > 30;
+  WHERE name LIKE 'A%';
