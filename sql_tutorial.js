@@ -204,3 +204,6 @@ SELECT name, age, salary
   FROM employee 
   WHERE name LIKE 'A%';
 // Display the name age and salary of entries in the employee database with name beginning with A. 
+
+SELECT DISTINCT job_title
+  FROM staff;
