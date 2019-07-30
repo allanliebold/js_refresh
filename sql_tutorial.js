@@ -209,6 +209,5 @@ SELECT DISTINCT job_title
   FROM staff;
 // Display each unique job title contained in the staff database, disregarding repeated instances of the same title. 
 
-SELECT ALL customerid, item, price
-  FROM items_ordered
+SELECT * FROM items_ordered
   WHERE customerid = 10449;
