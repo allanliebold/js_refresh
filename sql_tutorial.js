@@ -199,3 +199,7 @@ SELECT students.first_name, students.last_name, student_projects.title
     FROM students
     JOIN student_projects
     ON students.id = student_projects.student_id;
+
+SELECT name, age, salary
+  FROM employee 
+  WHERE age > 30;
