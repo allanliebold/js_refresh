@@ -222,4 +222,4 @@ SELECT lastname, max(salary), dept
 
 SELECT state, count(*)
  FROM customers
-GROUP BY state;
+ GROUP BY state;
