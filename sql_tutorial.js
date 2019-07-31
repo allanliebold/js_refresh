@@ -217,7 +217,6 @@ SELECT column1, SUM(column2)
  GROUP BY "column-list";
 
 SELECT max(salary), dept
- 
-FROM employee 
+ FROM employee 
  
 GROUP BY dept;
