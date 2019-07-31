@@ -221,5 +221,5 @@ SELECT lastname, max(salary), dept
  GROUP BY dept;
 
 SELECT state, count(*)
-FROM customers
+ FROM customers
 GROUP BY state;
