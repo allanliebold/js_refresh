@@ -215,3 +215,9 @@ SELECT * FROM items_ordered
 SELECT column1, SUM(column2)
  FROM "list-of-tables"
  GROUP BY "column-list";
+
+SELECT max(salary), dept
+ 
+FROM employee 
+ 
+GROUP BY dept;
