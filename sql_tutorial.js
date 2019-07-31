@@ -218,5 +218,4 @@ SELECT column1, SUM(column2)
 
 SELECT max(salary), dept
  FROM employee 
- 
-GROUP BY dept;
+ GROUP BY dept;
