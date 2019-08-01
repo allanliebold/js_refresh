@@ -228,3 +228,6 @@ SELECT dept, avg(salary)
   FROM employee
   GROUP BY dept;                    
   HAVING avg(salary) < 20000;
+
+SELECT state
+  FROM customers
