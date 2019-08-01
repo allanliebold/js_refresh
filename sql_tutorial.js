@@ -233,3 +233,8 @@ SELECT state, count(state)
   FROM customers
   GROUP BY state
   HAVING count(state) > 1;
+
+SELECT item, max(price), min(price)
+  FROM items_ordered
+  GROUP BY item
+  HAVING max(price) > 190.00;
