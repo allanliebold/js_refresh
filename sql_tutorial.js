@@ -229,5 +229,5 @@ SELECT dept, avg(salary)
   GROUP BY dept;                    
   HAVING avg(salary) < 20000;
 
-SELECT state
+SELECT state, count(state)
   FROM customers
