@@ -227,4 +227,4 @@ SELECT state, count(*)
 SELECT dept, avg(salary)
   FROM employee
   GROUP BY dept;                    
-HAVING avg(salary) > 20000;
+  HAVING avg(salary) < 20000;
