@@ -231,3 +231,5 @@ SELECT dept, avg(salary)
 
 SELECT state, count(state)
   FROM customers
+  GROUP BY state
+  HAVING count(state) > 1;
