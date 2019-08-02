@@ -237,4 +237,4 @@ SELECT state, count(state)
 SELECT item, max(price), min(price)
   FROM items_ordered
   GROUP BY item
-  HAVING max(price) > 190.00;
+  HAVING max(price) > 100.00;
