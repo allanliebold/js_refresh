@@ -242,3 +242,10 @@ SELECT item, max(price), min(price)
 SELECT employeeid, lastname, salary
   FROM employee_info
   WHERE lastname IN ('Smith', 'Jones');
+
+
+SELECT employeeid, age, lastname, salary
+
+FROM employee_info
+ 
+WHERE age BETWEEN 30 AND 40;
