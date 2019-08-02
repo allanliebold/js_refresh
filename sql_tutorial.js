@@ -232,7 +232,7 @@ SELECT dept, avg(salary)
 SELECT item, count(item)
   FROM customers
   GROUP BY item
-  HAVING count(state) > 1;
+  HAVING count(item) > 1;
 
 SELECT item, max(price), min(price)
   FROM items_ordered
