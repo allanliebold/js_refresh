@@ -240,8 +240,5 @@ SELECT item, max(price), min(price)
   HAVING max(price) > 100.00;
 
 SELECT employeeid, lastname, salary
-
-FROM employee_info
-
-
-WHERE lastname IN ();
+  FROM employee_info
+  WHERE lastname IN ('Smith', 'Jones');
