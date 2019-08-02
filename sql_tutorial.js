@@ -229,9 +229,9 @@ SELECT dept, avg(salary)
   GROUP BY dept;                    
   HAVING avg(salary) < 20000;
 
-SELECT state, count(state)
+SELECT item, count(item)
   FROM customers
-  GROUP BY state
+  GROUP BY item
   HAVING count(state) > 1;
 
 SELECT item, max(price), min(price)
