@@ -245,5 +245,5 @@ SELECT employeeid, lastname, salary
 
 
 SELECT employeeid, age, lastname, salary
-FROM employee_info 
-WHERE age BETWEEN 30 AND 40;
+  FROM employee_info 
+  WHERE age BETWEEN 25 AND 39;
