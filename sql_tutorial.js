@@ -220,10 +220,6 @@ SELECT lastname, max(salary), dept
  FROM employee 
  GROUP BY dept;
 
-SELECT state, count(*)
-  FROM customers
-  GROUP BY state;
-
 SELECT dept, avg(salary)
   FROM employee
   GROUP BY dept;                    
