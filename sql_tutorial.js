@@ -236,6 +236,8 @@ SELECT employeeid, lastname, salary
   FROM employee_info
   WHERE lastname IN ('Smith', 'Jones');
 
+SELECT employeeid, firstname, lastname
+  FROM employee_info
 
 SELECT employeeid, age, lastname, salary
   FROM employee_info 
