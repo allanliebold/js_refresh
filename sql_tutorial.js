@@ -15,7 +15,7 @@ INSERT INTO groceries VALUES (10, "Cheese", 1, 6);
 SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 
 SELECT SUM(quantity) FROM groceries;
-// Aggregate function. Returns 6
+// Aggregate function. Returns 10
 
 SELECT MAX(quantity) FROM groceries;
 // Returns 3, the highest number from quantity
