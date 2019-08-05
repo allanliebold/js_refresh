@@ -241,5 +241,9 @@ SELECT employeeid, firstname, lastname
   WHERE lastname LIKE 'A%';
 
 SELECT employeeid, age, lastname, salary
+
+SELECT employeeid, age, lastname, salary
   FROM employee_info 
   WHERE age BETWEEN 25 AND 39;
+
+
