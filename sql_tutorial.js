@@ -242,6 +242,7 @@ SELECT employeeid, firstname, lastname
 
 SELECT employeeid, age, lastname, salary
   FROM employee_info
+  WHERE age > 25;
 
 SELECT employeeid, age, lastname, salary
   FROM employee_info 
