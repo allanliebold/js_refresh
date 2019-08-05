@@ -189,4 +189,4 @@ console.log(`${erdrick.name} is a ${erdrick.job}.`); // Erdrick is a Warrior.
 const rats = new Character('Rats', 'Bard', ['Bow', 'Lute']);
 
 const yuusha = new Character('Yuusha', 'Hero', ['Boomerang', 'Gem']);
-console.log(`${yuusha.name} is a ${yuusha.job`);
+console.log(`${yuusha.name} is a ${yuusha.job}`);
