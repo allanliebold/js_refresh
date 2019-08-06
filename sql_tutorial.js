@@ -249,7 +249,6 @@ SELECT employeeid, age, lastname, salary
   WHERE age BETWEEN 25 AND 39;
 
 SELECT customer_info.firstname, customer_info.lastname, purchases.item
-
 FROM customer_info, purchases
 
 WHERE customer_info.customer_number = purchases.customer_number;
