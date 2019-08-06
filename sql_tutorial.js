@@ -261,3 +261,5 @@ SELECT customer_info.firstname, customer_info.lastname, purchases.item
 SELECT employee_info.employeeid, employee_info.lastname, employee_sales.comission
   FROM employee_info, employee_sales
   WHERE employee_info.employeeid = employee_sales.employeeid;
+
+SELECT customers.customerid, customers.firstname, customers.lastname, items_ordered.order_date, items_ordered.item, items.ordered.price
