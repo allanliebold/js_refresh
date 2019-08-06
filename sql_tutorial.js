@@ -21,7 +21,7 @@ SELECT MAX(quantity) FROM groceries;
 // Returns 6, the highest number from quantity
 
 INSERT INTO groceries VALUES (4, "Bananas", 5, 1);
-SELECT aisle, SUM(quantity) FROM groceries; 
+  SELECT aisle, SUM(quantity) FROM groceries; 
 
 /* This will list out the aisle numbers in one column and the sum of each aisle in the second
 
