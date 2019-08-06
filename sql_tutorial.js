@@ -18,7 +18,7 @@ SELECT SUM(quantity) FROM groceries;
 // Aggregate function. Returns 10
 
 SELECT MAX(quantity) FROM groceries;
-// Returns 3, the highest number from quantity
+// Returns 6, the highest number from quantity
 
 INSERT INTO groceries VALUES (4, "Bananas", 5, 1);
 SELECT aisle, SUM(quantity) FROM groceries; 
