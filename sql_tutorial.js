@@ -256,5 +256,4 @@ SELECT customer_info.firstname, customer_info.lastname, purchases.item
 
 SELECT customer_info.firstname, customer_info.lastname, purchases.item
 FROM customer_info INNER JOIN purchases
-
 ON customer_info.customer_number = purchases.customer_number;
