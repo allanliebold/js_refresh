@@ -264,6 +264,6 @@ SELECT employee_info.employeeid, employee_info.lastname, employee_sales.comissio
 
 SELECT customers.customerid, customers.firstname, customers.lastname,
        items_ordered.order_date, items_ordered.item, items_ordered.price
-FROM customers, items_ordered
-WHERE customers.customerid = items_ordered.customerid;
+  FROM customers, items_ordered
+  WHERE customers.customerid = items_ordered.customerid;
 
