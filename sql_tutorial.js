@@ -269,4 +269,5 @@ SELECT customers.customerid, customers.firstname, customers.lastname,
 
 SELECT sum(theaters.screens), movies.title
   FROM theaters, movies
-  WHERE theaters.movieid = movies.id;
+  WHERE theaters.movieid = movies.id
+  GROUP BY sum(theaters.screens);
