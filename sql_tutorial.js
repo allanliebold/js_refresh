@@ -267,3 +267,5 @@ SELECT customers.customerid, customers.firstname, customers.lastname,
   FROM customers, items_ordered
   WHERE customers.customerid = items_ordered.customerid;
 
+SELECT sum(theaters.screens), movies.title
+  FROM theaters, movies;
