@@ -245,7 +245,7 @@ SELECT employeeid, firstname, lastname
 
 SELECT employeeid, firstname, lastname, title
   FROM employee_info
-  WHERE title LIKE '';
+  WHERE title LIKE 'Data%';
 
 SELECT employeeid, age, lastname, salary
   FROM employee_info
