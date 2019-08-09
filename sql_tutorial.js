@@ -244,6 +244,7 @@ SELECT employeeid, firstname, lastname
   WHERE lastname LIKE 'A%';
 
 SELECT employeeid, firstname, lastname, title
+  FROM employee_info
 
 SELECT employeeid, age, lastname, salary
   FROM employee_info
