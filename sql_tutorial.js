@@ -279,3 +279,4 @@ SELECT sum(theaters.screens), movies.title
   GROUP BY sum(theaters.screens);
 
 SELECT employees.id, employees.firstname, employees.lastname
+  FROM employee_info
