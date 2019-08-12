@@ -201,7 +201,7 @@ SELECT students.first_name, students.last_name, student_projects.title
     ON students.id = student_projects.student_id;
 
 SELECT population FROM world
-  WHERE name = 'France'
+  WHERE name = 'Germany';
 
 SELECT name, age, salary
   FROM employee 
