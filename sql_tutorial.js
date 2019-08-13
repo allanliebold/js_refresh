@@ -207,6 +207,9 @@ SELECT population FROM world
 SELECT name FROM world
   WHERE name LIKE 'F%';
 
+SELECT name FROM world
+  WHERE name LIKE '%y';
+
 SELECT name, age, salary
   FROM employee 
   WHERE name LIKE 'A%';
