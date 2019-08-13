@@ -210,6 +210,9 @@ SELECT name FROM world
 SELECT name FROM world
   WHERE name LIKE '%y';
 
+SELECT name FROM world
+  WHERE name LIKE '%x%';
+
 SELECT name, age, salary
   FROM employee 
   WHERE name LIKE 'A%';
