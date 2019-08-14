@@ -260,6 +260,8 @@ SELECT employeeid, firstname, lastname, title, salary
   FROM employee_info
   WHERE title LIKE 'Data%';
 
+SELECT employeeid, firstname, lastname, title, salary
+
 SELECT employeeid, age, lastname, salary
   FROM employee_info
   WHERE age > 25;
