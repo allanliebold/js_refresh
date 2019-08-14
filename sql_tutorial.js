@@ -295,4 +295,4 @@ SELECT sum(theaters.screens), movies.title
 
 SELECT employees.id, employees.firstname, employees.lastname
   FROM employee_info
-  WHERE employees.firstname LIKE '';
+  WHERE employees.firstname LIKE 'A%';
