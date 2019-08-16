@@ -12,6 +12,7 @@ document.querySelector('.btn-roll').addEvenListener('click', function() {
     
     document.getElementById('dice-1').style.display = 'block';
     document.getElementById('dice-2').style.display = 'block';
+    
     document.getElementById('dice-1').src = 'dice-' + dice1 + '.png';
     document.getElementById('dice-2').src = 'dice-' + dice2 + '.png';
     
