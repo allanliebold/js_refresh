@@ -25,7 +25,7 @@ function someFun(parameter) {
 }
 
 // Function expression
-var someFun = function(parameter) {
+var someFunc = function(parameter) {
   // Produces a value
   return;
 }
