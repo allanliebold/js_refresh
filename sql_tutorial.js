@@ -47,6 +47,7 @@ INSERT INTO todo_list VALUES (2, "Dishes", 20);
 INSERT INTO todo_list VALUES (3, "Study", 30);
 INSERT INTO todo_list VALUES (4, "Nap", 60);
 INSERT INTO todo_list VALUES (5, "Writing", 45);
+INSERT INTO todo_list VALUES ();
 
 SELECT SUM(minutes) FROM todo_list;
 
