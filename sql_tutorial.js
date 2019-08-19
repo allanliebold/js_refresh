@@ -264,6 +264,7 @@ SELECT employeeid, firstname, lastname, title, salary
   WHERE title LIKE 'Data%';
 
 SELECT employeeid, firstname, lastname, title, salary
+  FROM employee_info
 
 SELECT employeeid, age, lastname, salary
   FROM employee_info
