@@ -307,4 +307,4 @@ SELECT name, population
 
 SELECT name, population/area
   FROM world
-  WHERE name IN ('China', 'Nigeria', 'France', 'Australia')
+  WHERE name IN ('China', 'Nigeria', 'France', 'Australia');
