@@ -303,4 +303,4 @@ SELECT name, SUBSTRING(capital, LENGTH(name) + 1, LENGTH(capital))
 
 SELECT name, population
   FROM world
-  WHERE population BETWEEN 1000000 AND 1250000
+  WHERE population BETWEEN 1000000 AND 1250000;
