@@ -297,3 +297,6 @@ SELECT sum(theaters.screens), movies.title
   WHERE theaters.movieid = movies.id
   GROUP BY sum(theaters.screens);
 
+SELECT name, SUBSTRING(capital, LENGTH(name) + 1, LENGTH(capital))
+     FROM world
+     WHERE capital LIKE CONCAT(name, '_%')
