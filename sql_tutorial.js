@@ -307,3 +307,7 @@ SELECT name, population/area
 
 SELECT name, continent, population 
   FROM world;
+
+SELECT name, gdp/population
+     FROM world
+     WHERE population > 200000000;
