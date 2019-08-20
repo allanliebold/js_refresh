@@ -305,4 +305,5 @@ SELECT name, population/area
   FROM world
   WHERE name IN ('China', 'Nigeria', 'France', 'Australia');
 
-SELECT name, continent, population FROM world
+SELECT name, continent, population 
+FROM world;
