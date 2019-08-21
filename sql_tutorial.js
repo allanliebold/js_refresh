@@ -36,6 +36,7 @@ INSERT INTO books VALUES (2, "Dune", 4);
 INSERT INTO books VALUES (3, "Beloved", 4);
 INSERT INTO books VALUES (4, "Dune Messiah", 3);
 INSERT INTO books VALUES (5, "The Hobbit", 7);
+INSERT INTO books VALUES (6, "Children of Dune");
 
 CREATE TABLE todo_list (id INTEGER PRIMARY KEY, item TEXT, minutes INTEGER);
 INSERT INTO todo_list VALUES (1, "Laundry", 90);
