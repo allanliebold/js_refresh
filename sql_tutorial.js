@@ -34,7 +34,6 @@ CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 INSERT INTO books VALUES (1, "A Knight of the Seven Kingdoms", 4);
 INSERT INTO books VALUES (2, "Dune", 4);
 INSERT INTO books VALUES (3, "Beloved", 4);
-INSERT INTO books VALUES (4, "The Divine Comedy", 2);
 INSERT INTO books VALUES (5, "Dune Messiah", 3);
 INSERT INTO books VALUES (6, "The Hobbit", 7);
 
