@@ -310,5 +310,5 @@ SELECT name, population
     WHERE name IN ('France', 'Germany', 'Italy');
 
 SELECT name
-     FROM world
+    FROM world
     WHERE name LIKE '%United%';
