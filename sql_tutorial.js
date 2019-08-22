@@ -315,4 +315,4 @@ SELECT name
 
 SELECT name, population, area
      FROM world
-     WHERE population > 250000000 OR area > 3000000
+     WHERE population > 250000000 XOR area > 3000000
