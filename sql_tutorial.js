@@ -339,5 +339,5 @@ SELECT name
      AND name LIKE '%u%' AND name NOT LIKE '% %';
 
 SELECT name FROM world
- WHERE continent = 'South America'
+  WHERE continent = 'South America'
    AND population > 40000000;
