@@ -341,3 +341,7 @@ SELECT name
 SELECT name FROM world
   WHERE continent = 'South America'
    AND population > 40000000;
+
+SELECT yr, subject, winner
+FROM nobel
+WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine');
