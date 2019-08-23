@@ -338,4 +338,6 @@ SELECT name
   WHERE name LIKE '%a%' AND name LIKE '%e%' AND name LIKE '%i%' AND name LIKE '%o%' 
      AND name LIKE '%u%' AND name NOT LIKE '% %'
 
-
+SELECT name FROM world
+ WHERE continent = 'South America'
+   AND population > 40000000
