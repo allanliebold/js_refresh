@@ -125,8 +125,6 @@ INSERT INTO student_grades (student_id, test, grade)
     VALUES (2, "Chemistry", 95);
 INSERT INTO student_grades (student_id, test, grade)
     VALUES (1, "Math", 88);
-INSERT INTO student_grades (student_id, test, grade)
-    VALUES (2, "Math", 79);
 
 CREATE TABLE persons (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
