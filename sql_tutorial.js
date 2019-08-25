@@ -293,8 +293,7 @@ SELECT name, gdp/population
      WHERE population > 200000000;
 
 SELECT name, population
-    FROM world
-    WHERE name IN ('France', 'Germany', 'Italy');
+
 
 SELECT name
     FROM world
