@@ -313,8 +313,7 @@ SELECT name, ROUND(gdp / population, -3) // Round to nearest 1000.
      WHERE gdp > 1000000000000;
 
 SELECT name, capital
-  FROM world
-  WHERE LENGTH(name) = LENGTH(capital);
+
 
 SELECT name, capital
      FROM world
