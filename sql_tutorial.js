@@ -86,8 +86,6 @@ INSERT INTO artists (name, country, genre)
 INSERT INTO artists (name, country, genre)
     VALUES ("Meatloaf", "US", "Hard rock");
 INSERT INTO artists (name, country, genre)
-    VALUES ("Shania Twain", "Canada", "Country");
-INSERT INTO artists (name, country, genre)
     VALUES ("Rihanna", "US", "Pop");
 INSERT INTO artists (name, country, genre)
     VALUES ("Guns N' Roses", "US", "Hard rock");
