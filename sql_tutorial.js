@@ -260,6 +260,10 @@ SELECT employeeid, age, lastname, salary
 
 // Joining tables
 SELECT customer_info.firstname, customer_info.lastname, purchases.item
+  FROM customer_info, purchases
+  WHERE customer_info.customer_number = purchases.customer_number;
+
+SELECT customer_info.firstname, customer_info.lastname, purchases.item
   FROM customer_info INNER JOIN purchases
   ON customer_info.customer_number = purchases.customer_number;
 
