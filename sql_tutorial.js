@@ -308,3 +308,6 @@ SELECT name
 SELECT yr, subject, winner
 FROM nobel
 WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine');
+
+SELECT name FROM nobel
+ WHERE winner LIKE 'C%' AND winner LIKE '%n'
