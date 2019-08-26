@@ -12,7 +12,6 @@ SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 
 SELECT SUM(quantity) FROM groceries;
 // Aggregate function. Returns 10
-
 SELECT MAX(quantity) FROM groceries;
 // Returns 6, the highest number from quantity
 
