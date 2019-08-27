@@ -21,7 +21,7 @@ INSERT INTO groceries VALUES (4, "Bananas", 5, 1);
 /* This will list out the aisle numbers in one column and the sum of each aisle in the second
 aisle      SUM(quantity)
   1           8
-  3           2
+  3           4
   4           2           
 */
 
