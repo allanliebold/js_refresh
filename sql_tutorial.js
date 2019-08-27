@@ -23,6 +23,7 @@ aisle      SUM(quantity)
   1           8
   3           2
   4           1
+  5
 */
 
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
