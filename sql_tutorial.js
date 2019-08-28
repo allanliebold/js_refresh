@@ -316,3 +316,4 @@ SELECT winner FROM nobel
  WHERE winner LIKE 'C%' AND winner LIKE '%n'
 
 SELECT winner FROM nobel
+  WHERE winner LIKE 'Sir %'
