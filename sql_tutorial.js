@@ -180,6 +180,8 @@ INSERT INTO student_projects (student_id, title)
 INSERT INTO student_projects (student_id, title)
     VALUES (2, "Essay");
 
+INSERT INTO student_projects (student_id, title)
+
 SELECT students.first_name, students.last_name, student_projects.title
     FROM students
     JOIN student_projects
