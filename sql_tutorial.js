@@ -319,3 +319,8 @@ SELECT winner FROM nobel
 SELECT winner FROM nobel
   WHERE winner LIKE 'Sir %'
     AND yr BETWEEN 1980 and 1990
+
+SELECT name FROM world
+  WHERE population >
+     (SELECT population FROM world
+      WHERE name='Russia')
