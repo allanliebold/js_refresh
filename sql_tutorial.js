@@ -185,9 +185,6 @@ SELECT students.first_name, students.last_name, student_projects.title
     JOIN student_projects
     ON students.id = student_projects.student_id;
 
-SELECT population FROM world
-  WHERE name = 'Germany';
-
 SELECT name FROM world
   WHERE name LIKE 'F%';
 
