@@ -28,6 +28,7 @@ var collection = {
 };
 
 // Save a copy of the collection as a JSON Object
+
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 var collectionCopy2 = JSON.parse(JSON.stringify(collection));
 var collectionCopy3 = JSON.parse(JSON.stringify(collection));
