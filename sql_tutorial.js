@@ -70,8 +70,6 @@ CREATE TABLE artists (
     genre TEXT);
 
 INSERT INTO artists (name, country, genre)
-    VALUES ("Taylor Swift", "US", "Pop");
-INSERT INTO artists (name, country, genre)
     VALUES ("Led Zeppelin", "US", "Hard rock");
 INSERT INTO artists (name, country, genre)
     VALUES ("ABBA", "Sweden", "Disco");
