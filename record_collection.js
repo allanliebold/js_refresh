@@ -9,6 +9,7 @@ var collection = {
         "You Give Love a Bad Name" 
       ]
     },
+    
     "2468": {
       "album": "1999",
       "artist": "Prince",
