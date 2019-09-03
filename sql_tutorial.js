@@ -322,6 +322,4 @@ SELECT name FROM world
           (SELECT (gdp / population) FROM world
                 WHERE name='United Kingdom')
 
-SELECT name, population FROM world
-  WHERE population > (SELECT population FROM world WHERE name = 'Canada') 
-    AND population < (SELECT population FROM world WHERE name = 'Poland');
+
