@@ -334,4 +334,4 @@ SELECT name FROM world
 
 SELECT continent, MIN(name) AS name
   FROM world
-  
+  GROUP BY continent
