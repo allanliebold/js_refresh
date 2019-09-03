@@ -289,6 +289,10 @@ SELECT name, ROUND(population / 1000000, 2), ROUND(gdp / 1000000000, 2)
      FROM world
      WHERE continent = 'South America';
 
+SELECT yr, subject, winner
+FROM nobel
+WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine');
+
 SELECT name, capital
      FROM world
      WHERE LEFT(name, 1) = LEFT(capital, 1) AND name <> capital;
