@@ -332,6 +332,6 @@ SELECT name FROM world
           (SELECT (gdp / population) FROM world
                 WHERE name='United Kingdom')
 
-SELECT continent, MIN(name)
+SELECT continent, MIN(name) AS name
   FROM world
   
