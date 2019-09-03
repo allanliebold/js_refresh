@@ -345,5 +345,5 @@ SELECT name, continent, population
 SELECT name, continent
      FROM world x 
      WHERE (population / 3) > ALL(SELECT population
-                                                             FROM world y
+                                    FROM world y
                                                              WHERE y.continent = x.continent AND y.name != x.name)
