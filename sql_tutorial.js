@@ -350,4 +350,4 @@ SELECT name, continent
                                     AND y.name != x.name)
 
 SELECT SUM(population)
-FROM world
+  FROM world;
