@@ -348,3 +348,6 @@ SELECT name, continent
                                     FROM world y
                                     WHERE y.continent = x.continent 
                                     AND y.name != x.name)
+
+SELECT SUM(population)
+FROM world
