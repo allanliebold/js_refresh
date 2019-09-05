@@ -365,4 +365,4 @@ SELECT id,stadium,team1,team2
 
 SELECT player, teamid, stadium, mdate
   FROM game JOIN goal ON (id=matchid)
-  WHERE goal.teamid = 'GER'
+  WHERE goal.teamid = 'GER';
