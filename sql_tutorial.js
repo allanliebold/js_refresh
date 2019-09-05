@@ -382,3 +382,7 @@ WHERE coach = 'Fernando Santos';
 SELECT player 
 FROM goal JOIN game ON id = matchid
 WHERE stadium = 'National Stadium, Warsaw'
+
+SELECT teamname, COUNT(gtime)
+  FROM eteam JOIN goal ON id=teamid
+ GROUP BY teamname
