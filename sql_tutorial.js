@@ -369,4 +369,4 @@ SELECT player, teamid, stadium, mdate
 
 SELECT team1, team2, player
   FROM game JOIN goal ON (id=matchid)
-  WHERE goal.player LIKE 'Mario%'
+  WHERE goal.player LIKE 'Mario%';
