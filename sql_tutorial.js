@@ -368,5 +368,5 @@ SELECT player, teamid, stadium, mdate
   WHERE goal.teamid = 'GER';
 
 SELECT team1, team2, player
-     FROM game JOIN goal ON (id=matchid)
-     WHERE goal.player LIKE 'Mario%'
+  FROM game JOIN goal ON (id=matchid)
+  WHERE goal.player LIKE 'Mario%'
