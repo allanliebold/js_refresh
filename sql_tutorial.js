@@ -354,3 +354,6 @@ SELECT SUM(population)
 
 SELECT DISTINCT continent
   FROM world;
+
+SELECT matchid, player FROM goal 
+  WHERE teamid = 'GER'
