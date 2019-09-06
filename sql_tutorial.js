@@ -399,5 +399,5 @@ SELECT title, COUNT(actorid) AS actors
   ORDER BY actors DESC, title;
 
 SELECT title 
-FROM movie JOIN casting ON id = movieid
-WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford') 
+  FROM movie JOIN casting ON id = movieid
+  WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford');
