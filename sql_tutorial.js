@@ -393,7 +393,7 @@ WHERE casting.movieid = 11768
 ORDER BY name;
 
 SELECT title, COUNT(actorid) AS actors
-FROM movie JOIN casting ON id = movieid
-WHERE yr = 1978
-GROUP BY title
-ORDER BY actors DESC, title;
+  FROM movie JOIN casting ON id = movieid
+  WHERE yr = 1978
+  GROUP BY title
+  ORDER BY actors DESC, title;
