@@ -397,3 +397,7 @@ SELECT title, COUNT(actorid) AS actors
   WHERE yr = 1978
   GROUP BY title
   ORDER BY actors DESC, title;
+
+SELECT title 
+FROM movie JOIN casting ON id = movieid
+WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford') 
