@@ -390,4 +390,4 @@ SELECT teamname, COUNT(gtime)
 SELECT name
 FROM actor JOIN casting ON id = actorid
 WHERE casting.movieid = 11768
-ORDER BY name
+ORDER BY name;
