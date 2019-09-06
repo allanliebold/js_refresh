@@ -386,3 +386,8 @@ WHERE stadium = 'National Stadium, Warsaw'
 SELECT teamname, COUNT(gtime)
   FROM eteam JOIN goal ON id=teamid
  GROUP BY teamname;
+
+SELECT name
+FROM actor JOIN casting ON id = actorid
+WHERE casting.movieid = 11768
+ORDER BY name
