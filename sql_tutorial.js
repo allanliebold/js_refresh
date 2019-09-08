@@ -348,6 +348,7 @@ SELECT name, continent
 
 SELECT SUM(population)
   FROM world;
+
 SELECT DISTINCT continent
   FROM world;
 SELECT matchid, player 
