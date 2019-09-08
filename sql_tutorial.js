@@ -348,18 +348,14 @@ SELECT name, continent
 
 SELECT SUM(population)
   FROM world;
-
 SELECT DISTINCT continent
   FROM world;
-
 SELECT matchid, player 
   FROM goal 
   WHERE teamid = 'GER'
-
 SELECT id,stadium,team1,team2
   FROM game
   WHERE id = 1012;
-
 SELECT player, teamid, stadium, mdate
   FROM game JOIN goal ON (id=matchid)
   WHERE goal.teamid = 'GER';
