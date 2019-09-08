@@ -26,7 +26,6 @@ aisle      SUM(quantity)
   3           4
   4           2           
 */
-
 CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
 INSERT INTO books VALUES (1, "A Knight of the Seven Kingdoms", 4);
 INSERT INTO books VALUES (2, "Dune", 4);
