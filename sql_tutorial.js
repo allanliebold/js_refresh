@@ -366,8 +366,6 @@ SELECT player, teamid, stadium, mdate
   FROM game JOIN goal ON (id=matchid)
   WHERE goal.teamid = 'GER';
 
-
-
 SELECT player, teamid, coach, gtime
   FROM goal JOIN eteam ON teamid=id
   WHERE gtime<=10;
