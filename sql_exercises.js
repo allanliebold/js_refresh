@@ -157,4 +157,4 @@ SELECT teacher.name, dept.name
 
 SELECT teacher.name, dept.name
 FROM teacher LEFT JOIN dept
-ON (teacher.dept=dept.id)
+ON (teacher.dept=dept.id);
