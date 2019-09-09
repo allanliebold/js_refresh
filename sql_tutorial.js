@@ -399,5 +399,5 @@ SELECT name FROM teacher
 // = NULL doesn't work. 
 
 SELECT teacher.name, dept.name
- FROM teacher INNER JOIN dept
-           ON (teacher.dept=dept.id)
+  FROM teacher INNER JOIN dept
+              ON (teacher.dept=dept.id)
