@@ -397,3 +397,7 @@ SELECT title
 SELECT name FROM teacher
   WHERE dept IS NULL;
 // = NULL doesn't work. 
+
+SELECT teacher.name, dept.name
+ FROM teacher INNER JOIN dept
+           ON (teacher.dept=dept.id)
