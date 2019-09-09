@@ -161,4 +161,4 @@ ON (teacher.dept=dept.id);
 
 SELECT name
   FROM director INNER JOIN movie ON movie.id = director.id
- WHERE gross < budget
+  WHERE gross < budget
