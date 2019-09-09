@@ -396,3 +396,4 @@ SELECT title
 
 SELECT name FROM teacher
   WHERE dept IS NULL;
+// = NULL doesn't work. 
