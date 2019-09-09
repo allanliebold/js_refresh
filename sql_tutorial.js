@@ -395,4 +395,4 @@ SELECT title
   WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford');
 
 SELECT name FROM teacher
-WHERE dept IS NULL
+  WHERE dept IS NULL;
