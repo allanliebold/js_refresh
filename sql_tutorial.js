@@ -393,3 +393,6 @@ SELECT title, COUNT(actorid) AS actors
 SELECT title 
   FROM movie JOIN casting ON id = movieid
   WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford');
+
+SELECT name FROM teacher
+WHERE dept IS NULL
