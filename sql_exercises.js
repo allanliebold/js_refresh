@@ -156,8 +156,8 @@ SELECT teacher.name, dept.name
               ON (teacher.dept=dept.id);
 
 SELECT teacher.name, dept.name
-FROM teacher LEFT JOIN dept
-ON (teacher.dept=dept.id);
+  FROM teacher LEFT JOIN dept
+  ON (teacher.dept=dept.id);
 
 SELECT name
   FROM director INNER JOIN movie ON movie.id = director.id
