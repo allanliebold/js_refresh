@@ -170,7 +170,7 @@ SELECT *
 SELECT name, COUNT(movieid)
   FROM casting JOIN actor ON actorid=actor.id
   WHERE name LIKE 'John %'
-  GROUP BY name ORDER BY 2 DESC
+  GROUP BY name ORDER BY 2 DESC;
 
 SELECT title 
    FROM movie JOIN casting ON (movieid=movie.id)
