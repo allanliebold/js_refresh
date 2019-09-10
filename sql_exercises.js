@@ -166,3 +166,8 @@ SELECT name
 SELECT *
   FROM actor JOIN casting ON actor.id = actorid
   JOIN movie ON movie.id = movieid;
+
+SELECT name, COUNT(movieid)
+  FROM casting JOIN actor ON actorid=actor.id
+ WHERE name LIKE 'John %'
+ GROUP BY name ORDER BY 2 DESC
