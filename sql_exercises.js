@@ -175,4 +175,4 @@ SELECT name, COUNT(movieid)
 SELECT title 
    FROM movie JOIN casting ON (movieid=movie.id)
               JOIN actor   ON (actorid=actor.id)
-  WHERE name='Paul Hogan' AND ord = 1
+   WHERE name='Paul Hogan' AND ord = 1;
