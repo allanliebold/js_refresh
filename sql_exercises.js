@@ -161,7 +161,7 @@ SELECT teacher.name, dept.name
 
 SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
- WHERE gross < budget
+  WHERE gross < budget;
 
 SELECT *
   FROM actor JOIN casting ON actor.id = actorid
