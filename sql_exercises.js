@@ -144,8 +144,7 @@ SELECT title
   WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford');
 
 SELECT name FROM teacher
-  WHERE dept IS NULL;
-// = NULL doesn't work. 
+  WHERE dept IS NULL; // = NULL doesn't work. 
 
 SELECT teacher.name, dept.name
   FROM teacher INNER JOIN dept
