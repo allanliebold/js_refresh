@@ -179,4 +179,4 @@ SELECT name
 
  SELECT title, yr 
    FROM movie, casting, actor 
-  WHERE name='Robert De Niro' AND movieid=movie.id AND actorid=actor.id AND ord = 3
+  WHERE name='Robert De Niro' AND movieid=movie.id AND actorid=actor.id AND ord = 3;
