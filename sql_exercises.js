@@ -154,6 +154,9 @@ SELECT teacher.name, dept.name
   FROM teacher LEFT JOIN dept
   ON (teacher.dept=dept.id);
 
+SELECT teacher.name, dept.name
+FROM teacher RIGHT JOIN dept ON teacher.dept=dept.id;
+
 SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
   WHERE gross < budget;
