@@ -124,10 +124,6 @@ SELECT mdate, teamname
 FROM game JOIN eteam ON team1 = eteam.id
 WHERE coach = 'Fernando Santos';
 
-SELECT player 
-FROM goal JOIN game ON id = matchid
-WHERE stadium = 'National Stadium, Warsaw';
-
 SELECT teamname, COUNT(gtime)
   FROM eteam JOIN goal ON id=teamid
  GROUP BY teamname;
