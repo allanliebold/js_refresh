@@ -164,7 +164,7 @@ SELECT name, COALESCE(mobile, '07986-444-2266') as mobile
 // If it is null then it will use the second value in the parentheses. Coelesce can take more arguments than in this example.
 
 SELECT COUNT(name) AS teachers, COUNT(mobile) AS mobile
-FROM teacher
+  FROM teacher;
 
 SELECT dept.name, COUNT(teacher.name) 
 FROM teacher RIGHT JOIN dept ON teacher.dept = dept.id
