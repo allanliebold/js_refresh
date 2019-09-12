@@ -163,6 +163,9 @@ SELECT name, COALESCE(mobile, '07986-444-2266') as mobile
 // For each entry Coalesce will take the first non-null data. In this case, the teacher's mobile number as long as it isn't null. 
 // If it is null then it will use the second value in the parentheses. Coelesce can take more arguments than in this example.
 
+SELECT COUNT(name) AS teachers, COUNT(mobile) AS mobile
+FROM teacher
+
 SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
   WHERE gross < budget;
