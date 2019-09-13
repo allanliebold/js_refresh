@@ -171,12 +171,11 @@ SELECT dept.name, COUNT(teacher.name)
   GROUP BY dept.name;
 
 SELECT name, 
-  CASE WHEN dept IN (1, 2) 
-  THEN 'Sci'
-  ELSE 'Art'
-END
-AS dept
-FROM teacher;
+  CASE WHEN dept IN (1, 2) THEN 'Sci'
+    ELSE 'Art'
+  END
+  AS dept
+  FROM teacher;
 
 SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
