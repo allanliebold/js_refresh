@@ -176,7 +176,7 @@ THEN 'Sci'
 ELSE 'Art'
 END
 AS dept
-FROM teacher
+FROM teacher;
 
 SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
