@@ -170,6 +170,14 @@ SELECT dept.name, COUNT(teacher.name)
   FROM teacher RIGHT JOIN dept ON teacher.dept = dept.id
   GROUP BY dept.name;
 
+SELECT name, 
+CASE WHEN dept IN (1, 2) 
+THEN 'Sci'
+ELSE 'Art'
+END
+AS dept
+FROM teacher
+
 SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
   WHERE gross < budget;
