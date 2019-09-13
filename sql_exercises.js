@@ -171,9 +171,9 @@ SELECT dept.name, COUNT(teacher.name)
   GROUP BY dept.name;
 
 SELECT name, 
-CASE WHEN dept IN (1, 2) 
-THEN 'Sci'
-ELSE 'Art'
+  CASE WHEN dept IN (1, 2) 
+  THEN 'Sci'
+  ELSE 'Art'
 END
 AS dept
 FROM teacher;
