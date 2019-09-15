@@ -37,7 +37,7 @@ SELECT name, population, area
   WHERE population > 250000000 XOR area > 3000000
 
 SELECT name, ROUND(population / 1000000, 2), ROUND(gdp / 1000000000, 2)
-     FROM world
+  FROM world
      WHERE continent = 'South America';
 
 SELECT yr, subject, winner
