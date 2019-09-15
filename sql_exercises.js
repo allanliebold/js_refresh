@@ -30,7 +30,7 @@ SELECT name, population/area
 
 SELECT name, gdp/population
   FROM world
-     WHERE population > 200000000;
+  WHERE population > 200000000;
 
 SELECT name, population, area
      FROM world
