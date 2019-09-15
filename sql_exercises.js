@@ -29,7 +29,7 @@ SELECT name, population/area
   WHERE name IN ('China', 'Nigeria', 'France', 'Australia');
 
 SELECT name, gdp/population
-     FROM world
+  FROM world
      WHERE population > 200000000;
 
 SELECT name, population, area
