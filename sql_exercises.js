@@ -33,7 +33,7 @@ SELECT name, gdp/population
   WHERE population > 200000000;
 
 SELECT name, population, area
-     FROM world
+  FROM world
      WHERE population > 250000000 XOR area > 3000000
 
 SELECT name, ROUND(population / 1000000, 2), ROUND(gdp / 1000000000, 2)
