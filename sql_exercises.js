@@ -18,7 +18,7 @@ SELECT sum(theaters.screens), movies.title
 
 SELECT name, SUBSTRING(capital, LENGTH(name) + 1, LENGTH(capital))
   FROM world
-     WHERE capital LIKE CONCAT(name, '_%')
+  WHERE capital LIKE CONCAT(name, '_%')
 
 SELECT name, population
   FROM world
