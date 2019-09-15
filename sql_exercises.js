@@ -17,7 +17,7 @@ SELECT sum(theaters.screens), movies.title
   GROUP BY sum(theaters.screens);
 
 SELECT name, SUBSTRING(capital, LENGTH(name) + 1, LENGTH(capital))
-     FROM world
+  FROM world
      WHERE capital LIKE CONCAT(name, '_%')
 
 SELECT name, population
