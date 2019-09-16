@@ -207,3 +207,4 @@ SELECT name,
   AS dept
   FROM teacher;
 
+SELECT dept.name FROM teacher JOIN dept ON (dept.id = teacher.dept) WHERE teacher.name = 'Cutflower'
