@@ -82,7 +82,7 @@ SELECT name FROM world
 SELECT name FROM world 
      WHERE continent = 'Europe' AND (gdp / population) >
           (SELECT (gdp / population) FROM world
-                WHERE name='United Kingdom')
+                WHERE name='United Kingdom');
 
 SELECT continent, MIN(name) AS name
   FROM world
