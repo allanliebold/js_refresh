@@ -209,6 +209,6 @@ SELECT name,
 
 SELECT dept.name 
   FROM teacher JOIN dept ON (dept.id = teacher.dept) 
-  WHERE teacher.name = 'Cutflower'
+  WHERE teacher.name = 'Cutflower';
 
 SELECT dept.name, COUNT(teacher.name) FROM teacher RIGHT JOIN dept ON dept.id = teacher.dept GROUP BY dept.name
