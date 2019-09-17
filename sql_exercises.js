@@ -189,8 +189,9 @@ SELECT teacher.name, dept.name
 SELECT name, COALESCE(mobile, '07986-444-2266') as mobile
   FROM teacher;
 
-// For each entry Coalesce will take the first non-null data. In this case, the teacher's mobile number as long as it isn't null. 
-// If it is null then it will use the second value in the parentheses. Coelesce can take more arguments than in this example.
+// For each entry Coalesce will take the first non-null data. In this case, the teacher's mobile number as long as it 
+// isn't null. If it is null then it will use the second value in the parentheses. 
+// Coelesce can take more arguments than in this example.
 
 SELECT COUNT(name) AS teachers, COUNT(mobile) AS mobile
   FROM teacher;
