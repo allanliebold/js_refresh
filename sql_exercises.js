@@ -127,7 +127,7 @@ WHERE coach = 'Fernando Santos';
 
 SELECT teamname, COUNT(gtime)
   FROM eteam JOIN goal ON id=teamid
- GROUP BY teamname;
+  GROUP BY teamname;
 
 SELECT name
 FROM actor JOIN casting ON id = actorid
