@@ -214,3 +214,5 @@ SELECT dept.name
 SELECT dept.name, COUNT(teacher.name) 
   FROM teacher RIGHT JOIN dept ON dept.id = teacher.dept 
   GROUP BY dept.name;
+
+SELECT name, dept, COALESCE(dept, 0) AS result FROM teacher on teacher
