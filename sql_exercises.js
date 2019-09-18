@@ -42,8 +42,8 @@ SELECT name, ROUND(population / 1000000, 2), ROUND(gdp / 1000000000, 2)
   WHERE continent = 'South America';
 
 SELECT yr, subject, winner
-FROM nobel
-WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine');
+  FROM nobel
+  WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine');
 
 SELECT name, capital
      FROM world
