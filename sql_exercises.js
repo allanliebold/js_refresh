@@ -217,3 +217,10 @@ SELECT dept.name, COUNT(teacher.name)
 
 SELECT name, dept, COALESCE(dept, 0) AS result 
   FROM teacher on teacher;
+
+SELECT name,
+       CASE WHEN phone = 2752 THEN 'two'
+            WHEN phone = 2753 THEN 'three'
+            WHEN phone = 2754 THEN 'four'
+            END AS digit
+  FROM teacher;
