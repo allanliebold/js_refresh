@@ -224,5 +224,7 @@ SELECT name,
        CASE WHEN phone = 2752 THEN 'two'
             WHEN phone = 2753 THEN 'three'
             WHEN phone = 2754 THEN 'four'
+            ELSE
             END AS digit
   FROM teacher;
+
