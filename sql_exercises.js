@@ -231,4 +231,4 @@ SELECT name,
 // Self Join
 
 SELECT COUNT(*)
-FROM stops
+  FROM stops;
