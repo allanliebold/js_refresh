@@ -228,3 +228,5 @@ SELECT name,
             END AS digit
   FROM teacher;
 
+SELECT COUNT(*)
+FROM stops
