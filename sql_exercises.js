@@ -228,5 +228,7 @@ SELECT name,
             END AS digit
   FROM teacher;
 
+// Self Join
+
 SELECT COUNT(*)
 FROM stops
