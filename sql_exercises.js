@@ -172,6 +172,7 @@ SELECT name
    FROM movie, casting, actor 
   WHERE name='Robert De Niro' AND movieid=movie.id AND actorid=actor.id AND ord = 3;
 
+//
 
 SELECT name FROM teacher
   WHERE dept IS NULL; // = NULL doesn't work. 
