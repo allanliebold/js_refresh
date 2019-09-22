@@ -233,7 +233,7 @@ SELECT name,
 SELECT COUNT(*)
   FROM stops;
 
-             SELECT id FROM stops 
+SELECT id FROM stops 
 WHERE name = 'Craiglockhart'
 
              SELECT stops.id, stops.name 
