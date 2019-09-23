@@ -82,8 +82,6 @@ function whoIsOnline(obj) {
   return onlineUsers;
 }
 
-console.log(whoIsOnline(users)); // 2
-
 // Linked List
 function LinkedList() {
   this.head = null;
