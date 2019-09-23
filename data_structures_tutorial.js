@@ -23,7 +23,6 @@ function sumRemaining(arr) {
   return arr.reduce((a, b) => a + b);
 }
 
-console.log(sumRemaining([2, 5, 1, 5, 2, 1])); // 10
 
 // indexOf
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
