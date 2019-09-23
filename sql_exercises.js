@@ -238,5 +238,5 @@ SELECT id FROM stops
   WHERE name = 'Craiglockhart';
 
 SELECT stops.id, stops.name 
-FROM stops JOIN route ON stops.id = route.stop
+  FROM stops JOIN route ON stops.id = route.stop
 WHERE route.company = 'LRT' AND route.num = 4
