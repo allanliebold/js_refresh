@@ -23,7 +23,6 @@ function sumRemaining(arr) {
   return arr.reduce((a, b) => a + b);
 }
 
-
 // indexOf
 let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
 fruits.indexOf('dates') // -1, does not exist in array
