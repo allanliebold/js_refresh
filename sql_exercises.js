@@ -173,7 +173,6 @@ SELECT name
   WHERE name='Robert De Niro' AND movieid=movie.id AND actorid=actor.id AND ord = 3;
 
 // Inner Joins
-
 SELECT name FROM teacher
   WHERE dept IS NULL; // = NULL doesn't work. 
 
