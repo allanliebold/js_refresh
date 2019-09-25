@@ -99,6 +99,9 @@ SELECT name, continent
 SELECT SUM(population)
   FROM world;
 
+SELECT SUM(area)
+  FROM world;
+
 SELECT DISTINCT continent
   FROM world;
 
