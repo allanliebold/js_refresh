@@ -6,6 +6,7 @@ let regexp = /E+/;
 let crowd = 'P1P2P3P4P5P6CCCP7P8P9';
 let findC = /C+/;
 let matchedC = crowd.match(findC);
+
 console.log(matchedC);
 
 let repeatStr = "regex regex";
