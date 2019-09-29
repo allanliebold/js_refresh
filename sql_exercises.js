@@ -159,6 +159,10 @@ SELECT title
               JOIN actor   ON (actorid=actor.id)
    WHERE name='Paul Hogan' AND ord = 1;
 
+SELECT name
+  FROM movie JOIN casting ON movie.id = movieid
+  JOIN actor ON actor.id = actorid
+  WHERE ord = 1 AND director = 351;
 
 
  SELECT title, yr 
