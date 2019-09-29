@@ -145,6 +145,10 @@ SELECT name
   FROM actor INNER JOIN movie ON actor.id = director
   WHERE gross < budget;
 
+SELECT *
+  FROM actor JOIN casting ON actor.id = actorid
+  JOIN movie ON movie.id = movieid;
+
 
 
  SELECT title, yr 
