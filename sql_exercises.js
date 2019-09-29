@@ -164,7 +164,6 @@ SELECT name
   JOIN actor ON actor.id = actorid
   WHERE ord = 1 AND director = 351;
 
-
  SELECT title, yr 
    FROM movie, casting, actor 
   WHERE name='Robert De Niro' AND movieid=movie.id AND actorid=actor.id AND ord = 3;
