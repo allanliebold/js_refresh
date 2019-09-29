@@ -55,9 +55,6 @@ FROM nobel
 WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine');
 
 SELECT winner FROM nobel
- WHERE winner LIKE 'C%' AND winner LIKE '%n'
-
-SELECT winner FROM nobel
   WHERE winner LIKE 'Sir %'
     AND yr BETWEEN 1980 and 1990
 
