@@ -121,7 +121,6 @@ INSERT INTO student_grades (student_id, test, grade)
 INSERT INTO student_grades (student_id, test, grade)
     VALUES (1, "Math", 88);
 
-
 CREATE TABLE persons (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
