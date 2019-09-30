@@ -232,7 +232,7 @@ SELECT employeeid, lastname, salary
 
 SELECT employeeid, lastname, salary
   FROM employee_info
-  WHERE lastname IN ('Smith', 'Jones');
+  WHERE lastname IN ('Bobo', 'Jojo');
 
 SELECT employeeid, firstname, lastname
   FROM employee_info
