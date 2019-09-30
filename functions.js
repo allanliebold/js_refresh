@@ -1,5 +1,4 @@
 // Functions
-
 // ES5
 function calculateAge(yearOfBirth) { 
    return 2018 - yearOfBirth;
