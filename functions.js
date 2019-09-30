@@ -120,6 +120,8 @@ for (var i = 0; i < 10; i++) {
    foo[i] = function() { return i };  
 }
 
+var foo = [];
+
 console.log(foo[0]()); // logs 10
 console.log(foo[1]()); // logs 10
 console.log(foo[2]()); // logs 10. All of the elements in the foo array point to the same i reference, which is 10 at the end of the loop
