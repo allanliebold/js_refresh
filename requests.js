@@ -15,3 +15,4 @@ xhr.onreadystatechange = () => {
   }
 };
 
+xhr.responseType = 'json';
