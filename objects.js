@@ -188,11 +188,7 @@ var john = {
      }
 } 
 
-var mindy = {
-      name: 'Mindy',
-      age: 34,
-      job: 'coder'
-};
+
 
 john.presentation('formal', 'morning');
 john.presentation.call(mindy'friendly', 'afternoon'); // method borrowing
