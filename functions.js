@@ -115,8 +115,6 @@ function sayHello(name) {
    }
 };
 
-sayHello('Allan'); // Hello Allan
-
 var foo = [];
 for (var i = 0; i < 10; i++) {
    foo[i] = function() { return i };  
