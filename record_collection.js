@@ -24,6 +24,9 @@ var collection = {
     },
     "5439": {
       "album": "ABBA Gold"
+        },
+    "5439": {
+      "album": "ABBA Gold"
     }
 };
 
