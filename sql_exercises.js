@@ -224,9 +224,6 @@ SELECT name,
 
 // Self Join
 
-SELECT COUNT(*)
-  FROM stops;
-
 SELECT id FROM stops 
   WHERE name = 'Craiglockhart';
 
