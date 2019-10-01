@@ -223,6 +223,7 @@ SELECT name,
   FROM teacher;
 
 // Self Join
+
 SELECT COUNT(*)
   FROM stops;
 
