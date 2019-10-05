@@ -70,7 +70,6 @@ bob.calculateAge = john.calculateAge; // method borrowing
 bob.calculateAge(); // this will log the bob object, not john
 
 // Scope chain
-
 function foo() {
   console.log(myvar); 
 }
