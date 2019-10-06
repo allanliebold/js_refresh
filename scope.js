@@ -46,7 +46,6 @@ var exampleObject = {
     innerFunction(); // this innerFunction will log the Window object, even though it is inside the exampleObject object
   }
 }
-
 exampleObject.objectFunction(); // will log the exampleObject object
 
 var john = {
