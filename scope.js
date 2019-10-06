@@ -90,7 +90,6 @@ var thisVar = {
     console.log(this); 
   }
 }
-
 thisVar.checkThis(); 
 console.log(thisVar); // in this case this refers to the checkThis function
 
