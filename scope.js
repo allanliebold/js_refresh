@@ -75,7 +75,6 @@ function goo() {
   foo();
 }
 // calling goo will throw an error. The scope chain is defined lexically. 
-
 // The 'this' keyword
 console.log(this); // this is the global window object
 this.myVar = 1; 
