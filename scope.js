@@ -84,6 +84,7 @@ this.myVar = 1;
 console.log(this.myVar); // prints 1
 console.log(window.myVar); // also prints 1
 console.log(myVar); // this will also print 1. 
+
 // this and window are the same, and myVar is a global variable
 
 var thisVar = {
