@@ -1,2 +1,3 @@
-var scores, roundScore, winningScore, activePlayer, gamePlaying; 
 
+var scores, roundScore, winningScore, activePlayer, gamePlaying; 
+var lastRoll; 
