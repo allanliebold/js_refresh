@@ -17,7 +17,7 @@ var bill = {
 };
 
 var bert = {
-	
+   name: 'Bert'
 }
 
 // Accessing data in an object
