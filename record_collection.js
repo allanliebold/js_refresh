@@ -25,9 +25,7 @@ var collection = {
     "5439": {
       "album": "ABBA Gold"
         },
-    "5440": {
-      "album": ""
-    }
+
 };
 
 // Save a copy of the collection as a JSON Object
