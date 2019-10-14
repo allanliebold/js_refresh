@@ -16,6 +16,10 @@ var bill = {
   married: true
 };
 
+var bert = {
+	
+}
+
 // Accessing data in an object
 console.log(bob.lastName);
 console.log(bob['lastName']); // Bracket notation uses strings for key names
