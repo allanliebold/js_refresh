@@ -271,4 +271,5 @@ SELECT DISTINCT a.company, a.num
 
 SELECT company
   FROM route
+  JOIN stops ON stopa;
   WHERE name='Haymarket';
