@@ -11,6 +11,9 @@ console.log(firstArr); // zero, first, second, third
 let shifted = firstArr.shift();
 console.log(shifted); // zero
 
+console.log(firstArr); // first, second, third
+
+
 let spliceArr = ['This', 'array', 'has', 'some', 'extra', 'words'];
 let removedWord = spliceArr.splice(4, 1);
 
