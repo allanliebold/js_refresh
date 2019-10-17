@@ -16,10 +16,7 @@ var bill = {
   married: true
 };
 
-var bert = {
-   name: 'Bert',
-   lastName: 'Smith'
-}
+
 
 // Accessing data in an object
 console.log(bob.lastName);
