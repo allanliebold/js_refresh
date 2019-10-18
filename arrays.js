@@ -41,7 +41,6 @@ do {
   console.log('Is ' + w + ' bigger than 1?');
   w--;
 }
-
 while(w > 1);
 
 console.log('Nope!'); 
