@@ -1,6 +1,5 @@
 // Keys
 function ListItem(props) {
-  // Correct! There is no need to specify the key here:
   return <li>{props.value}</li>;
 }
 
