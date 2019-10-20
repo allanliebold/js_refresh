@@ -268,5 +268,3 @@ SELECT DISTINCT a.company, a.num
   JOIN stops stopa ON (a.stop=stopa.id)
   WHERE stopb.name='Craiglockhart';
 
-SELECT a.company
-
