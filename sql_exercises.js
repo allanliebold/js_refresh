@@ -269,4 +269,4 @@ SELECT DISTINCT a.company, a.num
   WHERE stopb.name='Craiglockhart';
 
 SELECT a.company
-  FROM route;
+
