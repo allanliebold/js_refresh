@@ -240,7 +240,6 @@ function User(firstName, lastName, age, gender) {
 }
 
 var user1 = new User('John', 'Smith', 27, 'male');
-
 User.prototype.emailDomain = '@email.com';
 
 // If you look at user1 now it will not have an emailDomain, 
