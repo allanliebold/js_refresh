@@ -263,4 +263,3 @@ SELECT DISTINCT a.company, a.num
   JOIN stops stopb ON (b.stop=stopb.id)
   WHERE stopa.name='Haymarket' AND stopb.name='Leith';
 
-SELECT DISTINCT a.company, a.num
