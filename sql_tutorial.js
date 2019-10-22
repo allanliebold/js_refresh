@@ -243,3 +243,5 @@ SELECT employeeid, firstname, lastname, title, salary
 SELECT employeeid, firstname, lastname, title, salary
   FROM employee_info;
 
+
+SELECT employeeid, age, lastname, salary
