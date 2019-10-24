@@ -1,4 +1,5 @@
 // Game Project Prototype
+
 // Room object constructor
 function Room(name, desc, exits = []) {
   this.name = name;
