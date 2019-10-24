@@ -11,7 +11,6 @@ function Map(rooms) {
   this.rooms = rooms;
   this.addRoom = function() { };
 }
-
 function connectRooms(start, end, connection) {
   start.exits[connection] = end;
 }
