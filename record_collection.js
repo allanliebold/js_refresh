@@ -3,7 +3,7 @@
 var collection = {
     "2549": {
       "album": "Title",
-      "artist": "",
+      "artist": "Artist",
       "tracks": [ 
         "Let It Rock", 
         "You Give Love a Bad Name" 
