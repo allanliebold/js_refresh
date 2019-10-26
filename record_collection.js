@@ -2,7 +2,7 @@
 // collection Object
 var collection = {
     "2549": {
-      "album": "",
+      "album": "Title",
       "artist": "",
       "tracks": [ 
         "Let It Rock", 
