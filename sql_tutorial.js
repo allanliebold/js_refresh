@@ -8,6 +8,7 @@ INSERT INTO groceries VALUES (5, "Bananas", 4, 1);
 INSERT INTO groceries VALUES (6, "Cereal", 2, 3);
 INSERT INTO groceries VALUES (7, "Milk", 1, 2);
 INSERT INTO groceries VALUES (8);
+INSERT INTO groceries VALUES ();
 
 SELECT * FROM groceries WHERE quantity > 1 ORDER BY aisle;
 
