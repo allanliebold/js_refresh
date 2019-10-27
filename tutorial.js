@@ -10,6 +10,8 @@ var a = 9;
 var b;
 b = a;
 
+var c;
+
 var camelCase;
 var PascalCase;
 
