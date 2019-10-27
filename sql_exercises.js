@@ -5,7 +5,7 @@ SELECT customer_info.firstname, customer_info.lastname, purchases.item
   WHERE customer_info.customer_number = purchases.customer_number;
 
 SELECT customer_info
-
+  FROM customer_info, purchases
 
 SELECT customers.customerid, customers.firstname, customers.lastname,  
   items_ordered.order_date, items_ordered.item, items_ordered.price
