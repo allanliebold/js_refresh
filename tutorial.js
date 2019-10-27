@@ -290,4 +290,4 @@ for(var k = 5; k > 0; k--) {
   loopArr.pop();
 }
 
-console.log(loopArr); 
+console.log(loopArr); // []
