@@ -6,6 +6,8 @@ console.log('Hello ' + name);
 
 var age = 34;
 console.log(age);
+
+var job = 'Baker';
 */
 
 // Example variables
