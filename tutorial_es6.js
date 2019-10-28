@@ -157,7 +157,7 @@ const getMousePosition = (x, y) => ({
 
 //ES6
 const getMousePosition = (x, y) => ({ x, y });
-
+const getMousePosition = (x, y) => ({ x, y });
 const newObject = (name) => ({
   name,
   sayHi() { 
