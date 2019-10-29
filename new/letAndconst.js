@@ -32,7 +32,6 @@ This works because of where firstName was declared. Can't do the same for const 
 */
 
 // let
-
 let i = 23;
 
 for (let i = 0; i < 5; i++) {
