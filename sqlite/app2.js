@@ -22,3 +22,7 @@ db.serialize(() => {
     }
   );
 };
+
+db.serialize(() => {
+  
+});
