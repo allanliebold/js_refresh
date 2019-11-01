@@ -98,4 +98,3 @@ console.log(thisVar); // in this case this refers to the checkThis function
 var func = thisVar.checkThis;
 func(); // will log the global object again. Determined by the calling context. 
 
-//
