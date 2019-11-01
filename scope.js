@@ -26,7 +26,7 @@ function first() {
 }
 
 function third() {
-  var d = "Hoy";
+  var d = "Heyo";
   console.log(a + b + c + d); // b and c cannot be accessed by the third function
 }
 
