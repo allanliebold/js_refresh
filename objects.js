@@ -238,7 +238,6 @@ function User(firstName, lastName, age, gender) {
 	this.age = age;
 	this.gender = gender;
 }
-
 var user1 = new User('John', 'Smith', 27, 'male');
 User.prototype.emailDomain = '@email.com';
 
