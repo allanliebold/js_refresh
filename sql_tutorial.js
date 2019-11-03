@@ -10,6 +10,7 @@ INSERT INTO groceries VALUES (7, "Milk", 1, 2);
 
 SELECT * FROM groceries
     WHERE quantity > 5;
+    ORDER by aisle;
 
 SELECT SUM(quantity) FROM groceries;
 // Aggregate function. Returns 10
