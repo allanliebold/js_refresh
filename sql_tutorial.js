@@ -244,4 +244,4 @@ SELECT employeeid, firstname, lastname, title, salary
   FROM employee_info;
 
 
-SELECT employeeid, age, lastname, salary
+SELECT employeeid, age, lastname, salary;
