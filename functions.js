@@ -4,7 +4,7 @@ function calculateAge(yearOfBirth) {
    return 2018 - yearOfBirth;
 }   
 
-var myAge = calculateAge(1984);
+var myAge = calculateAge(1984); // 35
 
 function yearsUntilRetirement(name, yearOfBirth) {
   var age = calculateAge(yearOfBirth);
