@@ -6,6 +6,7 @@ SELECT customer_info.firstname, customer_info.lastname, purchases.item
 SELECT customer_info.firstname, customer_info.lastname, purchases.item
   FROM customer_info, purchases
   WHERE customer_info.customer_number = purchases.customer_number;
+
 SELECT customers.customerid, customers.firstname, customers.lastname,  
   items_ordered.order_date, items_ordered.item, items_ordered.price
   FROM customers, items_ordered
