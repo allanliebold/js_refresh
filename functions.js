@@ -5,7 +5,6 @@ function calculateAge(yearOfBirth) {
 }   
 
 var myAge = calculateAge(1984); // 35
-
 function yearsUntilRetirement(name, yearOfBirth) {
   var age = calculateAge(yearOfBirth);
   var retirement = 65 - age;
