@@ -48,6 +48,7 @@ var myArray = []; // An empty array
 // Function
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
   var result = "There was a " + myAdjective + " " + myNoun + " that " + myAdverb + " " + myVerb + ".";
+  
   return result;
 }
 
