@@ -73,6 +73,7 @@ function trueOrFalse(bool) {
   if (bool) {
     return "It's true";
   }
+  
   return "False."
 }
 
