@@ -17,6 +17,7 @@ var PascalCase;
 
 // Increment
 console.log(a); // 9
+
 a++;
 console.log(a); // 10
 
