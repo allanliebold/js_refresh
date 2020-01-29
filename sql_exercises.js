@@ -17,6 +17,9 @@ SELECT name, SUBSTRING(capital, LENGTH(name) + 1, LENGTH(capital))
   FROM world
   WHERE capital LIKE CONCAT(name, '_%');
 
+SELECT name
+  FROM list;
+
 SELECT name, population
   FROM world
   WHERE population BETWEEN 1000000 AND 1250000;
