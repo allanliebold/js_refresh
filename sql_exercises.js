@@ -88,9 +88,6 @@ SELECT name, continent
                                     WHERE y.continent = x.continent 
                                     AND y.name != x.name)
 
-SELECT SUM(population)
-  FROM world;
-
 SELECT SUM(area)
   FROM world;
 
